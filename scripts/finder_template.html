@@ -1,0 +1,152 @@
+<title>Task Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap">
+<style>
+/* Layout: query bar + summary, then filter rail | result list; rail collapses above results on phones. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #18202c; --muted: #5b6575; --line: #dde2ea;
+  --accent: #2f5bd3; --accent-soft: #e6ecfb; --hit: #1f7a4d; --hit-soft: #e3f3ea; --bar: #9fb3e8;
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #11151c; --panel: #171c25; --ink: #e5e9f0; --muted: #98a2b3; --line: #2a3140;
+  --accent: #8aa8ff; --accent-soft: #1f2a45; --hit: #6fd3a0; --hit-soft: #183326; --bar: #4c62a3; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #11151c; --panel: #171c25; --ink: #e5e9f0; --muted: #98a2b3; --line: #2a3140;
+  --accent: #8aa8ff; --accent-soft: #1f2a45; --hit: #6fd3a0; --hit-soft: #183326; --bar: #4c62a3; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--body) }
+.wrap { max-width: 1280px; margin: 0 auto; padding-inline: 20px; padding-block: 24px 48px; display: grid; gap: 16px }
+h1 { font: 650 30px/1.15 var(--display); margin: 0 }
+h2 { font: 650 18px/1.25 var(--display); margin: 0 }
+h3 { font: 600 11px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px }
+.lede { color: var(--muted); max-width: 72ch; margin: 6px 0 0 }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+input[type=search] { flex: 1 1 320px; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; min-width: 0 }
+button { font: inherit; font-size: 13px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; cursor: pointer }
+button:hover { border-color: var(--accent); color: var(--accent) }
+input:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px }
+.summary { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 8px }
+.summary .nums { display: flex; flex-wrap: wrap; gap: 18px; font-variant-numeric: tabular-nums }
+.summary .nums b { font-size: 20px }
+.tops { display: flex; flex-wrap: wrap; gap: 6px }
+.layout { display: grid; grid-template-columns: minmax(230px, 280px) minmax(0, 1fr); gap: 16px; align-items: start }
+.rail { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: grid; gap: 14px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 40px); overflow: auto }
+.facet label { display: grid; grid-template-columns: auto 1fr auto; gap: 6px; align-items: center; padding: 2px 0; cursor: pointer; font-size: 13px }
+.facet label small { color: var(--muted); font-variant-numeric: tabular-nums }
+.facet .more { all: unset; color: var(--accent); font-size: 12px; cursor: pointer }
+.results { display: grid; gap: 10px; min-width: 0 }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; min-width: 0 }
+.card .top { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline }
+.card .name { font-weight: 600 }
+.chip { font: 500 11.5px/1 var(--body); padding: 4px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap }
+.chip.soft { background: var(--bg); color: var(--muted); border: 1px solid var(--line) }
+.chip.psych { background: var(--hit-soft); color: var(--hit) }
+.paper { color: var(--muted); font-size: 13px }
+.paper a { color: var(--accent) }
+.row { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; font-size: 12.5px }
+.row > span.lbl { color: var(--muted); margin-right: 4px; min-width: 7em }
+.conds { font-size: 12.5px; color: var(--muted) }
+.conds b { color: var(--ink); font-weight: 500 }
+.pager { display: flex; gap: 8px; align-items: center; justify-content: center }
+.empty { color: var(--muted); padding: 20px; text-align: center }
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr } .rail { position: static; max-height: none } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+<div class="wrap">
+  <header>
+    <h1>Task Finder</h1>
+    <p class="lede">Query experimental tasks extracted from neuroimaging (ns-pond) and behavioral psychology (Europe PMC)
+      papers by what was presented, how people responded, and how conditions were set up. Every task is normalized to a
+      canonical paradigm, so a query like "faces × button press × event-related" or "all conflict tasks with an
+      incongruent condition" returns comparable studies.</p>
+  </header>
+  <div class="bar">
+    <label for="q" class="paper">Search</label>
+    <input id="q" type="search" placeholder="task, paper title, condition, stimulus…">
+    <button id="reset" type="button">Clear filters</button>
+    <button id="copy" type="button">Copy PMIDs of matches</button>
+  </div>
+  <section class="summary" aria-live="polite" id="summary"></section>
+  <div class="layout">
+    <aside class="rail" id="rail"></aside>
+    <section>
+      <div class="results" id="results"></div>
+      <div class="pager" id="pager"></div>
+    </section>
+  </div>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const R = JSON.parse(document.getElementById('data').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const nice = s => String(s ?? '').replace(/^(hedtsk|tct)_/, '').replace(/_/g, ' ');
+const FACETS = [
+  ['co', 'Corpus', v => v === 'psych' ? 'behavioral psych' : 'neuroimaging'],
+  ['k', 'Kind', nice], ['fa', 'Task family', nice], ['cn', 'Canonical task', x => x],
+  ['sk', 'Stimulus kind', nice], ['sm', 'Stimulus modality', nice], ['af', 'Stimulus affect', nice],
+  ['rk', 'Response', nice], ['dt', 'Design', nice], ['ju', 'Judgment', nice],
+  ['ca', 'Condition axes', nice], ['ax', 'Manipulated factors', nice], ['ms', 'Measures', nice]];
+const sel = {}; FACETS.forEach(([k]) => sel[k] = new Set());
+const open = {}; let page = 0; const PER = 40;
+const vals = (r, k) => { const v = r[k]; return Array.isArray(v) ? v : (v == null || v === '' ? [] : [v]); };
+function matches(r, skip) {
+  for (const [k] of FACETS) { if (k === skip || !sel[k].size) continue;
+    const v = vals(r, k); if (![...sel[k]].some(x => v.includes(x))) return false; }
+  const q = $('#q').value.trim().toLowerCase();
+  if (q) { const hay = (r.n + ' ' + (r.cn || '') + ' ' + r.t + ' ' + r.j + ' ' + r.cd.map(c => c.n).join(' ') + ' ' + r.q.join(' ') + ' ' + (r.ss || []).join(' ')).toLowerCase();
+    if (!q.split(/\s+/).every(w => hay.includes(w))) return false; }
+  return true;
+}
+function render() {
+  const hits = R.filter(r => matches(r));
+  const papers = new Set(hits.map(r => r.p || r.pc || r.t));
+  const topC = {}; hits.forEach(r => { if (r.cn) topC[r.cn] = (topC[r.cn] || 0) + 1; });
+  const tops = Object.entries(topC).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const unl = hits.filter(r => !r.ct).length;
+  $('#summary').innerHTML = `<div class="nums"><span><b>${hits.length.toLocaleString()}</b> tasks</span><span><b>${papers.size.toLocaleString()}</b> papers</span><span><b>${Math.round(100 * (hits.length - unl) / Math.max(1, hits.length))}%</b> with a canonical task</span></div>
+    ${tops.length ? `<div class="tops">${tops.map(([n, c]) => `<span class="chip soft">${esc(n)} · ${c}</span>`).join('')}</div>` : ''}`;
+  $('#rail').innerHTML = FACETS.map(([k, label, fmt]) => {
+    const cnt = {}; R.forEach(r => { if (matches(r, k)) vals(r, k).forEach(v => cnt[v] = (cnt[v] || 0) + 1); });
+    sel[k].forEach(v => { if (!(v in cnt)) cnt[v] = 0; });
+    const items = Object.entries(cnt).sort((a, b) => b[1] - a[1]);
+    const show = open[k] ? items : items.slice(0, 7);
+    if (!items.length) return '';
+    return `<div class="facet"><h3>${label}</h3>${show.map(([v, c]) =>
+      `<label><input type="checkbox" data-k="${k}" data-v="${esc(v)}" ${sel[k].has(v) ? 'checked' : ''}><span>${esc(fmt(v))}</span><small>${c}</small></label>`).join('')}
+      ${items.length > 7 ? `<button class="more" data-more="${k}" type="button">${open[k] ? 'Show fewer' : `Show all ${items.length}`}</button>` : ''}</div>`;
+  }).join('');
+  const pages = Math.max(1, Math.ceil(hits.length / PER)); page = Math.min(page, pages - 1);
+  const slice = hits.slice(page * PER, page * PER + PER);
+  $('#results').innerHTML = slice.length ? slice.map(r => {
+    const link = r.p ? `https://pubmed.ncbi.nlm.nih.gov/${r.p}/` : (r.pc ? `https://europepmc.org/article/PMC/${r.pc.replace('PMC','')}` : null);
+    const chips = (lbl, arr) => arr && arr.length ? `<div class="row"><span class="lbl">${lbl}</span>${arr.map(x => `<span class="chip soft">${esc(nice(x))}</span>`).join('')}</div>` : '';
+    const conds = r.cd.length ? `<div class="conds">Conditions: ${r.cd.map(c => `<b>${esc(c.n)}</b>${c.a.length ? ` (${esc(c.a.join(', ').replace(/_/g, ' '))})` : ''}`).join(' · ')}</div>` : '';
+    const orig = r.or.length ? `<div class="row"><span class="lbl">Cites for task</span>${r.or.map(p => `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" rel="noopener">PMID ${p}</a>`).join(', ')}</div>` : '';
+    return `<article class="card"><div class="top"><span class="name">${esc(r.n || '(unnamed)')}</span>
+      ${r.cn ? `<span class="chip">${esc(r.cn)}</span>` : '<span class="chip soft">no canonical task</span>'}
+      ${r.fa ? `<span class="chip soft">${esc(nice(r.fa))}</span>` : ''}${r.q.map(q => `<span class="chip soft">${esc(q)}</span>`).join('')}
+      <span class="chip ${r.co === 'psych' ? 'psych' : ''}">${r.co === 'psych' ? 'behavioral psych' : 'neuroimaging'}</span></div>
+      <div class="paper">${link ? `<a href="${link}" target="_blank" rel="noopener">${esc(r.t || 'Untitled')}</a>` : esc(r.t)} · ${esc(r.j)} ${esc(r.y)}${r.sa ? ' · ' + esc(r.sa) + ' lab' : ''}</div>
+      ${chips('Stimuli', r.sk.concat(r.sm))}${chips('Response', r.rk)}${chips('Design', r.dt ? [r.dt] : [])}${chips('Factors', r.ax)}${chips('Stimulus set', r.ss)}
+      ${conds}${orig}</article>`;
+  }).join('') : '<p class="empty">No tasks match these filters. Remove a filter or shorten the search.</p>';
+  $('#pager').innerHTML = pages > 1 ? `<button type="button" data-pg="-1" ${page === 0 ? 'disabled' : ''}>Previous</button><span class="paper">Page ${page + 1} of ${pages}</span><button type="button" data-pg="1" ${page >= pages - 1 ? 'disabled' : ''}>Next</button>` : '';
+}
+$('#rail').addEventListener('change', e => { const t = e.target; if (!t.dataset.k) return; t.checked ? sel[t.dataset.k].add(t.dataset.v) : sel[t.dataset.k].delete(t.dataset.v); page = 0; render(); });
+$('#rail').addEventListener('click', e => { const b = e.target.closest('[data-more]'); if (b) { open[b.dataset.more] = !open[b.dataset.more]; render(); } });
+$('#pager').addEventListener('click', e => { const b = e.target.closest('[data-pg]'); if (b) { page += +b.dataset.pg; render(); $('#results').scrollIntoView({ block: 'start' }); } });
+let t0; $('#q').addEventListener('input', () => { clearTimeout(t0); t0 = setTimeout(() => { page = 0; render(); }, 180); });
+$('#reset').addEventListener('click', () => { FACETS.forEach(([k]) => sel[k].clear()); $('#q').value = ''; page = 0; render(); });
+$('#copy').addEventListener('click', async () => {
+  const ids = [...new Set(R.filter(r => matches(r)).map(r => r.p).filter(Boolean))].join('\n');
+  const btn = $('#copy');
+  try { await navigator.clipboard.writeText(ids); btn.textContent = `Copied ${ids.split('\n').filter(Boolean).length} PMIDs`; }
+  catch (err) { btn.textContent = 'Copy blocked here: select the PMIDs below'; $('#results').insertAdjacentHTML('afterbegin', `<textarea readonly style="width:100%;height:8em">${esc(ids)}</textarea>`); }
+  setTimeout(() => btn.textContent = 'Copy PMIDs of matches', 2500);
+});
+render();
+</script>

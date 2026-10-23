@@ -1,0 +1,135 @@
+facet	value	label	definition	source	cogpo_id	hed_tags	hed_note
+stimulus_modality	visual	Visual	The sensory modality that pertains to the sense of sight.	cogpo	COGPO_00132	Visual-presentation	Exact tag.
+stimulus_modality	auditory	Auditory	The sensory modality that pertains to the sense of hearing.	cogpo	COGPO_00125	Auditory-presentation	Exact tag.
+stimulus_modality	tactile	Tactile	The sensory modality pertaining to the sense of contact via the skin with external objects.	cogpo	COGPO_00131	Tactile-presentation	Exact tag.
+stimulus_modality	olfactory	Olfactory	The sensory modality pertaining to the sense of smell.	cogpo	COGPO_00130	Olfactory-presentation	Exact tag.
+stimulus_modality	gustatory	Gustatory	The sensory modality pertaining to the sense of taste or flavor.	cogpo	COGPO_00123	Gustatory-presentation	Exact tag.
+stimulus_modality	interoceptive	Interoceptive	The sensory modality that pertains to the sense of interoception, or internal sensations.	cogpo	COGPO_00128		HED 8.4.0 has Somatic-presentation and Vestibular-presentation but no interoceptive presentation tag.
+stimulus_modality	electrical	Electrical	The sensory modality that pertains to the sense of electric shock; a subtype of tactile in CogPO.	cogpo	COGPO_00127	Somatic-presentation	Nearest tag; HED has no electrical modality.
+stimulus_modality	pain	Pain	The subtype of tactile modality that pertains to the sense of pain.	cogpo	COGPO_00126	Somatic-presentation, Pain	Pain is a Somatic-attribute, so it qualifies the presentation rather than naming a modality.
+stimulus_modality	pressure	Pressure	The tactile modality that pertains to the sense of non-painful touch.	cogpo	COGPO_00129	Tactile-presentation, Tactile-pressure	Tactile-pressure is a Tactile-attribute.
+stimulus_modality	thermal	Thermal	The sensory modality that pertains to the sense of heat applied to the skin.	cogpo	COGPO_00133	Tactile-presentation, Tactile-temperature	Tactile-temperature is a Tactile-attribute.
+stimulus_kind	three_dimensional_objects	3D objects	An object with height, width, length and mass given to the participant to hold.	cogpo	3D Objects	3D-shape	Nearest tag; HED's 3D-shape is a geometric object, and a real handheld object has no closer item.
+stimulus_kind	abstract_patterns	Abstract patterns	Complex, abstract, geometrical patterns.	cogpo	Abstract Patterns	Pattern	Exact tag (Geometric-object/Pattern).
+stimulus_kind	acupuncture	Acupuncture	Piercing of specific body areas with fine needles.	cogpo	COGPO_00152		No HED item; out of the Catalog's scope in any case.
+stimulus_kind	asian_characters	Asian characters	Logograms taken from an Asian language such as Chinese, Japanese or Korean.	cogpo	Asian Characters	Character	HED's Character is any written character and does not distinguish scripts.
+stimulus_kind	braille_dots	Braille dots	Combinations of tangible dots representing letters or characters, read by touch.	cogpo	Braille Dots	Braille	Exact tag (Media/Visualization/Braille).
+stimulus_kind	breathable_gas	Breathable gas	A stimulus consisting of a breathable gaseous material.	cogpo	Breathable Gas		No HED item.
+stimulus_kind	chord_sequences	Chord sequences	A three-note chord accompaniment (major triads, dominant sevenths and so on).	cogpo	Chord Sequences	Musical-sound	Nearest tag; HED has no chord item.
+stimulus_kind	clicks	Clicks	Repeated ticking sounds made by a mechanical or electrical instrument at a given frequency.	cogpo	COGPO_00153	Click	Exact tag (Named-object-sound/Click).
+stimulus_kind	digits	Digits	Any of the Arabic figures 1 through 9 and 0.	cogpo	COGPO_00162	Character	Nearest tag; HED has no digit item. The numeric value itself is a data value, not an item.
+stimulus_kind	electrical_stimulation	Electrical stimulation	A stimulus applied to the skin or muscle using a current pulse (OWL label: Electronic Stimulations).	cogpo	Electrical Stimulation		No HED item; Somatic-presentation names the modality only.
+stimulus_kind	eye_puffs	Eye puffs	A puff of air delivered to the eye.	cogpo	Eye Puffs		No HED item; Tactile-presentation names the modality only.
+stimulus_kind	faces	Faces	A representation of the front of the human head, from forehead to chin.	cogpo	COGPO_00154	Face	Exact tag (Body-part/Head-part/Face).
+stimulus_kind	false_fonts	False fonts	Letter-like meaningless signs.	cogpo	False Fonts	Glyph	Nearest tag.
+stimulus_kind	film_clips	Film clips	Audiovisual presentation of a motion-picture film.	cogpo	Film Clip	Video-clip, Movie	Video-clip is the media clip; Movie the work it comes from.
+stimulus_kind	fixation_point	Fixation point	A point or crosshair on which to fixate attention.	cogpo	Fixation Point	Cross	HED has no fixation-point item; the usual annotation is a Cross with the Fixate action.
+stimulus_kind	flashing_checkerboard	Flashing checkerboard	Contrast-reversed checkerboards oscillating at a specified frequency, generally black and white.	cogpo	Flashing Checkerboard	Pattern	Nearest tag; no checkerboard item. Luminance-contrast can carry the reversal.
+stimulus_kind	food	Food	Any nourishing substance that is eaten, drunk or otherwise ingested.	cogpo	COGPO_00157		No HED item; Gustatory-presentation names the modality only.
+stimulus_kind	fractals	Fractals	A complex geometric pattern exhibiting self-similarity.	cogpo	COGPO_00160	Pattern	Nearest tag; HED's Fractal is a data-variability attribute, not an item.
+stimulus_kind	heat	Heat	Stimuli which create the sensation of warmth or hotness.	cogpo	COGPO_00159	Tactile-temperature	An attribute rather than an item.
+stimulus_kind	infrared_laser	Infrared laser	A laser stimulus emitting near-infrared radiation.	cogpo	Infrared Laser		No HED item.
+stimulus_kind	infusion	Infusion	The introduction of a liquid solution such as saline into a vein.	cogpo	COGPO_00158		No HED item.
+stimulus_kind	letters	Letters	A symbol or character used in writing to represent a speech sound and part of an alphabet.	cogpo	COGPO_00163	Character	HED's Letter is a document (correspondence), so Character is the tag for an alphabetic letter.
+stimulus_kind	music	Music	Organized tones or sounds in melody or harmony, from voices or instruments.	cogpo	COGPO_00156	Musical-sound	Exact tag.
+stimulus_kind	noise	Noise	A group of sounds with a broad distribution of intensities across a wide range of frequencies.	cogpo	COGPO_00161	Signal-noise	Exact tag (Environmental-sound/Signal-noise).
+stimulus_kind	nonverbal_vocal_sounds	Nonverbal vocal sounds	Non-word human vocalizations such as sighing, crying, screams or laughter.	cogpo	Nonverbal Vocal Sounds	Vocalized-sound	Exact tag.
+stimulus_kind	nonvocal_sounds	Nonvocal sounds	Sounds produced by animals, machines, nature or objects.	cogpo	Nonvocal Sounds	Environmental-sound	Named-animal-sound and Named-object-sound are its children.
+stimulus_kind	odor	Odor	A sensation perceived by the sense of smell; a scent.	cogpo	COGPO_00167		No HED item; Olfactory-presentation names the modality only.
+stimulus_kind	pain	Pain	A physically distressing sensation in a particular part of the body (wiki label: Painful Stimulation).	cogpo	COGPO_00165	Pain	A Somatic-attribute rather than an item.
+stimulus_kind	pictures	Pictures	A representation or image painted, drawn, photographed or otherwise rendered on a flat surface.	cogpo	COGPO_00172	Image	Photograph, Drawing, Painting and Cartoon are its children.
+stimulus_kind	points_of_light	Points of light	One or more points of light that do not create a sense of shape.	cogpo	Points of Light	Dots	Nearest tag; Point-light-visualization is the tag for biological-motion displays.
+stimulus_kind	pseudowords	Pseudowords	Groups of letters that are meaningless as words.	cogpo	Pseudowords	Pseudoword	Exact tag.
+stimulus_kind	random_dots	Random dots	A group of many dots, often moving in random or synchronous patterns.	cogpo	Random Dots	Dots	Exact tag (Geometric-object/Dots).
+stimulus_kind	reversed_speech	Reversed speech	Spoken words or sentences recorded and then played in reverse.	cogpo	Reversed Speech	Vocalized-sound	Nearest tag; HED has no speech item.
+stimulus_kind	shapes	Shapes	A distinct body characterized by an outline of specific form or figure.	cogpo	COGPO_00168	2D-shape	Circle, Square, Triangle and the rest are its children; 3D-shape for solids.
+stimulus_kind	syllables	Syllables	A unit of spoken language consisting of a single uninterrupted sound.	cogpo	COGPO_00171	Syllable	Exact tag.
+stimulus_kind	symbols	Symbols	An arbitrary written or printed sign that conveys meaning, such as a plus sign, arrow or asterisk.	cogpo	COGPO_00170	Glyph, Arrow	Arrow is a Geometric-object; other symbols are glyphs.
+stimulus_kind	tactile_stimulation	Tactile stimulation	A class of stimuli perceptible by the sense of touch.	cogpo	Tactile Stimulation		No HED item; Tactile-presentation names the modality only.
+stimulus_kind	tms	TMS	Transcranial magnetic stimulation.	cogpo	COGPO_00166		No HED item; out of the Catalog's scope in any case.
+stimulus_kind	tones	Tones	One or more musical sounds that individually have a single frequency.	cogpo	COGPO_00164	Tone	Exact tag.
+stimulus_kind	vibratory_stimulation	Vibratory stimulation	A tactile stimulus that oscillates rhythmically at a given high frequency.	cogpo	Vibratory Stimulation	Tactile-vibration	An attribute rather than an item.
+stimulus_kind	words	Words	A sound or combination of sounds, or its written representation, that communicates a meaning.	cogpo	COGPO_00169	Word	Exact tag.
+stimulus_kind	sentences	Sentences	A grammatical sentence or phrase presented in writing or speech.	catalog		Sentence	Exact tag. Added for the Catalog's language tasks (Sentence Comprehension, Self-Paced Reading).
+stimulus_kind	scenes	Scenes	A photograph or rendering of a natural or built scene.	catalog		Photograph	Nearest tag. Added for scene-memory and affective-picture tasks.
+stimulus_kind	monetary_amounts	Monetary amounts	A sum of money offered, won or lost, shown as a number or a symbol.	catalog			No HED item in 8.4.0. Added for the Catalog's reward and economic tasks.
+stimulus_kind	playing_cards	Playing cards	Cards or card-like stimuli sorted, chosen or drawn from decks.	catalog			No HED item. Added for Wisconsin Card Sorting, Iowa Gambling and Wason Selection.
+stimulus_kind	virtual_environment	Virtual environment	A navigable rendered environment presented on a screen or in a headset.	catalog		Screen-window, Head-mounted-display	Devices only; HED has no environment item. Added for the virtual maze tasks.
+stimulus_role	target	Target	A stimulus that is to be attended to, responded to and distinguished from competing stimuli.	cogpo_wiki	Target	Target	Exact tag (Task-stimulus-role/Target).
+stimulus_role	non_target	Non-target	A stimulus that serves the role of a non-target.	cogpo_wiki	Non-Target	Non-target	Exact tag.
+stimulus_role	feedback	Feedback	A stimulus providing knowledge of the performance or results of a previous behavior.	cogpo_wiki	Feedback	Feedback	Exact tag (Task-event-role/Feedback).
+stimulus_role	reward	Reward	A stimulus that reinforces a desired response.	cogpo_wiki	Reward	Reward	Exact tag (Task-stimulus-role/Reward).
+stimulus_role	distractor	Distractor	A stimulus presented to draw attention away from the target.	hed		Distractor	From HED's Task-stimulus-role vocabulary; CogPO has no distractor role.
+stimulus_role	cue	Cue	A stimulus that signals what is to come or what to do next.	hed		Cue	From HED's Task-event-role vocabulary.
+stimulus_role	oddball	Oddball	An infrequent stimulus differing from the frequent standard.	hed		Oddball	From HED's Task-stimulus-role vocabulary.
+stimulus_role	penalty	Penalty	A stimulus that signals a loss or punishment.	hed		Penalty	From HED's Task-stimulus-role vocabulary.
+stimulus_role	go_signal	Go signal	A stimulus that instructs the participant to respond.	hed		Go-signal	From HED's Task-stimulus-role vocabulary.
+stimulus_role	stop_signal	Stop signal	A stimulus that instructs the participant to withhold a response already under way.	hed		Stop-signal	From HED's Task-stimulus-role vocabulary.
+stimulus_role	prime	Prime	A stimulus presented to influence the processing of a following stimulus.	hed		Priming	From HED's Task-stimulus-role vocabulary.
+stimulus_role	novel	Novel	A stimulus not previously presented.	hed		Novel	From HED's Task-stimulus-role vocabulary.
+response_modality	hand	Hand	Response made with the hand.	cogpo	FMA_9712	Hand	Exact tag (Body-part/Upper-extremity-part/Hand).
+response_modality	foot	Foot	Response made with the foot.	cogpo	FMA_9664	Foot	Exact tag.
+response_modality	mouth	Mouth	Response made with the mouth.	cogpo	FMA_49184	Mouth	Exact tag.
+response_modality	face	Face	Response made with the face.	cogpo	FMA_24728	Face	Exact tag.
+response_modality	arm	Arm	Response made with the arm.	cogpo	FMA_24890	Upper-extremity	HED has Upper-arm and Forearm but no Arm; Upper-extremity is the parent.
+response_modality	leg	Leg	Response made with the leg.	cogpo	FMA_24979	Lower-extremity	HED has Upper-leg and Lower-leg but no Leg; Lower-extremity is the parent.
+response_modality	shoulder	Shoulder	Response made with the shoulder.	cogpo	FMA_25202	Shoulder	Exact tag.
+response_modality	pelvis	Pelvis	Response made with the pelvis.	cogpo	FMA_9578	Pelvis	Exact tag.
+response_modality	eye	Eye	Response made with the eyes.	cogpo_wiki	Eye	Eye	Exact tag. On the CogPO wiki; not among the OWL's FMA classes.
+response_modality	torso	Torso	Response made with the torso.	cogpo_wiki	Torso	Torso	Exact tag. On the CogPO wiki; not among the OWL's FMA classes.
+response_modality	finger	Finger	Response made with one or more fingers.	catalog		Finger	Exact tag. Added because the Catalog's manual tasks are mostly finger responses.
+response_kind	button_press	Button press	To press a button or buttons with the hand or foot.	cogpo	Button Press	(Press, Push-button)	Press is the action; Push-button, Keyboard-key or Mouse-button the device pressed.
+response_kind	saccade	Saccade	A rapid eye movement from one fixation point to another.	cogpo	COGPO_00142	Saccade	Exact tag (Move-eyes/Saccade).
+response_kind	blink	Blink	To open and close the eye.	cogpo	COGPO_00137	Blink	Exact tag.
+response_kind	speech	Speech	Oral communication; something spoken.	cogpo	COGPO_00149	Speak	Exact tag (Communicate-vocally/Speak).
+response_kind	finger_tapping	Finger tapping	Repetitive adduction and abduction of one or more fingers or thumbs.	cogpo	Finger Tapping	(Press, Finger)	Nearest tags; HED has no tap action.
+response_kind	point	Point	To direct the finger at, to or upon something.	cogpo	COGPO_00145	Point	Exact tag.
+response_kind	grasp	Grasp	To seize and hold by clasping with the fingers.	cogpo	Grasp	Grasp	Exact tag.
+response_kind	manipulate	Manipulate	To handle or use skillfully in a process or action.	cogpo	COGPO_00146	Move-upper-extremity	Nearest parent; HED has Touch, Hold-down, Lift and Reach as children.
+response_kind	draw	Draw	To compose or create a picture in lines.	cogpo	COGPO_00139		No HED action; Drawing exists only as an Image item.
+response_kind	write	Write	To trace or form characters, letters or words on a surface.	cogpo	COGPO_00143	Write	Exact tag (Perform/Write).
+response_kind	drink	Drink	To take liquid into the mouth and swallow it.	cogpo	COGPO_00141		No HED action; Swallow is the nearest.
+response_kind	swallow	Swallow	To take into the stomach through the throat by voluntary muscular action.	cogpo	COGPO_00144	Swallow	Exact tag.
+response_kind	breath_hold	Breath hold	Suspension of external breathing.	cogpo	COGPO_00138	Hold-breath	Exact tag (Breathe/Hold-breath).
+response_kind	breathe	Breathe	To breathe normally.	cogpo_wiki	Breathe_Response	Breathe	Exact tag.
+response_kind	flexion_or_extension	Flexion or extension	Repetitive adduction and abduction of a body part other than the fingers and thumbs (OWL label: Extension).	cogpo	COGPO_00140	Flex, Move-body-part	Flex is under Move-body; Move-body-part covers the limb.
+response_kind	micturate	Micturate	To pass urine.	cogpo	COGPO_00150		No HED action; out of the Catalog's scope in any case.
+response_kind	smile	Smile	To assume a facial expression with the corners of the mouth turned up.	cogpo	COGPO_00148	Smile	Exact tag (Communicate-gesturally/Smile).
+response_kind	whistle	Whistle	To make a clear musical sound by expelling breath through the lips.	cogpo	COGPO_00147	Whistle	Exact tag.
+response_kind	key_press	Key press	To press a key on a keyboard or keypad.	catalog		(Press, Keyboard-key)	Added: the Catalog's commonest response device; CogPO folds it into Button Press.
+response_kind	mouse_click	Mouse click	To press a button on a computer mouse.	catalog		(Press, Mouse-button)	Added for choice and rating tasks run on a computer.
+response_kind	touchscreen_tap	Touchscreen tap	To touch a location on a touchscreen.	catalog		(Touch, Touchscreen)	Added for tablet-administered tasks.
+response_kind	rating	Rating	To report a value on a scale, by any device.	catalog			No HED action; the response is a Participant-response event carrying a value.
+response_kind	no_response	No response	The participant makes no overt response (passive viewing, listening or rest).	catalog		Passive	Agent-cognitive-state/Passive describes the participant; there is no response event.
+instructions	attend	Attend	To pay attention; to listen or watch attentively.	cogpo	COGPO_00027	Attend-to	Exact tag (Think/Attend-to). Task-attentional-demand tags qualify the kind of attention.
+instructions	count	Count	The act of counting, enumerating or calculating.	cogpo	COGPO_00017	Count	Exact tag.
+instructions	detect	Detect	To discover the existence of; to identify that a specific event has occurred.	cogpo	COGPO_00022	Detect	Exact tag.
+instructions	discriminate	Discriminate	To make a distinction between; to differentiate.	cogpo	COGPO_00025	Discriminate	Exact tag.
+instructions	encode	Encode	To store a stimulus into memory for later retrieval.	cogpo	COGPO_00031	Encode	Exact tag; Memorize is the deliberate form.
+instructions	fixate	Fixate	To focus the eyes or attention on.	cogpo	COGPO_00029	Fixate	Exact tag (Move-eyes/Fixate).
+instructions	generate	Generate	To produce or specify by application of a rule, such as naming as many animals as possible.	cogpo	COGPO_00033	Generate	Exact tag.
+instructions	imagine	Imagine	To form mental images of things not present to the senses.	cogpo	COGPO_00018	Imagine	Exact tag; Imagined-action is the task-action-type for imagined movement.
+instructions	move	Move	To execute an action involving a body part.	cogpo	COGPO_00026	Move	Exact tag.
+instructions	name	Name	To identify by name; to generate the name of the stimulus.	cogpo	COGPO_00021	Identify	Nearest tag; HED has no Name action. The response is Speak.
+instructions	read	Read	To utter aloud or render in speech written or printed words.	cogpo	COGPO_00019	Read	Exact tag (Perform/Read).
+instructions	recall	Recall	To bring back from memory; to remember.	cogpo	COGPO_00020	Recall	Exact tag.
+instructions	repeat	Repeat	To say something again.	cogpo	COGPO_00032	Repeat	Exact tag (Perform/Repeat).
+instructions	rest	Rest	To become or remain inactive.	cogpo	COGPO_00024	Rest	Exact tag (Perform/Rest); Resting is the agent state.
+instructions	sing	Sing	To utter words or sounds with musical modulation of the voice.	cogpo	COGPO_00034	Sing	Exact tag.
+instructions	smile	Smile	To assume a smiling facial expression.	cogpo	COGPO_00030	Smile	Exact tag.
+instructions	track	Track	To observe or follow the course or progress of.	cogpo	COGPO_00023	Track	Exact tag.
+instructions	breath_hold	Breath hold	To hold one's breath.	cogpo_wiki	Breath-Hold_Instructions	Hold-breath	Exact tag.
+instructions	breathe	Breathe	To breathe normally.	cogpo_wiki	Breathe_Instructions	Breathe	Exact tag.
+instructions	judge	Judge	To form an opinion or estimate about a stimulus, such as its valence, size or truth.	hed		Judge	From HED's Think vocabulary; CogPO folds judgements into Discriminate.
+instructions	recognize	Recognize	To decide whether a stimulus was encountered before.	hed		Recognize	From HED's Think vocabulary; CogPO uses Recall for recognition tests too.
+instructions	respond	Respond	To make the response the task calls for.	hed		Respond	From HED's Think vocabulary.
+instructions	predict	Predict	To state what will happen next.	hed		Predict	From HED's Think vocabulary; needed for the Catalog's learning tasks.
+instructions	plan	Plan	To work out a sequence of moves before acting.	hed		Plan	From HED's Think vocabulary; needed for Tower of London.
+instructions	learn	Learn	To acquire a rule, sequence or association over trials.	hed		Learn	From HED's Think vocabulary.
+instructions	identify	Identify	To say what a stimulus is.	hed		Identify	From HED's Think vocabulary.
+instructions	switch_attention	Switch attention	To move attention between tasks, locations or features.	hed		Switch-attention	From HED's Think vocabulary; needed for Task Switching.
+instructions	choose	Choose	To select one of several offered options.	catalog		Judge	Nearest tag; HED 8.4.0 has no choose or decide action. Added for the Catalog's decision and economic tasks.
+instructions	rate	Rate	To report a value on a scale.	catalog			No HED action. Added for the Catalog's rating tasks.
+instructions	withhold	Withhold	To refrain from responding on signal.	catalog			No HED action; Stop-signal and Omitted-action describe the stimulus and the outcome. Added for Go/No-Go and Stop-Signal.
+instructions	navigate	Navigate	To find one's way to a goal location.	catalog			No HED action. Added for the virtual maze tasks.
+instructions	play	Play	To take part in a game against a partner or the computer.	catalog		Play	Exact tag (Perform/Play). Added for the economic games.

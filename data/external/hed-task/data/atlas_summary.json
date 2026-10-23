@@ -1,0 +1,611 @@
+{
+  "archive_name": ".cog_data",
+  "harvested_on": "2026-09-16T21:44:54+00:00",
+  "inventory": {
+    "tasks_listed": 857,
+    "task_records": 857,
+    "concepts_listed": 918,
+    "concept_records": 918
+  },
+  "tasks": {
+    "total": 857,
+    "definitions": [
+      {
+        "label": "Missing or placeholder",
+        "count": 38,
+        "percent": 4.4
+      },
+      {
+        "label": "Under 50 characters",
+        "count": 21,
+        "percent": 2.5
+      },
+      {
+        "label": "50 to 199",
+        "count": 316,
+        "percent": 36.9
+      },
+      {
+        "label": "200 to 499",
+        "count": 294,
+        "percent": 34.3
+      },
+      {
+        "label": "500 to 999",
+        "count": 144,
+        "percent": 16.8
+      },
+      {
+        "label": "1000 or more",
+        "count": 44,
+        "percent": 5.1
+      }
+    ],
+    "definition_mean": 362,
+    "definition_median": 248,
+    "definition_max": 4074,
+    "definition_real_count": 819,
+    "concept_links": [
+      {
+        "label": "0 concepts",
+        "count": 298,
+        "percent": 34.8
+      },
+      {
+        "label": "1 concept",
+        "count": 249,
+        "percent": 29.1
+      },
+      {
+        "label": "2 to 3",
+        "count": 189,
+        "percent": 22.1
+      },
+      {
+        "label": "4 to 7",
+        "count": 93,
+        "percent": 10.9
+      },
+      {
+        "label": "8 or more",
+        "count": 28,
+        "percent": 3.3
+      }
+    ],
+    "concept_link_total": 1422,
+    "concept_link_mean": 1.66,
+    "concept_link_max": 16,
+    "cited": 470,
+    "cited_percent": 54.8,
+    "uncited": 387,
+    "uncited_percent": 45.2,
+    "citation_total": 1091,
+    "citation_with_pmid": 946,
+    "complete": 363,
+    "no_citation_no_concepts": 203,
+    "no_definition_no_concepts": 12,
+    "fields": [
+      {
+        "label": "Contrasts",
+        "tasks": 529,
+        "percent": 61.7,
+        "entries": 1585
+      },
+      {
+        "label": "Indicators",
+        "tasks": 317,
+        "percent": 37.0,
+        "entries": 584
+      },
+      {
+        "label": "Conditions",
+        "tasks": 272,
+        "percent": 31.7,
+        "entries": 807
+      },
+      {
+        "label": "Batteries",
+        "tasks": 113,
+        "percent": 13.2,
+        "entries": 134
+      },
+      {
+        "label": "External datasets",
+        "tasks": 66,
+        "percent": 7.7,
+        "entries": 81
+      },
+      {
+        "label": "Implementations",
+        "tasks": 55,
+        "percent": 6.4,
+        "entries": 66
+      },
+      {
+        "label": "Disorders",
+        "tasks": 16,
+        "percent": 1.9,
+        "entries": 20
+      }
+    ]
+  },
+  "concepts": {
+    "total": 918,
+    "definitions": [
+      {
+        "label": "Missing or placeholder",
+        "count": 23,
+        "percent": 2.5
+      },
+      {
+        "label": "Under 30 characters",
+        "count": 19,
+        "percent": 2.1
+      },
+      {
+        "label": "30 to 149",
+        "count": 602,
+        "percent": 65.6
+      },
+      {
+        "label": "150 or more",
+        "count": 274,
+        "percent": 29.8
+      }
+    ],
+    "task_spread": [
+      {
+        "label": "0 tasks",
+        "count": 455,
+        "percent": 49.6
+      },
+      {
+        "label": "1 task",
+        "count": 234,
+        "percent": 25.5
+      },
+      {
+        "label": "2 tasks",
+        "count": 87,
+        "percent": 9.5
+      },
+      {
+        "label": "3 to 9 tasks",
+        "count": 118,
+        "percent": 12.9
+      },
+      {
+        "label": "10 or more tasks",
+        "count": 24,
+        "percent": 2.6
+      }
+    ],
+    "classes": [
+      {
+        "label": "(no class assigned)",
+        "concepts": 413,
+        "percent": 45.0
+      },
+      {
+        "label": "Learning and Memory",
+        "concepts": 116,
+        "percent": 12.6
+      },
+      {
+        "label": "Language",
+        "concepts": 94,
+        "percent": 10.2
+      },
+      {
+        "label": "Perception",
+        "concepts": 87,
+        "percent": 9.5
+      },
+      {
+        "label": "Reasoning and Decision Making",
+        "concepts": 64,
+        "percent": 7.0
+      },
+      {
+        "label": "Executive/Cognitive Control",
+        "concepts": 42,
+        "percent": 4.6
+      },
+      {
+        "label": "Attention",
+        "concepts": 37,
+        "percent": 4.0
+      },
+      {
+        "label": "Emotion",
+        "concepts": 33,
+        "percent": 3.6
+      },
+      {
+        "label": "Social Function",
+        "concepts": 13,
+        "percent": 1.4
+      },
+      {
+        "label": "Action",
+        "concepts": 10,
+        "percent": 1.1
+      },
+      {
+        "label": "Motivation",
+        "concepts": 9,
+        "percent": 1.0
+      }
+    ],
+    "unclassified": 413,
+    "unclassified_percent": 45.0,
+    "linked": {
+      "total": 463,
+      "percent": 50.4,
+      "no_definition": 11,
+      "no_definition_percent": 2.4,
+      "no_class": 180,
+      "no_class_percent": 38.9,
+      "definition_median": 102
+    },
+    "orphans": {
+      "total": 455,
+      "percent": 49.6,
+      "no_definition": 12,
+      "no_definition_percent": 2.6,
+      "no_class": 233,
+      "no_class_percent": 51.2,
+      "definition_median": 102
+    },
+    "top_concepts": [
+      {
+        "name": "visual perception",
+        "tasks": 40
+      },
+      {
+        "name": "attention",
+        "tasks": 29
+      },
+      {
+        "name": "response selection",
+        "tasks": 28
+      },
+      {
+        "name": "working memory",
+        "tasks": 27
+      },
+      {
+        "name": "cognitive control",
+        "tasks": 27
+      },
+      {
+        "name": "motor control",
+        "tasks": 26
+      },
+      {
+        "name": "response execution",
+        "tasks": 24
+      },
+      {
+        "name": "auditory perception",
+        "tasks": 21
+      },
+      {
+        "name": "language",
+        "tasks": 20
+      },
+      {
+        "name": "response inhibition",
+        "tasks": 19
+      },
+      {
+        "name": "impulsivity",
+        "tasks": 17
+      },
+      {
+        "name": "active maintenance",
+        "tasks": 15
+      },
+      {
+        "name": "spatial ability",
+        "tasks": 13
+      },
+      {
+        "name": "language comprehension",
+        "tasks": 13
+      },
+      {
+        "name": "attentional focusing",
+        "tasks": 12
+      }
+    ],
+    "top_unclassified": [
+      {
+        "name": "impulsivity",
+        "tasks": 17
+      },
+      {
+        "name": "Limited Capacity",
+        "tasks": 11
+      },
+      {
+        "name": "emotion regulation",
+        "tasks": 10
+      },
+      {
+        "name": "restricted behavior",
+        "tasks": 10
+      },
+      {
+        "name": "social motivation",
+        "tasks": 9
+      },
+      {
+        "name": "cognitive development",
+        "tasks": 6
+      },
+      {
+        "name": "defiance",
+        "tasks": 6
+      },
+      {
+        "name": "hyperactivity",
+        "tasks": 6
+      },
+      {
+        "name": "processing capacity",
+        "tasks": 6
+      },
+      {
+        "name": "future time",
+        "tasks": 5
+      },
+      {
+        "name": "interference control",
+        "tasks": 5
+      },
+      {
+        "name": "obsession",
+        "tasks": 5
+      }
+    ],
+    "placeholder_names": [
+      "Active Cognitive Inhibition",
+      "Limited Capacity",
+      "arousal",
+      "behavioral inhibition",
+      "decision uncertainty",
+      "emotional reappraisal",
+      "emotional self-evaluation",
+      "exogenous attention",
+      "face maintenance",
+      "goal selection",
+      "implicit learning",
+      "insomnia",
+      "localization",
+      "negative emotion",
+      "numerical scale judgment",
+      "overt naming",
+      "phonological assembly",
+      "phonological comparison",
+      "resistance to distractor inference",
+      "risk aversion",
+      "social inference",
+      "test term",
+      "working memory updating"
+    ],
+    "duplicate_names": [
+      "autobiographical memory",
+      "cognitive warfare",
+      "implicit learning",
+      "risk aversion"
+    ],
+    "detail_records": 918,
+    "relations": [
+      {
+        "label": "KINDOF",
+        "count": 866
+      },
+      {
+        "label": "PARTOF",
+        "count": 532
+      }
+    ],
+    "relation_total": 1398,
+    "with_relations": 562,
+    "with_relations_percent": 61.2,
+    "with_citations": 144,
+    "with_citations_percent": 15.7,
+    "citation_total": 202
+  },
+  "hygiene": {
+    "task_entities": 93,
+    "task_mojibake": 87,
+    "concept_entities": 59,
+    "concept_mojibake": 22,
+    "duplicate_task_names": [
+      "boston naming test",
+      "false belief task"
+    ],
+    "unnamed_tasks": [
+      "trm_4f244f46ebf58"
+    ],
+    "null_definition_tasks": 36,
+    "null_definition_concepts": 6
+  },
+  "entry_types": [
+    {
+      "label": "Rating scale, questionnaire, or inventory",
+      "count": 107
+    },
+    {
+      "label": "Standardized test or battery",
+      "count": 45
+    },
+    {
+      "label": "Imaging protocol or localizer label",
+      "count": 29
+    },
+    {
+      "label": "Stimulation or physiological procedure",
+      "count": 19
+    },
+    {
+      "label": "Not matched (largely experimental paradigms)",
+      "count": 657
+    }
+  ],
+  "fragmentation": [
+    {
+      "family": "naming",
+      "entries": 16,
+      "zero_concept_entries": 4,
+      "best_entry": "stop signal task with letter naming",
+      "best_concepts": 5
+    },
+    {
+      "family": "span",
+      "entries": 13,
+      "zero_concept_entries": 1,
+      "best_entry": "backward digit span task",
+      "best_concepts": 4
+    },
+    {
+      "family": "stroop",
+      "entries": 8,
+      "zero_concept_entries": 2,
+      "best_entry": "Stroop task",
+      "best_concepts": 4
+    },
+    {
+      "family": "n-back",
+      "entries": 8,
+      "zero_concept_entries": 2,
+      "best_entry": "n-back task",
+      "best_concepts": 8
+    },
+    {
+      "family": "stop signal",
+      "entries": 8,
+      "zero_concept_entries": 1,
+      "best_entry": "conditional stop signal task",
+      "best_concepts": 9
+    },
+    {
+      "family": "fluency",
+      "entries": 6,
+      "zero_concept_entries": 4,
+      "best_entry": "category fluency test",
+      "best_concepts": 4
+    },
+    {
+      "family": "sternberg",
+      "entries": 4,
+      "zero_concept_entries": 1,
+      "best_entry": "Sternberg Recent Probes",
+      "best_concepts": 4
+    },
+    {
+      "family": "continuous performance",
+      "entries": 4,
+      "zero_concept_entries": 2,
+      "best_entry": "Penn continuous performance task",
+      "best_concepts": 3
+    },
+    {
+      "family": "oddball",
+      "entries": 3,
+      "zero_concept_entries": 2,
+      "best_entry": "oddball task",
+      "best_concepts": 6
+    },
+    {
+      "family": "weather prediction",
+      "entries": 3,
+      "zero_concept_entries": 1,
+      "best_entry": "dual-task weather prediction",
+      "best_concepts": 13
+    },
+    {
+      "family": "bandit",
+      "entries": 3,
+      "zero_concept_entries": 3,
+      "best_entry": "Volatile Bandit",
+      "best_concepts": 0
+    }
+  ],
+  "tiers": [
+    {
+      "label": "Well annotated",
+      "count": 54,
+      "percent": 6.3
+    },
+    {
+      "label": "Adequate",
+      "count": 410,
+      "percent": 47.8
+    },
+    {
+      "label": "Minimal",
+      "count": 63,
+      "percent": 7.4
+    },
+    {
+      "label": "Skeletal",
+      "count": 330,
+      "percent": 38.5
+    }
+  ],
+  "years": [
+    {
+      "year": "(none)",
+      "tasks": 115,
+      "concepts": 103
+    },
+    {
+      "year": "2009",
+      "tasks": 101,
+      "concepts": 538
+    },
+    {
+      "year": "2010",
+      "tasks": 85,
+      "concepts": 9
+    },
+    {
+      "year": "2011",
+      "tasks": 97,
+      "concepts": 22
+    },
+    {
+      "year": "2012",
+      "tasks": 117,
+      "concepts": 51
+    },
+    {
+      "year": "2013",
+      "tasks": 105,
+      "concepts": 58
+    },
+    {
+      "year": "2014",
+      "tasks": 5,
+      "concepts": 1
+    },
+    {
+      "year": "2015",
+      "tasks": 143,
+      "concepts": 122
+    },
+    {
+      "year": "2016",
+      "tasks": 70,
+      "concepts": 2
+    },
+    {
+      "year": "2017",
+      "tasks": 19,
+      "concepts": 12
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+hedtsk_id	hed_task_name	match_type	cogpo_id	cogpo_label	cogpo_source	cogpo_def_chars	cogpo_entry_count	notes
+hedtsk_affective_picture_viewing	Affective Picture Viewing Task	close	COGPO_00102	Subjective Emotional Picture Discrimination Paradigm	owl	269	2	Subjective Emotional Picture Discrimination is the rated-picture case; Passive Viewing Paradigm is the unrated one.
+hedtsk_affective_priming	Affective Priming Task	none						CogPO has no priming class.
+hedtsk_anti_saccade	Anti-Saccade Task	exact	COGPO_00047	Anti-Saccades Paradigm	owl	193	2	Same paradigm.
+hedtsk_artificial_grammar_learning	Artificial Grammar Learning Task	none						No implicit-learning class in CogPO.
+hedtsk_attention_network	Attention Network Task	related	COGPO_00059	Flanker Task Paradigm	owl	287		ANT is a cued flanker task; CogPO has Flanker Task and Posner Task but not their combination.
+hedtsk_auditory_masking	Auditory Masking Task	related	COGPO_00090	Tone Monitor/Discrimination Paradigm	owl	276	1	Tone Monitor/Discrimination is the nearest class; masking thresholds are not a CogPO paradigm.
+hedtsk_autobiographical_memory	Autobiographical Memory Task	close	COGPO_00055	Episodic Recall Paradigm	owl	489	1	Episodic Recall names autobiographical recall as its typical case.
+hedtsk_balloon_analog_risk	Balloon Analog Risk Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no risk-taking paradigm in CogPO.
+hedtsk_biological_motion_perception	Biological Motion Perception Task	related	COGPO_00044	Action Observation Paradigm	owl	110	1	Point-light displays are viewed moving body parts; Action Observation is broader.
+hedtsk_body_ownership_illusion	Body Ownership Illusion Task	none						No body-representation class; Tactile Monitor/Discrimination is a stimulus class, not this paradigm.
+hedtsk_cambridge_face_memory	Cambridge Face Memory Task	related	COGPO_00057	Face Monitor or Discrimination Paradigm	owl	345		Face identity memory falls in Face Monitor or Discrimination; no face-memory class.
+hedtsk_causal_learning	Causal Learning Task	none						No contingency or causal-learning class in CogPO.
+hedtsk_change_detection	Change Detection Task	related	COGPO_00099	Visual Distractor/Visual Attention Paradigm	owl	396		Visual Distractor/Visual Attention lists change detection among its examples.
+hedtsk_contextual_cueing	Contextual Cueing Task	none						No implicit-learning or search class in CogPO.
+hedtsk_continuous_performance	Continuous Performance Task	related	COGPO_00054	Go/No-Go Paradigm	owl	295		A sustained go/no-go; CogPO has no vigilance class.
+hedtsk_corsi_block_tapping	Corsi Block-Tapping Task	none						No span or spatial working-memory class in CogPO.
+hedtsk_delay_discounting	Delay Discounting Task	exact	COGPO_00046	Delay Discounting Task Paradigm	owl	254	1	Same paradigm.
+hedtsk_delayed_match_to_sample	Delayed Match-to-Sample Task	exact	Delayed_Match_To_Sample_Paradigm	Delayed Match To Sample Paradigm	wiki	294	2	On the CogPO wiki; the OWL has only Delayed Non Match To Sample, the Catalog's DNMS variation.
+hedtsk_dictator_game	Dictator Game Task	none						No economic-game or social-decision class in CogPO.
+hedtsk_digit_span	Digit Span Task	none						No span class in CogPO.
+hedtsk_digit_symbol_substitution	Digit Symbol Substitution Task	none						No processing-speed class in CogPO.
+hedtsk_directed_forgetting	Directed Forgetting Task	none						No intentional-forgetting class; Encoding Paradigm is the nearest phase.
+hedtsk_dot_probe	Dot-Probe Task	none						No attentional-bias class in CogPO.
+hedtsk_effort_based_decision_making	Effort-Based Decision-Making Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no effort paradigm in CogPO.
+hedtsk_emotion_regulation	Emotion Regulation Task	none						No emotion-regulation class in CogPO.
+hedtsk_emotional_stroop	Emotional Stroop Task	close	COGPO_00092	Stroop Task Paradigm	owl	294		CogPO folds Emotional Stroop into Stroop Task Paradigm.
+hedtsk_eriksen_flanker	Eriksen Flanker Task	exact	COGPO_00059	Flanker Task Paradigm	owl	287	1	Same paradigm.
+hedtsk_face_processing	Face Processing Task	close	COGPO_00057	Face Monitor or Discrimination Paradigm	owl	345	1	Passive face viewing is the first case of Face Monitor or Discrimination.
+hedtsk_facial_emotion_recognition	Facial Emotion Recognition Task	close	COGPO_00057	Face Monitor or Discrimination Paradigm	owl	345		Emotion discrimination is one case of Face Monitor or Discrimination.
+hedtsk_false_belief	False Belief Task	close	COGPO_00104	Theory of Mind Task Paradigm	owl	248	1	Theory of Mind Task Paradigm is the class; False Belief is its standard instance.
+hedtsk_feeling_of_knowing	Feeling-of-Knowing Task	none						No metacognition class in CogPO.
+hedtsk_finger_tapping	Finger Tapping Task	exact	COGPO_00056	Finger Tapping Paradigm	owl	150	1	Same paradigm.
+hedtsk_fixate	Fixate Task	exact	COGPO_00053	Fixation Paradigm	owl	115	1	Same pseudo task.
+hedtsk_free_recall	Free Recall Task	exact	COGPO_00061	Free Word List Recall Paradigm	owl	175	2	Same paradigm.
+hedtsk_go_no_go	Go/No-Go Task	exact	COGPO_00054	Go/No-Go Paradigm	owl	295	1	Same paradigm.
+hedtsk_heartbeat_detection	Heartbeat Detection Task	none						CogPO has an Interoceptive Modality but no interoception paradigm.
+hedtsk_imitation_inhibition	Imitation-Inhibition Task	related	COGPO_00044	Action Observation Paradigm	owl	110		Observed finger movements as stimuli; Action Observation is passive viewing of actions.
+hedtsk_implicit_association	Implicit Association Task	none						No implicit-attitude class in CogPO.
+hedtsk_instrumental_conditioning	Instrumental Conditioning Task	none						CogPO's Classical Conditioning is Pavlovian; there is no instrumental class.
+hedtsk_intentional_binding	Intentional Binding Task	none						No agency or time-perception class in CogPO.
+hedtsk_iowa_gambling	Iowa Gambling Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no gambling or risky-choice paradigm in CogPO.
+hedtsk_judgment_of_learning	Judgment-of-Learning Task	none						No metacognition class in CogPO.
+hedtsk_lexical_decision	Lexical Decision Task	close	COGPO_00088	Semantic Monitor/Discrimination Paradigm	owl	282	2	Word/pseudoword judgement is the first case of Semantic Monitor/Discrimination.
+hedtsk_mental_rotation	Mental Rotation Task	exact	COGPO_00077	Mental Rotation Paradigm	owl	276	1	Same paradigm.
+hedtsk_mirror_tracing	Mirror Tracing Task	related	COGPO_00040	Drawing Paradigm	owl	144	1	Drawing Paradigm is the motor act without the mirror-reversal manipulation.
+hedtsk_mismatch_negativity	Mismatch Negativity Task	close	COGPO_00072	Auditory Oddball Paradigm	owl	98	1	A passive auditory oddball; CogPO has no MMN class and no passive-oddball distinction.
+hedtsk_mnemonic_similarity	Mnemonic Similarity Task	related	COGPO_00035	Cued Explicit Recognition Paradigm	owl	280		A recognition test with lures; Cued Explicit Recognition is the nearest class.
+hedtsk_monetary_incentive_delay	Monetary Incentive Delay Task	close	COGPO_00081	Reward Task Paradigm	owl	182	1	The Reward Task class describes MID directly, but it is a class.
+hedtsk_motor_sequence_learning	Motor Sequence Learning Task	exact	COGPO_00106	Sequence Recall/Learning Paradigm	owl	224	1	Same paradigm.
+hedtsk_multi_armed_bandit	Multi-Armed Bandit Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no exploration or bandit paradigm in CogPO.
+hedtsk_multiple_object_tracking	Multiple Object Tracking Task	close	COGPO_00095	Visual Pursuit/Tracking Paradigm	owl	191	1	Visual Pursuit/Tracking covers attentive tracking and smooth pursuit.
+hedtsk_n_back	N-Back Task	exact	COGPO_00093	n-back Paradigm	owl	247	1	Same paradigm.
+hedtsk_navon	Navon Task	none						No global/local or hierarchical-stimulus class in CogPO.
+hedtsk_oddball	Oddball Task	exact	COGPO_00071	Oddball Discrimination Paradigm	owl	354	3	Same paradigm; CogPO's auditory and visual subclasses are Catalog variations.
+hedtsk_old_new_recognition_memory	Old/New Recognition Memory Task	exact	COGPO_00035	Cued Explicit Recognition Paradigm	owl	280	1	Cued Explicit Recognition is old/new recognition of a studied list.
+hedtsk_operation_span	Operation Span Task	none						No complex-span class in CogPO.
+hedtsk_paired_associates_learning	Paired Associates Learning Task	exact	COGPO_00078	Paired Associate Recall Paradigm	owl	237	1	Same paradigm.
+hedtsk_pavlovian_fear_conditioning	Pavlovian Fear Conditioning Task	close	COGPO_00042	Classical Conditioning Paradigm	owl	238	1	Classical Conditioning Paradigm is the class; fear conditioning is one member.
+hedtsk_phonological_awareness	Phonological Awareness Task	exact	COGPO_00080	Phonological Discrimination Paradigm	owl	245	1	Phonological Discrimination lists rhyming, syllable counting and homophones.
+hedtsk_picture_naming	Picture Naming Task	exact	Naming_(Overt)_Paradigm	Naming (Overt) Paradigm	owl	154	2	Naming (Overt); CogPO also has a covert class the Catalog does not split off.
+hedtsk_posner_spatial_cueing	Posner Spatial Cueing Task	exact	COGPO_00083	Posner Task Paradigm	owl	372	1	Same paradigm.
+hedtsk_prisoners_dilemma	Prisoner's Dilemma Task	none						No economic-game class in CogPO.
+hedtsk_probabilistic_classification_learning	Probabilistic Classification Learning Task	none						No category-learning class in CogPO.
+hedtsk_probabilistic_selection	Probabilistic Selection Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no reinforcement-learning paradigm in CogPO.
+hedtsk_prospective_memory	Prospective Memory Task	none						No prospective-memory class in CogPO.
+hedtsk_psychological_refractory_period	Psychological Refractory Period Task	related	COGPO_00043	Divided Auditory Attention Paradigm	owl	285		Divided Auditory Attention is CogPO's only dual-task class; PRP has a different structure.
+hedtsk_psychomotor_vigilance	Psychomotor Vigilance Task	related	COGPO_00099	Visual Distractor/Visual Attention Paradigm	owl	396		Press when a target appears is the first example of Visual Distractor/Visual Attention.
+hedtsk_random_dot_kinematogram	Random Dot Kinematogram Task	none						Random Dots is a CogPO stimulus, but there is no motion-discrimination paradigm.
+hedtsk_rapid_serial_visual_presentation	Rapid Serial Visual Presentation Task	related	COGPO_00099	Visual Distractor/Visual Attention Paradigm	owl	396		Target detection in a rapid stream falls in Visual Distractor/Visual Attention.
+hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task	related	COGPO_00038	Deductive Reasoning Paradigm	owl	226		Deductive Reasoning is defined loosely enough to admit matrix reasoning, which is inductive.
+hedtsk_reading_the_mind_in_the_eyes	Reading the Mind in the Eyes Task	close	COGPO_00104	Theory of Mind Task Paradigm	owl	248		A theory-of-mind task; False Belief is the class's primary Catalog match.
+hedtsk_receive_feedback	Receive Feedback Task	none						Feedback is a stimulus role on the CogPO wiki, not a paradigm.
+hedtsk_remember_know	Remember/Know Task	related	COGPO_00035	Cued Explicit Recognition Paradigm	owl	280		A recognition test with a phenomenological judgement; Cued Explicit Recognition is the nearest class.
+hedtsk_remote_associates	Remote Associates Task	none						No insight or creativity class in CogPO.
+hedtsk_rest	Rest Task	exact	COGPO_00086	Rest Paradigm	owl	135	1	Same pseudo task.
+hedtsk_reversal_learning	Reversal Learning Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no reversal paradigm in CogPO.
+hedtsk_rey_auditory_verbal_learning	Rey Auditory Verbal Learning Task	close	COGPO_00061	Free Word List Recall Paradigm	owl	175		Multi-trial free recall of a word list; Free Word List Recall is the class.
+hedtsk_self_paced_reading	Self-Paced Reading Task	close	Reading_(Covert)_Paradigm	Reading (Covert) Paradigm	owl	178	1	Silent reading; Reading (Covert) is the class.
+hedtsk_self_referential_encoding	Self-Referential Encoding Task	related	COGPO_00052	Encoding Paradigm	owl	165		An intentional encoding task with a self-reference manipulation; Encoding Paradigm is the phase, not a task.
+hedtsk_semantic_priming	Semantic Priming Task	related	COGPO_00088	Semantic Monitor/Discrimination Paradigm	owl	282		Priming with a lexical or semantic judgement; CogPO has no priming class.
+hedtsk_sentence_comprehension	Sentence Comprehension Task	close	COGPO_00105	Syntactic Discrimination Paradigm	owl	273	1	Syntactic Discrimination is grammaticality judgement, one procedure among the Catalog's sentence tasks.
+hedtsk_serial_reaction_time	Serial Reaction Time Task	close	COGPO_00106	Sequence Recall/Learning Paradigm	owl	224		Implicit sequence learning by button press; Sequence Recall/Learning is the class.
+hedtsk_simon	Simon Task	exact	COGPO_00097	Simon Task Paradigm	owl	306	1	Same paradigm.
+hedtsk_social_incentive_delay	Social Incentive Delay Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class with a social reward.
+hedtsk_source_memory	Source Memory Task	related	COGPO_00035	Cued Explicit Recognition Paradigm	owl	280		A recognition test with a source judgement; Cued Explicit Recognition is the nearest class.
+hedtsk_sternberg_item_recognition	Sternberg Item Recognition Task	exact	COGPO_00101	Sternberg Task Paradigm	owl	258	1	Same paradigm.
+hedtsk_stop_signal	Stop-Signal Task	close	COGPO_00054	Go/No-Go Paradigm	owl	295		Response inhibition with a stop signal; CogPO has Go/No-Go only.
+hedtsk_stroop_color_word	Stroop Color-Word Task	exact	COGPO_00092	Stroop Task Paradigm	owl	294	1	Same paradigm.
+hedtsk_sustained_attention_to_response	Sustained Attention to Response Task	close	COGPO_00054	Go/No-Go Paradigm	owl	295		A go/no-go with rare no-go trials; CogPO has no SART or vigilance class.
+hedtsk_take_questionnaire	Take Questionnaire Task	none						CogPO has no questionnaire class.
+hedtsk_task_switching	Task Switching Task	exact	COGPO_00107	Task Switching Paradigm	owl	200	1	Same paradigm.
+hedtsk_think_no_think	Think/No-Think Task	none						No memory-suppression class in CogPO.
+hedtsk_tower_of_london	Tower of London Task	exact	Tower_of_London_Paradigm	Tower of London Paradigm	wiki	354	1	On the CogPO wiki only.
+hedtsk_trail_making	Trail Making Task	none						No visuomotor-sequencing class in CogPO.
+hedtsk_trust_game	Trust Game Task	none						No economic-game class in CogPO.
+hedtsk_two_stage_decision	Two-Stage Decision Task	related	COGPO_00081	Reward Task Paradigm	owl	182		Falls in the Reward Task class; no model-based learning paradigm in CogPO.
+hedtsk_ultimatum_game	Ultimatum Game Task	none						No economic-game class in CogPO.
+hedtsk_useful_field_of_view	Useful Field of View Task	related	COGPO_00099	Visual Distractor/Visual Attention Paradigm	owl	396		Peripheral target detection with distractors falls in Visual Distractor/Visual Attention.
+hedtsk_verb_generation	Verb Generation Task	close	Word_Generation_(Overt)_Paradigm	Word Generation (Overt) Paradigm	owl	374	1	Semantic word generation; CogPO splits overt and covert, and its covert class maps to the Covert Verb Generation variation.
+hedtsk_verbal_fluency	Verbal Fluency Task	close	Word_Generation_(Overt)_Paradigm	Word Generation (Overt) Paradigm	owl	374	1	Letter and category fluency are the orthographic and semantic cases of Word Generation (Overt).
+hedtsk_virtual_morris_water_maze	Virtual Morris Water Maze Task	none						No spatial-navigation class in CogPO.
+hedtsk_virtual_radial_arm_maze	Virtual Radial Arm Maze Task	none						No spatial-navigation class in CogPO.
+hedtsk_visual_masking	Visual Masking Task	none						No masking or threshold class in CogPO.
+hedtsk_visual_search	Visual Search Task	close	COGPO_00099	Visual Distractor/Visual Attention Paradigm	owl	396	1	Visual Distractor/Visual Attention is CogPO's catch-all; visual search is its central case.
+hedtsk_wason_selection	Wason Selection Task	close	COGPO_00038	Deductive Reasoning Paradigm	owl	226	1	A deductive reasoning task; Deductive Reasoning is the class.
+hedtsk_weapons_identification	Weapons Identification Task	none						No implicit-bias class in CogPO.
+hedtsk_wisconsin_card_sorting	Wisconsin Card Sorting Task	exact	COGPO_00098	Wisconsin Card Sorting Test Paradigm	owl	515	1	Same paradigm.

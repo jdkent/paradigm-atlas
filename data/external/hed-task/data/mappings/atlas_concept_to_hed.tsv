@@ -1,0 +1,919 @@
+atlas_concept_id	atlas_concept_name	atlas_concept_class	atlas_task_count	relation_count	match_type	hed_process_id	hed_process_name	notes
+trm_4a3fd79d096be	abductive reasoning	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d096e3	abstract analogy	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d096f0	abstract knowledge	ctp_C3	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d096fc	acoustic coding	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09707	acoustic encoding	ctp_C1	1	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09713	acoustic phonetic processing	ctp_C6	4	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0971e	acoustic processing	ctp_C1	3	1	close	hed_acoustic_processing	Acoustic processing	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d09735	action	ctp_C7	1	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b5c0	action initiation	ctp_C7			exact	hed_action_initiation	Action initiation	Primary match from hed_process_to_atlas.tsv
+trm_5159c00c3dac3	action perception			1	none			No corresponding process in the 172-process catalog
+trm_BKfaKR4cv8MwD	action-outcome learning				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09741	activation				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0974d	activation level				none			No corresponding process in the 172-process catalog
+trm_gQBevhggQHGxG	Active Cognitive Inhibition			4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba0d	active maintenance	ctp_C4	15	3	exact	hed_active_maintenance	Active maintenance	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b8b5	active recall	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b8c1	active retrieval	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b98a	acuity	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09758	adaptation	ctp_C5	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09764	adaptive control	ctp_C7	1		none			No corresponding process in the 172-process catalog
+trm_4fafd1626bf2b	addiction			3	none			No corresponding process in the 172-process catalog
+trm_gSGrsqTOSBVRa	aesthetic exprience			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09770	affect perception	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0977b	affect recognition	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_5154b2f947fe9	agency			1	close	hed_sense_of_agency	Sense of agency	Primary match from hed_process_to_atlas.tsv
+trm_523f5ee64102c	agreeableness		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097b4	altruism	ctp_C10		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097bf	altruistic motivation	ctp_C10			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097cb	alveolar	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097d6	amodal representation			1	none			No corresponding process in the 172-process catalog
+trm_HLeH7ee55sYqJ	anaesthetised unresponsive			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097e2	analog representation				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097ed	analogical encoding			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d097f9	analogical inference			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09804	analogical problem solving	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09810	analogical reasoning	ctp_C3	1	2	exact	hed_analogical_reasoning	Analogical reasoning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0981b	analogical transfer	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09827	analogy			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09833	anchoring	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_52583dceb345e	anhedonia		1		none			No corresponding process in the 172-process catalog
+trm_557b471bc6cd8	animacy decision	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_5159beaf80413	animacy perception	ctp_C1	1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09849	anticipation		1	7	none			No corresponding process in the 172-process catalog
+trm_523e024c14df9	antisocial personality		2		none			No corresponding process in the 172-process catalog
+trm_5022ef7599294	anxiety	ctp_C8	9	1	none			No corresponding process in the 172-process catalog
+trm_2aZtye4tjHl4U	anxiety sensitivity 		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09855	apparent motion	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0986c	apperception				none			No corresponding process in the 172-process catalog
+trm_52583e083c9ab	appetite		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09877	appetitive motivation	ctp_C10	1	1	none			No corresponding process in the 172-process catalog
+trm_558c7ae1eaf86	arithmetic processing		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09883	arousal				none			No corresponding process in the 172-process catalog
+trm_59d184d09066b	arousal (emotion)	ctp_C8	2		none			No corresponding process in the 172-process catalog
+trm_59d184d0980bf	arousal (physical)				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0988f	articulation	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba19	articulatory loop	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0989a	articulatory planning	ctp_C6	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098a6	articulatory rehearsal	ctp_C5	4	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098b2	assimilation			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098bd	association		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098c9	association learning	ctp_C5	7	3	exact	hed_associative_learning	Associative learning	Primary match from hed_process_to_atlas.tsv
+trm_5521a5f310604	associative priming			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098e0	attachment	ctp_C9	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098eb	attended channel		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d098f7	attended stimulus				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09902	attention	ctp_C2	29	19	related	hed_temporal_attention	Temporal attention	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0990e	attention capacity	ctp_C2	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b5d7	attention shift	ctp_C2	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b5fb	attention shifting	ctp_C2	12		exact	hed_attention_shifting	Attention shifting	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b5e3	attention span	ctp_C2	1	1	none			No corresponding process in the 172-process catalog
+trm_510059e54b2cf	attentional bias		1		none			No corresponding process in the 172-process catalog
+trm_4fea1aeaa7b17	attentional blink	ctp_C2	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09919	attentional effort	ctp_C2		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b5ef	attentional focusing	ctp_C2	12	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09925	attentional resources	ctp_C2		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09930	attentional state	ctp_C2		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09947	attitude			2	none			No corresponding process in the 172-process catalog
+trm_i2BpAh3lWxDby	Attribution		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09953	audiovisual perception	ctp_C1	1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0995e	audition	ctp_C1	3	1	none			No corresponding process in the 172-process catalog
+trm_55b6b8e291dba	auditory arithmetic processing		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a10	auditory attention	ctp_C2	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a3d	auditory coding		1	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a49	auditory encoding	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a55	auditory feedback			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a61	auditory grouping	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a6c	auditory imagery				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a78	auditory learning	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a84	auditory lexical access	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a8f	auditory localization	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09a9b	auditory masking	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09aa7	auditory memory	ctp_C5	1	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ab2	auditory perception	ctp_C1	21	22	exact	hed_auditory_perception	Auditory perception	Primary match from hed_process_to_atlas.tsv
+trm_55ef687f48a9d	auditory recognition			3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09abe	auditory scene	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09aca	auditory scene analysis			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ad5	auditory sentence comprehension	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_558c7b14c076e	auditory sentence recognition		2	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ae1	auditory stream segregation	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_557b474e2b578	auditory tone detection	ctp_C1	2	3	none			No corresponding process in the 172-process catalog
+trm_557b476527a27	auditory tone discrimination	ctp_C1	3	3	exact	hed_auditory_tone_discrimination	Auditory tone discrimination	Primary match from hed_process_to_atlas.tsv
+trm_55ef273a77a86	auditory tone perception	ctp_C1	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09aed	auditory word comprehension	ctp_C6		3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09af8	auditory word recognition	ctp_C6	1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b04	auditory working memory	ctp_C5	4	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b10	autobiographical memory	ctp_C5	2	2	exact	hed_autobiographical_memory	Autobiographical memory	Primary match from hed_process_to_atlas.tsv
+trm_wayqiZz3nFop1	Autobiographical memory				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b1c	autobiographical recall		1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b28	automaticity	ctp_C5	2		none			No corresponding process in the 172-process catalog
+trm_4ff1fc04e22e8	autonoesis		2	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b33	availability heuristic	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b3f	aversive learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_om88i12KUeI1R	aversive salience			3	none			No corresponding process in the 172-process catalog
+trm_0eeP5Xfft6ofk	Awareness		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b62	backward chaining	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_50eb56a7867db	balance		2	1	none			No corresponding process in the 172-process catalog
+trm_7s8F8orjDstDt	beat perception			1	none			No corresponding process in the 172-process catalog
+trm_QlrVatUMhmg3s	Behavioral Approach System		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b79	behavioral inhibition		1	2	none			No corresponding process in the 172-process catalog
+trm_4b7c270940f9d	behavioral inhibition (cognitive)	ctp_C4	2	3	none			No corresponding process in the 172-process catalog
+trm_4b7c27094a093	behavioral inhibition (temperament)				none			No corresponding process in the 172-process catalog
+trm_v97yWIWghz10Z	Behavioral Inibition System		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b85	belief				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09b9c	binocular convergence	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_4fea04a02ce37	binocular depth cue			4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09bb3	binocular disparity	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_500d8626d0770	binocular rivalry			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09bbf	binocular vision	ctp_C1	1	1	none			No corresponding process in the 172-process catalog
+trm_kYtw4QBOKCbsM	biological motion			1	close	hed_biological_motion_perception	Biological motion perception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d09bcb	bitterness	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_5029515e29f7f	blindsight			2	none			No corresponding process in the 172-process catalog
+trm_557b477b4a15f	body maintenance	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09be2	body orientation		1	2	none			No corresponding process in the 172-process catalog
+trm_4e5505361f160	body representation			3	none			No corresponding process in the 172-process catalog
+trm_502ab8dd991bf	border ownership		1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09bee	capacity limitation	ctp_C2	1	1	none			No corresponding process in the 172-process catalog
+trm_lwnmyixYF0bNn	cardinal orientation			2	none			No corresponding process in the 172-process catalog
+trm_M4nBW4V1iS71l	cardinal-direction judgment			5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09bf9	case based reasoning	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c05	categorical clustering	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c11	categorical knowledge	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c1c	categorical perception	ctp_C1		4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c28	categorization	ctp_C3	5	4	exact	hed_categorization	Categorization	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d09c34	category based induction	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c3f	category learning	ctp_C5	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c5b	causal inference	ctp_C3	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c69	central attention	ctp_C2			none			No corresponding process in the 172-process catalog
+trm_4b82c75498408	central coherence		4		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba25	central executive	ctp_C4	1	2	none			No corresponding process in the 172-process catalog
+trm_Ilz9RmdieE56K	central fixation				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c74	centration				none			No corresponding process in the 172-process catalog
+trm_4fea238758d33	change blindness			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c80	chemonociception	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09c97	chromatic contrast	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_59cd0184eb2bf	Chronesthesia				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ca3	chunk	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09cae	chunking	ctp_C4	4	1	exact	hed_chunking	Chunking	Primary match from hed_process_to_atlas.tsv
+trm_5159c382bd8d4	circadian rhythm				none			No corresponding process in the 172-process catalog
+trm_H5TZwxrcaUSBI	Coercion		2		none			No corresponding process in the 172-process catalog
+trm_4aae62e4ad209	cognitive control	ctp_C4	27	15	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d35	cognitive development		6	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d41	cognitive dissonance				none			No corresponding process in the 172-process catalog
+trm_IatczRR1NRCb2	cognitive distance			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d4d	cognitive effort		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d58	cognitive heuristic	ctp_C3		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d64	cognitive load	ctp_C4	4		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d70	cognitive map				none			No corresponding process in the 172-process catalog
+trm_51a6905a3f021	cognitive training				none			No corresponding process in the 172-process catalog
+trm_7J8bZcxhab2mR	Cognitive warfare 				none			No corresponding process in the 172-process catalog
+trm_cz5r7bGDpqiwn	Cognitive warfare 				none			No corresponding process in the 172-process catalog
+trm_4fea09fac5316	color constancy				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d93	color perception	ctp_C1	2	3	none			No corresponding process in the 172-process catalog
+trm_557b478ce1c24	color recognition	ctp_C1	1	2	none			No corresponding process in the 172-process catalog
+trm_6BXoIuFvTg9zF	combinatorial semantics			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09d9e	communication	ctp_C9	8		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09daa	competition				exact	hed_competition	Competition	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d09db6	concept				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09dc1	concept learning	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09dcd	conceptual category	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09dd9	conceptual coherence				none			No corresponding process in the 172-process catalog
+trm_sqBGK5gOFZflZ	conceptual combination				none			No corresponding process in the 172-process catalog
+trm_4d920c905d465	conceptual metaphor				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09de4	conceptual planning	ctp_C6	1	1	none			No corresponding process in the 172-process catalog
+trm_5521a2aa5b127	conceptual priming			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09df0	conceptual skill		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09dfc	conceptualization				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e07	conditional reasoning	ctp_C3	2	1	none			No corresponding process in the 172-process catalog
+trm_523e00f356226	conduct disorder		2		none			No corresponding process in the 172-process catalog
+trm_500d8839c2877	cone of confusion				none			No corresponding process in the 172-process catalog
+trm_55ef153d47bc0	confidence judgment	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_5358ede949107	conflict adaptation effect		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e13	conflict detection	ctp_C1	4	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e1e	conjunction search	ctp_C2	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e2a	connotation	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e35	consciousness			4	related	hed_perceptual_awareness	Perceptual awareness	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b8cd	consolidation	ctp_C5		3	exact	hed_consolidation	Consolidation	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d09e58	constancy				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e64	constituent structure				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e6f	context			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e7b	context dependent	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e87	context memory	ctp_C5	2	2	none			No corresponding process in the 172-process catalog
+trm_56798c5f25b0c	context representation	ctp_C3	2	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e93	contextual knowledge				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09e9e	contingency learning	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09eaa	contrastive stress				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09eb6	conventionality		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ece	convergent thinking		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09eda	conversation	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ee6	conversational skill	ctp_C9	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09ef0	conversational speech	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09efb	conversational structure	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f07	coordination				none			No corresponding process in the 172-process catalog
+trm_hwkommxKgvKas	Coping		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f12	coproduction				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f1e	coreference	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4feb3ffa1ab51	covert attention			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f2a	creative cognition		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f36	creative problem solving	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f42	creative thinking				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f4d	critical period				none			No corresponding process in the 172-process catalog
+trm_4e31d2241319f	crossmodal				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f59	crosstalk				none			No corresponding process in the 172-process catalog
+trm_502c139d5ed78	crowding			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f64	crystallized intelligence	ctp_C3	3		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f70	cue dependent forgetting	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f7c	cue validity	ctp_C2			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d09f87	cueing		1		none			No corresponding process in the 172-process catalog
+trm_4f3bdeedcc99d	curiosity	ctp_C10			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a006	dative shift	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a021	decay of activation	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a02c	deception	ctp_C9	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b61f	decision	ctp_C3	1	1	none			No corresponding process in the 172-process catalog
+trm_557b47abe9a34	decision certainty	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a038	decision making	ctp_C3	12	14	related	hed_value_based_decision_making	Value-based decision making	Primary match from hed_process_to_atlas.tsv
+trm_56798223b43b8	decision uncertainty				none			No corresponding process in the 172-process catalog
+trm_567982752ff4a	decision under uncertainty	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a044	declarative knowledge	ctp_C5		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a04f	declarative memory	ctp_C5	7	9	exact	hed_declarative_memory	Declarative memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a05b	declarative rule	ctp_C5		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a066	deductive inference	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a072	deductive reasoning	ctp_C3	1	1	exact	hed_deductive_reasoning	Deductive reasoning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a07e	deep processing	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a08a	deep structure	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_5159c885a7314	defensive aggression				none			No corresponding process in the 172-process catalog
+trm_523e034f9e69a	defiance		6		none			No corresponding process in the 172-process catalog
+trm_a4WdpQW5JYPH0	delay discounting		3		exact	hed_delay_discounting	Delay discounting	Primary match from hed_process_to_atlas.tsv
+trm_4fa28299dbddd	deliberation	ctp_C3	1		none			No corresponding process in the 172-process catalog
+trm_4fa3afaeef512	delusion		2		none			No corresponding process in the 172-process catalog
+trm_f01v8jugwrqHl	Demand		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a095	depth cue	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a0a1	depth perception	ctp_C1		2	exact	hed_depth_perception	Depth perception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a0ad	desire	ctp_C10			none			No corresponding process in the 172-process catalog
+trm_55ce70b20186b	detection	ctp_C1		9	none			No corresponding process in the 172-process catalog
+trm_4fe9fae4321e7	difference threshold			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a0dc	diphthong	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6c5	discourse	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6d1	discourse comprehension	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6dd	discourse knowledge	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6e9	discourse planning	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6f5	discourse processing	ctp_C6			exact	hed_discourse_processing	Discourse processing	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b701	discourse production	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_5519b7525d7a2	discrimination	ctp_C1		5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a0e7	dispositions				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a0f3	distraction	ctp_C2	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a0ff	distributed coding	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a10a	divergent thinking	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a116	divided attention	ctp_C2	5	2	exact	hed_divided_attention	Divided attention	Primary match from hed_process_to_atlas.tsv
+trm_5021684cba96c	domain specificity		1		none			No corresponding process in the 172-process catalog
+trm_KmaWWKCuIjtXG	dominant percept			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a12d	dream				none			No corresponding process in the 172-process catalog
+trm_pNo3F5h7B8Eg7	Dyadic Effect		1		none			No corresponding process in the 172-process catalog
+trm_KCHAUcNX8814Z	Dynamic Executive Attention System				none			No corresponding process in the 172-process catalog
+trm_VeGoH5wNnyl4Q	dynamic visual perception				none			No corresponding process in the 172-process catalog
+trm_55e1b08e5b06c	Dyslexia				none			No corresponding process in the 172-process catalog
+trm_TDGJs2KaQIyc8	east cardinal-direction judgment			1	none			No corresponding process in the 172-process catalog
+trm_525d8b8908809	eating		2		none			No corresponding process in the 172-process catalog
+trm_4b185801de7a1	echoic memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b996	echolocation	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_557b4817db34d	economic value processing		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b9a1	edge detection	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a145	efficiency				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a151	effort			2	related	hed_effort_allocation	Effort allocation	Primary match from hed_process_to_atlas.tsv
+trm_5159c971bf444	effort valuation				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a15c	effortful processing		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a168	egocentric				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a173	elaborative processing				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b8d9	elaborative rehearsal	ctp_C5	1		none			No corresponding process in the 172-process catalog
+trm_4f33e65d0daac	embodied cognition			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a17f	emotion	ctp_C8	2	7	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b65a	emotion perception	ctp_C8	3		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b665	emotion recognition	ctp_C8	2	4	exact	hed_emotion_recognition	Emotion recognition	Primary match from hed_process_to_atlas.tsv
+trm_51a690a7492eb	emotion regulation		10	5	exact	hed_emotion_regulation	Emotion regulation	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b671	emotional bonding	ctp_C9			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a18b	emotional decision making	ctp_C8		1	none			No corresponding process in the 172-process catalog
+trm_5679b0e9d8c20	emotional enhancement			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a196	emotional expression	ctp_C8	2	2	none			No corresponding process in the 172-process catalog
+trm_557b482a7c62b	emotional face recognition	ctp_C1	2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a1a2	emotional intelligence	ctp_C8	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a1ae	emotional memory	ctp_C5	2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a1b9	emotional mimicry	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_557b4844ca14d	emotional reappraisal			3	close	hed_cognitive_reappraisal	Cognitive reappraisal	Primary match from hed_process_to_atlas.tsv
+trm_557b4855a12b4	emotional self-evaluation		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a1d1	emotional suppression	ctp_C8	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b67d	empathy	ctp_C8	4	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b8e5	encoding	ctp_C5	3	11	exact	hed_encoding	Encoding	Primary match from hed_process_to_atlas.tsv
+trm_YYKKwXb10F0XQ	enumeration				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b8f0	episodic buffer	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_5a2852438fa35	episodic future thinking		1	5	none			No corresponding process in the 172-process catalog
+trm_5a28604b01314	episodic intention			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a1e8	episodic learning	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a1f4	episodic memory	ctp_C5	6	6	exact	hed_episodic_memory	Episodic memory	Primary match from hed_process_to_atlas.tsv
+trm_5a2860fa6b59e	episodic planning			1	none			No corresponding process in the 172-process catalog
+trm_5a285482e89c2	episodic prediction			1	none			No corresponding process in the 172-process catalog
+trm_5a285423171d9	episodic simulation		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a20c	error detection	ctp_C4	7	1	exact	hed_error_detection	Error detection	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a218	error signal				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a223	error trapping				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a22f	excitation	ctp_C8	1		none			No corresponding process in the 172-process catalog
+trm_56006cb5a61ac	exogenous attention			2	none			No corresponding process in the 172-process catalog
+trm_4ebfe9a465449	expectancy	ctp_C10		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a25e	expertise	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a269	explicit knowledge			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a275	explicit learning	ctp_C5		6	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a281	explicit memory	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_523ca883711cc	externalizing		2		none			No corresponding process in the 172-process catalog
+trm_4fe8edc62f613	extinction			5	exact	hed_extinction	Extinction	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a28c	extrinsic motivation	ctp_C10			none			No corresponding process in the 172-process catalog
+trm_55c6f87595b39	face maintenance		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a300	face perception	ctp_C1	1	2	exact	hed_face_perception	Face perception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a30c	face recognition	ctp_C5	6	3	close	hed_face_identity_recognition	Face identity recognition	Primary match from hed_process_to_atlas.tsv
+trm_5595bd6c61d78	facial age recognition		1	1	none			No corresponding process in the 172-process catalog
+trm_5595bd89d77c6	facial attractiveness recognition		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a318	facial expression	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_5595bd2b92003	facial happiness recognition		1	2	none			No corresponding process in the 172-process catalog
+trm_5595bde6b2e95	facial recognition			6	none			No corresponding process in the 172-process catalog
+trm_5595bda0c5dc3	facial trustworthiness recognition		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a323	false memory	ctp_C5	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b8fc	familiarity	ctp_C5		1	exact	hed_familiarity	Familiarity	Primary match from hed_process_to_atlas.tsv
+trm_yFJ2nfBcwqdpZ	far spatial distance			1	none			No corresponding process in the 172-process catalog
+trm_nDqGvtJMseYIJ	far temporal distance			1	none			No corresponding process in the 172-process catalog
+trm_52583e52d5e7a	fatigue				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b689	fear	ctp_C8	6	2	none			No corresponding process in the 172-process catalog
+trm_557b4891e9265	feature comparison	ctp_C3	2	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b9ad	feature detection	ctp_C1	1	6	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a32f	feature extraction	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_502954662d63e	feature integration			1	none			No corresponding process in the 172-process catalog
+trm_4fea18ec76bc9	feature search			1	none			No corresponding process in the 172-process catalog
+trm_5524572b66764	feature-based attention			1	exact	hed_feature_based_attention	Feature-based attention	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a33b	feedback processing		1	6	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b9d1	figure ground reversal	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b9dd	figure ground segregation	ctp_C1	2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a352	filtering				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a35e	fixation	ctp_C2		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a36a	fixed action patterns				none			No corresponding process in the 172-process catalog
+trm_mfw76CN2KbdFj	flicker fusion threshold				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a375	fluid intelligence	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a381	focus	ctp_C2			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a38d	focused attention	ctp_C2	1		none			No corresponding process in the 172-process catalog
+trm_BOD29Hs9qySTD	Food cue reactivity		2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b908	forgetting	ctp_C5	4	2	exact	hed_forgetting	Forgetting	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a398	form perception	ctp_C1	2	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b636	framing	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b695	frustration	ctp_C8	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a3a4	functional fixedness	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_XGQFZkDhrRRmm	future time		5	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a3d2	gaze		2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a3ea	generalization	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a3f6	generic knowledge	ctp_C3	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a402	gestalt	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4fb3f4d58aeb0	Gestalt grouping		2	3	none			No corresponding process in the 172-process catalog
+trm_5021873f37abc	global precedence		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a419	goal	ctp_C4			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a425	goal formation	ctp_C4			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a431	goal maintenance	ctp_C4	3	3	exact	hed_goal_maintenance	Goal maintenance	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a43c	goal management	ctp_C4		1	none			No corresponding process in the 172-process catalog
+trm_5519b5f181edd	goal selection			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a448	goal state	ctp_C4			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b756	grammatical encoding	ctp_C6	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b76e	grapheme	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b779	graphemic buffer	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6a1	grief	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_OogXjpJkhH7c3	Grit		1	2	none			No corresponding process in the 172-process catalog
+trm_52583d9f2ad98	guilt		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b9e9	gustation processing	ctp_C1	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a460	gustatory learning	ctp_C5		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a46b	gustatory memory	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a477	gustatory perception	ctp_C1			exact	hed_gustatory_perception	Gustatory perception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a483	habit	ctp_C5		1	exact	hed_habit	Habit	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a48e	habit learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a49a	habit memory	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4a6	hallucination				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b6ad	happiness	ctp_C8	3		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4b2	hedonism				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4be	heuristic search	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_55c298bbe56d5	high energy density food recognition		2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4c9	hill climbing	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4e1	humiliation	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4ed	humor	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_523c7c13bc55f	hyperactivity		6		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a4f9	iconic memory	ctp_C5	3	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b7b5	illocutionary force	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a504	imageability		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a510	imagery				none			No corresponding process in the 172-process catalog
+trm_4f4511e519b53	imagination		4	3	none			No corresponding process in the 172-process catalog
+trm_AGb7jCLHtJ1sj	imagined emotional pain			1	none			No corresponding process in the 172-process catalog
+trm_LWGVPX20JubrD	imagined pain			2	none			No corresponding process in the 172-process catalog
+trm_MIl7ueSc43aen	imagined physical pain			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a51c	implicit knowledge		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a527	implicit learning			1	none			No corresponding process in the 172-process catalog
+trm_565bce2791089	implicit learning			7	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a533	implicit memory	ctp_C5	1	2	exact	hed_implicit_memory	Implicit memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a53f	imprinting				none			No corresponding process in the 172-process catalog
+trm_50070dce14554	impulsivity		17	1	none			No corresponding process in the 172-process catalog
+trm_523c7c886b614	Inappropriate speech		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a54b	inattention	ctp_C2	4	1	none			No corresponding process in the 172-process catalog
+trm_4fe3861edc919	inattentional blindness		1	2	none			No corresponding process in the 172-process catalog
+trm_QehTtEcwPuRtK	incentive salience			1	exact	hed_incentive_salience	Incentive salience	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a556	incidental learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a562	incubation	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a56e	indignation	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a579	induction				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a590	inductive reasoning	ctp_C3	1	2	exact	hed_inductive_reasoning	Inductive reasoning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a5ed	inference	ctp_C3		9	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a613	inhibition	ctp_C4	5	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a61f	inhibition of return	ctp_C4	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a62b	insight	ctp_C3			exact	hed_insight	Insight	Primary match from hed_process_to_atlas.tsv
+trm_ZwNxfQhvF1jVU	insomnia				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a637	instinct		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a642	instrumental conditioning	ctp_C5	1	2	exact	hed_instrumental_conditioning	Instrumental conditioning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a64e	instrumental learning	ctp_C5	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a65a	integration				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a666	intelligence	ctp_C3	6		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a67d	intention		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a689	intentional forgetting	ctp_C5		1	close	hed_directed_forgetting	Directed forgetting	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a695	intentional learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6a1	intentionality				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6ad	interference		1	1	none			No corresponding process in the 172-process catalog
+trm_551f11bb8f6a8	interference control		5	1	exact	hed_interference_control	Interference control	Primary match from hed_process_to_atlas.tsv
+trm_4c3e04d656f06	interference resolution	ctp_C4	1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6b9	intermediate-term memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6c5	internal speech	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_523ca7e778c50	internalizing		2		none			No corresponding process in the 172-process catalog
+trm_4fe39e4388409	interoception		2	3	none			No corresponding process in the 172-process catalog
+trm_WoLBai9ycl8yE	Interoceptive awareness		1		exact	hed_interoceptive_awareness	Interoceptive awareness	Primary match from hed_process_to_atlas.tsv
+trm_4e5506161998c	interoceptive representation			2	none			No corresponding process in the 172-process catalog
+trm_30rzOgVoBsNqo	Interpersonal Conflict		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6d0	interrogative	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_558c73324a6ca	intertemporal choice		4	2	exact	hed_intertemporal_choice	Intertemporal choice	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a6dc	intonation	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6e8	intrinsic motivation	ctp_C10	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a6f4	introspection				none			No corresponding process in the 172-process catalog
+trm_xJ2ikQmvjMzmI	invariance				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a700	involuntary attention	ctp_C2	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a70b	irony				none			No corresponding process in the 172-process catalog
+trm_523c7afe39f78	irritability		2		none			No corresponding process in the 172-process catalog
+trm_4b75ed06c917d	joint attention	ctp_C2	5	1	exact	hed_joint_attention	Joint attention	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a723	judgment	ctp_C3	1	3	related	hed_probability_judgment	Probability judgment	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a72e	kinaesthetic representation		2	2	none			No corresponding process in the 172-process catalog
+trm_5521a6bc4db33	kindness priming			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a73a	kinesthesia	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a746	knowledge	ctp_C5		9	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a769	language	ctp_C6	20	15	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b7f4	language acquisition	ctp_C6	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a775	language comprehension	ctp_C6	13	6	exact	hed_language_comprehension	Language comprehension	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a781	language learning	ctp_C6	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b802	language processing	ctp_C6	6	5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a78d	language production	ctp_C6	6	2	exact	hed_language_production	Language production	Primary match from hed_process_to_atlas.tsv
+trm_502bdc6bdaa2b	lateral masking		1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a7bb	learning	ctp_C5	2	6	related	hed_value_learning	Value learning	Primary match from hed_process_to_atlas.tsv
+trm_55b6b92c1fd76	left finger response execution		1	1	none			No corresponding process in the 172-process catalog
+trm_558c7b707f606	left hand response execution		1	1	none			No corresponding process in the 172-process catalog
+trm_55b6b96e77df6	left toe response execution		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a7c7	lemma	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_523c7ba79c2f1	lethargy		2		none			No corresponding process in the 172-process catalog
+trm_502c343d20523	lexeme			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b80f	lexical access	ctp_C6	8		exact	hed_lexical_access	Lexical access	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b81b	lexical ambiguity	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a7d4	lexical encoding	ctp_C6	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b826	lexical processing	ctp_C6	2	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a7e0	lexical retrieval	ctp_C6	2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a7ec	lexicon	ctp_C6		3	none			No corresponding process in the 172-process catalog
+trm_50f3c0af04e37	life satisfaction		1		none			No corresponding process in the 172-process catalog
+trm_551f0f822d95e	Limited Capacity		11	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a7f8	linguistic competence	ctp_C6	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a803	listening		1	1	none			No corresponding process in the 172-process catalog
+trm_5521a0512df9a	localization	ctp_C1		4	none			No corresponding process in the 172-process catalog
+trm_50eb692db57eb	locomotion		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a80f	logic	ctp_C3	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a81b	logical reasoning	ctp_C3	7	1	none			No corresponding process in the 172-process catalog
+trm_529d0d62290de	loneliness		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a833	long-term memory	ctp_C5	2	5	none			No corresponding process in the 172-process catalog
+trm_5159c80c1dd24	loss		1	2	none			No corresponding process in the 172-process catalog
+trm_557b48a224b95	loss anticipation		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a83f	loss aversion	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a84a	lying	ctp_C9			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba30	maintenance	ctp_C4	5	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba3c	manipulation	ctp_C4	1		exact	hed_manipulation	Manipulation	Primary match from hed_process_to_atlas.tsv
+trm_s3yxeUMCHAo7j	Marital Conflict		1		none			No corresponding process in the 172-process catalog
+trm_LoNlAQafora4r	Mastery Orientation		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a862	mathematical reasoning	ctp_C3	3	1	exact	hed_mathematical_reasoning	Mathematical reasoning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a86e	meaning	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a87a	mechanical reasoning	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a886	melody	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a891	memory	ctp_C5	4	23	related	hed_motor_memory	Motor memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b914	memory acquisition	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b920	memory consolidation			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b92c	memory decay		2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba01	memory retrieval	ctp_C5	4	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b938	memory storage	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b943	memory trace			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a8ed	mental arithmetic	ctp_C3	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a8fc	mental imagery	ctp_C1	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a908	mental representation		1	7	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a914	mental rotation	ctp_C1	3		exact	hed_mental_rotation	Mental rotation	Primary match from hed_process_to_atlas.tsv
+trm_GefBol2cgYv34	mentalization				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a920	metacognition			1	related	hed_metacognitive_monitoring	Metacognitive monitoring	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a92b	metacognitive skill	ctp_C5		3	none			No corresponding process in the 172-process catalog
+trm_4d7fc763cf777	metacomprehension				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b94f	metamemory	ctp_C4		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a937	metaphor	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_P4qxFaMb6wiZ1	meter			1	none			No corresponding process in the 172-process catalog
+trm_wzUYYp7Av6Unt	Mindfulness		2		none			No corresponding process in the 172-process catalog
+trm_o8gXkYlb58RBV	Mindset			7	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a943	misattribution				none			No corresponding process in the 172-process catalog
+trm_aCwrPX04WLjIH	Monetary loss			2	none			No corresponding process in the 172-process catalog
+trm_559f0a5b4cd36	monetary reward prediction error	ctp_C3	1	2	close	hed_reward_prediction_error	Reward prediction error	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a94f	monitoring	ctp_C4	1	1	related	hed_conflict_monitoring	Conflict monitoring	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a95a	mood	ctp_C8	6		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b832	morphological processing	ctp_C6	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b83e	morphology	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4fea25630ffb5	motion aftereffect			1	none			No corresponding process in the 172-process catalog
+trm_557b48aeb7d58	motion detection	ctp_C1	1	1	none			No corresponding process in the 172-process catalog
+trm_GfkAJLeHghfmp	motivational salience			3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a972	motor control	ctp_C7	26	3	related	hed_vocal_motor_control	Vocal-motor control	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a995	motor learning	ctp_C5	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a9a1	motor planning	ctp_C7	6	1	exact	hed_motor_planning	Motor planning	Primary match from hed_process_to_atlas.tsv
+trm_56a2a4dbdf127	Motor Praxis				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a9ad	motor program	ctp_C7			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a9b9	motor sequence learning	ctp_C5	1	1	exact	hed_motor_sequence_learning	Motor sequence learning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a9c4	movement	ctp_C7			none			No corresponding process in the 172-process catalog
+trm_4e31d3ba7d25b	multisensory	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4e31ced566649	multisensory integration	ctp_C1	1		none			No corresponding process in the 172-process catalog
+trm_502abeab4e1d8	multistable perception		1	4	none			No corresponding process in the 172-process catalog
+trm_jK0qVisychW39	music cognition			3	none			No corresponding process in the 172-process catalog
+trm_yeQ7crXFocNza	music perception			7	none			No corresponding process in the 172-process catalog
+trm_utk2EAwtfI6x7	music semantics			2	none			No corresponding process in the 172-process catalog
+trm_hsrxov4azQ6nM	music syntax			3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0a9dc	naming	ctp_C6	3	1	exact	hed_naming	Naming	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0a9e8	narrative	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_55c6f58e77fbe	narrative comprehension		1	2	none			No corresponding process in the 172-process catalog
+trm_zECbJhkrvMYDQ	Naturalistic Biological Motion				none			No corresponding process in the 172-process catalog
+trm_EibcrcPYJ86gd	Naturalistic Scenes				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa00	navigation	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_BscVyjZu0vFu1	near spatial distance			2	none			No corresponding process in the 172-process catalog
+trm_w3kwvBmlVXDsm	near temporal distance			1	none			No corresponding process in the 172-process catalog
+trm_557b48d40d3cf	negative emotion	ctp_C8	2	3	none			No corresponding process in the 172-process catalog
+trm_557b48e337218	negative feedback processing		3	2	none			No corresponding process in the 172-process catalog
+trm_5521a7a1376ed	negative priming			1	none			No corresponding process in the 172-process catalog
+trm_4d7fa2df05f23	neologism	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_51a690eeadcb7	neuroplasticity				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa0c	nociception	ctp_C1		3	none			No corresponding process in the 172-process catalog
+trm_4ffdc96dc85b7	noesis			1	none			No corresponding process in the 172-process catalog
+trm_525d8f3ed78a2	noise sensitivity		2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa23	nondeclarative knowledge				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa2f	nondeclarative memory	ctp_C5		2	none			No corresponding process in the 172-process catalog
+trm_K5YMl5L5H2Xjj	north cardinal-direction judgment			1	none			No corresponding process in the 172-process catalog
+trm_0MvImupIHCn1e	north-south orientation				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa47	novelty detection		1	1	none			No corresponding process in the 172-process catalog
+trm_LDtOOxfCrEImf	numerical cognition			2	none			No corresponding process in the 172-process catalog
+trm_5678a999f1c19	numerical comparison	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_557b48f22ba99	numerical scale judgment	ctp_C3	2		none			No corresponding process in the 172-process catalog
+trm_Vn5ZVrIz7GedN	numerosity			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa5e	object categorization				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa6a	object centered representation			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa76	object detection	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_557b4904ee26d	object maintenance	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aa8d	object manipulation	ctp_C7	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aaa4	object perception	ctp_C1	2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aab0	object recognition	ctp_C1	2	5	none			No corresponding process in the 172-process catalog
+trm_552185f5cda66	object-based attention	ctp_C2		1	exact	hed_object_based_attention	Object-based attention	Primary match from hed_process_to_atlas.tsv
+trm_523e0419ec219	obsession		5	1	none			No corresponding process in the 172-process catalog
+trm_557b491318742	oddball detection		4	4	none			No corresponding process in the 172-process catalog
+trm_5159c8a5d3d13	offensive aggression		4		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aabc	olfaction	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aac8	olfactory perception	ctp_C1	5	2	exact	hed_olfactory_perception	Olfactory perception	Primary match from hed_process_to_atlas.tsv
+trm_523f5f918cb2c	openness		1		none			No corresponding process in the 172-process catalog
+trm_4fb2c38960950	optical illusion			5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aad4	orthographic lexicon	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b84a	orthography	ctp_C6	1	1	none			No corresponding process in the 172-process catalog
+trm_BkEqTepYc5hbf	other-reference effect			1	none			No corresponding process in the 172-process catalog
+trm_4feb3f8c551cb	overt attention		2	1	none			No corresponding process in the 172-process catalog
+trm_558c74b165bb1	overt naming			1	none			No corresponding process in the 172-process catalog
+trm_4b65259eeee34	pain	ctp_C8	9	6	none			No corresponding process in the 172-process catalog
+trm_4e6127bd91be9	pain habituation	ctp_C8	2	1	none			No corresponding process in the 172-process catalog
+trm_4e61264db33d4	pain sensitization 	ctp_C8	2	1	none			No corresponding process in the 172-process catalog
+trm_52405e33adafa	paranoia		1		none			No corresponding process in the 172-process catalog
+trm_4d7fa1a3e2a10	paraphasia	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab42	parsing	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab4d	passive attention	ctp_C2		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab59	past tense	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_wTaB3Sl1dWvOW	past time		1	1	none			No corresponding process in the 172-process catalog
+trm_557b49206928b	pattern maintenance	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab65	pattern recognition	ctp_C1	4	2	exact	hed_pattern_recognition	Pattern recognition	Primary match from hed_process_to_atlas.tsv
+trm_MaWfLaH0xKHTK	Pavlovian bias		1	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab70	pavlovian conditioning	ctp_C5	1	3	exact	hed_pavlovian_conditioning	Pavlovian conditioning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ab7c	perception	ctp_C1		21	related	hed_social_perception	Social perception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ab88	perceptual binding	ctp_C1	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab93	perceptual categorization	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ab9f	perceptual fluency	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0abaa	perceptual identification	ctp_C1	2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0abb6	perceptual learning	ctp_C5	1	4	none			No corresponding process in the 172-process catalog
+trm_5519ba1746e95	perceptual priming			3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0abc1	perceptual similarity	ctp_C1	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0abcd	perceptual skill	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_525c58f9aabae	perfectionism		2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ac30	performance monitoring	ctp_C4	2	6	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ac4a	phonation	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4d7fa1ee2f870	phonemic paraphasia	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b862	phonetics	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_558c74156b7ee	phonological assembly		1	1	none			No corresponding process in the 172-process catalog
+trm_5240fddc2e43e	phonological awareness		2		exact	hed_phonological_awareness	Phonological awareness	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ac61	phonological buffer	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ac7a	phonological code				none			No corresponding process in the 172-process catalog
+trm_558c73b3663a6	phonological comparison		1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ac87	phonological encoding	ctp_C6	6	2	exact	hed_phonological_encoding	Phonological encoding	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ba48	phonological loop	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_52b5f1ef4f9cc	phonological processing			5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ac93	phonological retrieval	ctp_C6	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ac9e	phonological working memory	ctp_C4	8	3	close	hed_verbal_working_memory	Verbal working memory	Primary match from hed_process_to_atlas.tsv
+trm_5029751d118c4	phototransduction			1	none			No corresponding process in the 172-process catalog
+trm_t3L0j7X6p66JK	Physical Activity		1		none			No corresponding process in the 172-process catalog
+trm_p77NrG4CTxmPS	pitch discrimination			1	none			No corresponding process in the 172-process catalog
+trm_H19qgUFFeZaLg	pitch perception			2	exact	hed_pitch_perception	Pitch perception	Primary match from hed_process_to_atlas.tsv
+trm_557b493133416	place maintenance	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0acc1	planning	ctp_C4	4	2	exact	hed_planning	Planning	Primary match from hed_process_to_atlas.tsv
+trm_557b493e4203a	positive feedback processing		3	2	none			No corresponding process in the 172-process catalog
+trm_5521a3da10349	positive priming			3	none			No corresponding process in the 172-process catalog
+trm_557b494ca540d	potential monetary loss		1	3	none			No corresponding process in the 172-process catalog
+trm_557b495cdde57	potential monetary reward		1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad12	pragmatic inference	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad1d	pragmatic knowledge		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad29	pragmatic reasoning	ctp_C3		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad41	preattentive processing	ctp_C2	2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad4c	preconscious perception	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad64	prejudice		1		none			No corresponding process in the 172-process catalog
+trm_dgZTWfjGK3RYq	present time		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ad94	primary memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4e89aebaa311d	priming	ctp_C5		11	related	hed_affective_priming	Affective priming	Primary match from hed_process_to_atlas.tsv
+trm_SbuNB0U1enr59	principle of cohesion				none			No corresponding process in the 172-process catalog
+trm_557b49851e991	proactive control	ctp_C4	6	4	exact	hed_proactive_control	Proactive control	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0adab	proactive interference	ctp_C5	3		exact	hed_proactive_interference	Proactive interference	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0adb7	problem solving	ctp_C3	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0adc3	procedural knowledge	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0adcf	procedural learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0addc	procedural memory		4	1	exact	hed_procedural_memory	Procedural memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ade8	procedural rule				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0adf4	processing capacity		6	1	none			No corresponding process in the 172-process catalog
+trm_58575b0d3c548	processing speed		3	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae00	processing stage				none			No corresponding process in the 172-process catalog
+trm_5154b23a3156a	Production of non-facial communication				none			No corresponding process in the 172-process catalog
+trm_5154aa9735134	productive facial communication				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae17	pronunciation	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae2b	proper noun	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae3d	proprioception	ctp_C1	2	2	exact	hed_proprioception	Proprioception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ae58	prosodic stress	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae64	prosody	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_5a285375c6a43	prospection			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae70	prospective memory	ctp_C5		1	exact	hed_prospective_memory	Prospective memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ae7b	prospective planning		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ae87	prototype	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4ffca95528c88	psychological refractory period		2		none			No corresponding process in the 172-process catalog
+trm_52405de6b7a63	psychosis		1		none			No corresponding process in the 172-process catalog
+trm_5534111a8bc96	punishment processing		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aeaa	quantitative skill		2	1	none			No corresponding process in the 172-process catalog
+trm_0wLVVlkHaAov9	Reactive Control		1	1	exact	hed_reactive_control	Reactive control	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0aeb6	reading	ctp_C6	8	5	exact	hed_reading	Reading	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0aec1	reasoning	ctp_C3	5	11	related	hed_causal_reasoning	Causal reasoning	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b95b	recall	ctp_C5	4	4	exact	hed_recall	Recall	Primary match from hed_process_to_atlas.tsv
+trm_5154a9f45903f	reception of facial communication	ctp_C9			none			No corresponding process in the 172-process catalog
+trm_5154b049c279f	Reception of non-facial communication				none			No corresponding process in the 172-process catalog
+trm_seBaaqL9E7Q1v	reciprocity				exact	hed_reciprocity	Reciprocity	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b967	recognition	ctp_C5	3	13	exact	hed_recognition	Recognition	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b972	reconsolidation	ctp_C5		2	exact	hed_reconsolidation	Reconsolidation	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0aecd	regret	ctp_C8			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba54	rehearsal	ctp_C5		2	exact	hed_rehearsal	Rehearsal	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0ba60	rehearsal loop	ctp_C5		6	none			No corresponding process in the 172-process catalog
+trm_557b4993a0fdd	reinforcement learning	ctp_C5	7	4	exact	hed_reinforcement_learning	Reinforcement learning	Primary match from hed_process_to_atlas.tsv
+trm_502403240a2a2	reinstatement		1		none			No corresponding process in the 172-process catalog
+trm_555cfb890d721	relational comparison		1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aed8	relational learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aee4	remote memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_5521a45a397a6	repetition priming			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aeef	repressed memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_557b499fac085	resistance to distractor inference	ctp_C4	3	1	none			No corresponding process in the 172-process catalog
+trm_4f3a72a028d90	resource			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0af4c	resource limit	ctp_C4			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0af5a	resource sharing	ctp_C9			none			No corresponding process in the 172-process catalog
+trm_OMciWXS7bNM11	response alternatives				none			No corresponding process in the 172-process catalog
+trm_559f0a129c136	response bias		1	2	none			No corresponding process in the 172-process catalog
+trm_557b49ad14adf	response conflict	ctp_C4	3	2	exact	hed_response_conflict	Response conflict	Primary match from hed_process_to_atlas.tsv
+trm_557b4a7315f1b	response execution	ctp_C7	24	10	exact	hed_response_execution	Response execution	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0af66	response inhibition	ctp_C4	19	3	exact	hed_response_inhibition	Response inhibition	Primary match from hed_process_to_atlas.tsv
+trm_5521a663cd89c	response priming			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0af71	response selection	ctp_C7	28	3	exact	hed_response_selection	Response selection	Primary match from hed_process_to_atlas.tsv
+trm_52068e5bd9aa1	restricted behavior		10		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0af7d	retention	ctp_C5	1	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0af94	retrieval	ctp_C5		4	exact	hed_retrieval	Retrieval	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0afa0	retrieval cue	ctp_C5	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0afab	retroactive interference	ctp_C5	1	1	exact	hed_retroactive_interference	Retroactive interference	Primary match from hed_process_to_atlas.tsv
+trm_557b4a81a4a17	reward anticipation		1	3	exact	hed_reward_anticipation	Reward anticipation	Primary match from hed_process_to_atlas.tsv
+trm_5159cb12a0f92	reward learning		1	7	none			No corresponding process in the 172-process catalog
+trm_4b6525253c63f	reward processing	ctp_C5	2	5	related	hed_reward_consumption	Reward consumption	Primary match from hed_process_to_atlas.tsv
+trm_5159c94667677	reward valuation		1	2	close	hed_valuation	Valuation	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0afc3	rhythm	ctp_C1	2	1	none			No corresponding process in the 172-process catalog
+trm_55b6b910b4b23	right finger response execution		2	1	none			No corresponding process in the 172-process catalog
+trm_558c7b337080f	right hand response execution		1	1	none			No corresponding process in the 172-process catalog
+trm_55b6b952c1b4c	right toe response execution		1	1	none			No corresponding process in the 172-process catalog
+trm_523e0a4b443dc	rigidity		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0afcf	risk	ctp_C3	3	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b642	risk aversion		4		none			No corresponding process in the 172-process catalog
+trm_55ce71c47f37b	risk aversion			1	none			No corresponding process in the 172-process catalog
+trm_Ba49klQ9ApNSg	Risk Perception		1		none			No corresponding process in the 172-process catalog
+trm_557b4a913f8cc	risk processing	ctp_C3	3	2	exact	hed_risk_processing	Risk processing	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b64e	risk seeking	ctp_C3	10	1	none			No corresponding process in the 172-process catalog
+trm_4l7BDO8GJ3LdM	Risk Taking		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0afda	route knowledge			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0afe6	routine				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0aff2	rule				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0affd	rule learning	ctp_C5		3	none			No corresponding process in the 172-process catalog
+trm_aFgzEYVgvyimF	saccadic eye movement			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b014	sadness	ctp_C8	8	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b020	salience			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b02c	schema	ctp_C3		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b037	search	ctp_C2		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b043	selective attention	ctp_C2	6	4	exact	hed_selective_attention	Selective attention	Primary match from hed_process_to_atlas.tsv
+trm_557b4aa070c10	selective control	ctp_C4	3	3	none			No corresponding process in the 172-process catalog
+trm_4ee8facd77dfc	self control	ctp_C4	6	3	none			No corresponding process in the 172-process catalog
+trm_jpDjcHLNr8Hko	Self evaluation				none			No corresponding process in the 172-process catalog
+trm_5154b39a3193d	self knowledge				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b05e	self monitoring	ctp_C4	4	1	exact	hed_self_monitoring	Self-monitoring	Primary match from hed_process_to_atlas.tsv
+trm_4f4672db34a46	self talk				none			No corresponding process in the 172-process catalog
+trm_Z1PwwmQJy6oB7	Self-Efficacy		3		none			No corresponding process in the 172-process catalog
+trm_vK5imljyKMUAL	self-reference effect			1	close	hed_self_referential_processing	Self-referential processing	Primary match from hed_process_to_atlas.tsv
+trm_557b4ab076338	semantic categorization		2	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b06b	semantic category	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4d2201d530697	semantic information				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b077	semantic knowledge	ctp_C6	11	2	exact	hed_semantic_knowledge	Semantic knowledge	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b083	semantic memory	ctp_C6	6	3	exact	hed_semantic_memory	Semantic memory	Primary match from hed_process_to_atlas.tsv
+trm_51838baad343e	semantic network	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_5521a51034353	semantic priming			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b87a	semantic processing	ctp_C6	6	3	exact	hed_semantic_processing	Semantic processing	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b08f	semantic working memory	ctp_C4	3	1	none			No corresponding process in the 172-process catalog
+trm_4e5faabfe8ce3	sense of body ownership		1	1	close	hed_body_ownership	Body ownership	Primary match from hed_process_to_atlas.tsv
+trm_4e5badf095692	sense of ownership		1	2	none			No corresponding process in the 172-process catalog
+trm_525d8e198e0da	sensitivity to change		1		none			No corresponding process in the 172-process catalog
+trm_525d8cd1c9cc3	sensory defensiveness		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b09a	sensory memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b892	sentence comprehension	ctp_C6	4	4	exact	hed_sentence_comprehension	Sentence comprehension	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b89e	sentence processing	ctp_C6	1	5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b8aa	sentence production	ctp_C6			none			No corresponding process in the 172-process catalog
+trm_568427366401c	sentence recognition 			3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b0a6	sequence learning	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b0b1	serial learning	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b0bd	serial processing		2		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b0c8	serial search	ctp_C2	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b607	set shifting	ctp_C4	8	3	exact	hed_set_shifting	Set shifting	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b0df	shallow processing				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b0eb	shame	ctp_C8		1	none			No corresponding process in the 172-process catalog
+trm_553967f006b70	shape recognition			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b0f7	short-term memory	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b10e	skepticism				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b11a	skill	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b125	skill acquisition	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_5159c70d0e98e	sleep		3		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b13d	social cognition	ctp_C9	5	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b148	social context	ctp_C9	1		none			No corresponding process in the 172-process catalog
+trm_5595be14a57c5	social inference	ctp_C3		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b154	social intelligence	ctp_C9	9		none			No corresponding process in the 172-process catalog
+trm_52090251db8c8	social motivation		9		none			No corresponding process in the 172-process catalog
+trm_58c80b824c51b	social norm processing		1	1	none			No corresponding process in the 172-process catalog
+trm_523e053844495	social phobia		2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b160	somatosensation	ctp_C1	6	8	close	hed_somatosensory_perception	Somatosensory perception	Primary match from hed_process_to_atlas.tsv
+trm_586fd9dcd78e5	sound perception			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b18f	source memory	ctp_C5	1	1	exact	hed_source_memory	Source memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b19b	source monitoring	ctp_C5			none			No corresponding process in the 172-process catalog
+trm_QNIy3cChBO4cA	south cardinal-direction judgment			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b1a6	spatial ability	ctp_C1	13		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b1b2	spatial attention	ctp_C2	2	3	exact	hed_spatial_attention	Spatial attention	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b1bd	spatial cognition		1		none			No corresponding process in the 172-process catalog
+trm_6NJi93UzFFKBj	spatial distance			2	none			No corresponding process in the 172-process catalog
+trm_5519bb7767d98	spatial localization			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b1d5	spatial memory	ctp_C5	5	2	exact	hed_spatial_memory	Spatial memory	Primary match from hed_process_to_atlas.tsv
+trm_557b4abe521af	spatial selective attention	ctp_C2	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b1e0	spatial working memory	ctp_C2	5	2	exact	hed_spatial_working_memory	Spatial working memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b1f7	speech perception	ctp_C6	1	5	exact	hed_speech_perception	Speech perception	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b238	speech processing	ctp_C6	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b247	speech production	ctp_C6	6	4	exact	hed_speech_production	Speech production	Primary match from hed_process_to_atlas.tsv
+trm_5024002a85b1f	spontaneous recovery	ctp_C5	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b26d	spreading activation		1	2	none			No corresponding process in the 172-process catalog
+trm_94lyXFzQH9ruD	state consciousness				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b279	stereopsis	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b285	stereotypes	ctp_C9			none			No corresponding process in the 172-process catalog
+trm_5519b80525e89	stimulus detection	ctp_C1		3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b29c	strategy		1		related	hed_strategy_use	Strategy use	Primary match from hed_process_to_atlas.tsv
+trm_50eb5469ba37a	strength		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b2a8	stress	ctp_C8	6		none			No corresponding process in the 172-process catalog
+trm_557b4acdee820	string maintenance	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4d21e9a7dd8ca	subconscious			2	none			No corresponding process in the 172-process catalog
+trm_559f09a5cdca9	subjective food value	ctp_C3	3	2	none			No corresponding process in the 172-process catalog
+trm_558c736199abd	subjective value judgment	ctp_C3	1	6	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b2b4	sublexical route	ctp_C6	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b2bf	subliminal perception	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_52583e8a46ded	suicidal ideation		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b2fa	supervisory attentional system	ctp_C4			none			No corresponding process in the 172-process catalog
+trm_55e1b27f5655e	Surface dyslexia				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b306	surprise	ctp_C8		1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b311	sustained attention	ctp_C2	7	1	exact	hed_sustained_attention	Sustained attention	Primary match from hed_process_to_atlas.tsv
+trm_4e31e6dca01ca	synchrony perception	ctp_C1	2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b340	syntactic parsing	ctp_C6	4		exact	hed_syntactic_parsing	Syntactic parsing	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b34b	syntactic processing	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b357	syntax	ctp_C6	1	1	none			No corresponding process in the 172-process catalog
+trm_4e416f1373936	tactile working memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_557b4add1837e	task difficulty	ctp_C10	1	1	none			No corresponding process in the 172-process catalog
+trm_4c3e0646a2408	task set	ctp_C4	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b613	task switching	ctp_C4	4	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b363	taste aversion	ctp_C8	1		none			No corresponding process in the 172-process catalog
+trm_MEjaEPF9qQveE	temporal categorization			1	none			No corresponding process in the 172-process catalog
+trm_NLuhZFq5jY7Cq	temporal cognition			5	none			No corresponding process in the 172-process catalog
+trm_t4oxJAwl1xRzQ	temporal depth				none			No corresponding process in the 172-process catalog
+trm_AU0Hu0wyHtKn4	temporal discrimination			1	none			No corresponding process in the 172-process catalog
+trm_CN3u8GJWlTEUO	temporal distance			3	none			No corresponding process in the 172-process catalog
+trm_4a7b128b8b2d0	test term				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b37a	text comprehension	ctp_C6	1	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b386	text processing	ctp_C6		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b392	theory of mind	ctp_C9	6	4	close	hed_perspective_taking	Perspective taking	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b39d	thermosensation	ctp_C1	1	1	none			No corresponding process in the 172-process catalog
+trm_X4cTmFq0qpgRI	Thirst				none			No corresponding process in the 172-process catalog
+trm_4fa295124a375	thought				none			No corresponding process in the 172-process catalog
+trm_xMOwdL0Y58qYJ	time orientation		3	4	none			No corresponding process in the 172-process catalog
+trm_KcaEi0Mc9grrz	time perception			1	none			No corresponding process in the 172-process catalog
+trm_vqA8b1BrA6U4V	timing			1	related	hed_motor_timing	Motor timing	Primary match from hed_process_to_atlas.tsv
+trm_55b6b8b8e7870	tone recognition			2	none			No corresponding process in the 172-process catalog
+trm_55b6b98b88f45	tongue response execution		1	1	none			No corresponding process in the 172-process catalog
+trm_557b4aeaeb744	tool maintenance	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b3cb	top down processing	ctp_C4			none			No corresponding process in the 172-process catalog
+trm_50aff037c389f	trait anxiety				none			No corresponding process in the 172-process catalog
+trm_50297454e516b	transduction			1	none			No corresponding process in the 172-process catalog
+trm_KhnMZaVYVHe43	Transfer Data				none			No corresponding process in the 172-process catalog
+trm_PbbDObBMoXj9X	transition			2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b3ef	traumatic memory	ctp_C5		1	none			No corresponding process in the 172-process catalog
+trm_N7MLgAsJBIbiQ	trust				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b3fa	uncertainty	ctp_C3		2	none			No corresponding process in the 172-process catalog
+trm_4feb44e5ae25b	unconscious perception		1	4	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b406	unconscious process	ctp_C2		2	none			No corresponding process in the 172-process catalog
+trm_5159c0a633cda	understanding mental states				none			No corresponding process in the 172-process catalog
+trm_4e31d365bc7e2	unisensory	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_4c3e05903e4bb	updating	ctp_C4	9	3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b412	utility	ctp_C3			none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b429	valence	ctp_C8	1		none			No corresponding process in the 172-process catalog
+trm_500d8aef38f2c	vection			1	none			No corresponding process in the 172-process catalog
+trm_2gvDOFhX4ILY3	Venturesomeness		1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b44c	verbal fluency	ctp_C6	9		exact	hed_verbal_fluency	Verbal fluency	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b457	verbal memory	ctp_C5	8	1	exact	hed_verbal_memory	Verbal memory	Primary match from hed_process_to_atlas.tsv
+trm_50f382d7abdff	vestibular control		2		none			No corresponding process in the 172-process catalog
+trm_500d8bcf5f29a	visual acuity		2	1	none			No corresponding process in the 172-process catalog
+trm_500d8c8fcc520	visual angle			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b46f	visual attention	ctp_C2	5	2	none			No corresponding process in the 172-process catalog
+trm_4ff36d79c26c6	visual awareness		3	2	none			No corresponding process in the 172-process catalog
+trm_557b4af7cc1cb	visual body recognition		2	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b47b	visual buffer	ctp_C1			none			No corresponding process in the 172-process catalog
+trm_557b4b05ae470	visual color discrimination	ctp_C1	2	2	none			No corresponding process in the 172-process catalog
+trm_557b4b154e0d9	visual face recognition		1	3	none			No corresponding process in the 172-process catalog
+trm_557b4b27dfd5e	visual form discrimination	ctp_C1	1	3	none			No corresponding process in the 172-process catalog
+trm_557b4b3a6a34d	visual form recognition	ctp_C1	11	7	exact	hed_visual_form_recognition	Visual form recognition	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b487	visual imagery		2	1	none			No corresponding process in the 172-process catalog
+trm_558c7439832d9	visual letter recognition		1	5	none			No corresponding process in the 172-process catalog
+trm_5519b92bde7dc	visual localization	ctp_C1		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b492	visual masking	ctp_C1	2	2	close	hed_masking	Masking	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b49e	visual memory	ctp_C5	3	3	none			No corresponding process in the 172-process catalog
+trm_557b4b47d994a	visual number recognition		4	2	none			No corresponding process in the 172-process catalog
+trm_557b4b56de455	visual object detection		1	3	none			No corresponding process in the 172-process catalog
+trm_559f0986182cc	visual object maintenance		1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b4a9	visual object recognition	ctp_C1	5	6	exact	hed_visual_object_recognition	Visual object recognition	Primary match from hed_process_to_atlas.tsv
+trm_502ad54c11389	visual orientation		1	2	none			No corresponding process in the 172-process catalog
+trm_557b4b652cbec	visual pattern recognition		3	2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b4b5	visual perception	ctp_C1	40	24	exact	hed_visual_perception	Visual perception	Primary match from hed_process_to_atlas.tsv
+trm_557b4b7e68727	visual place recognition	ctp_C5	2	1	none			No corresponding process in the 172-process catalog
+trm_558c73f3c8c6f	visual pseudoword recognition	ctp_C6	2	2	none			No corresponding process in the 172-process catalog
+trm_557b4b7176394	visual recognition			9	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b4c1	visual representation	ctp_C1		1	none			No corresponding process in the 172-process catalog
+trm_wrOXIUJWEWEYf	visual scene perception			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b4cd	visual search	ctp_C2	8	6	none			No corresponding process in the 172-process catalog
+trm_ioHkrTU7owGjb	visual sentence comprehension			1	none			No corresponding process in the 172-process catalog
+trm_558c7b5228ed4	visual sentence recognition		1	3	none			No corresponding process in the 172-process catalog
+trm_5fjcydtc5dQY5	visual shape recognition			1	none			No corresponding process in the 172-process catalog
+trm_55ef1fd2bc418	visual string recognition	ctp_C6	1	2	none			No corresponding process in the 172-process catalog
+trm_557b4b8cd05ca	visual tool recognition		1	1	none			No corresponding process in the 172-process catalog
+trm_557b4b9ccdc4a	visual word recognition	ctp_C6	11	5	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b4d8	visual working memory	ctp_C2	6	4	exact	hed_visual_working_memory	Visual working memory	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b507	visuospatial sketch pad	ctp_C4	3	2	none			No corresponding process in the 172-process catalog
+trm_55ef3ba010121	vocal response execution		2	2	none			No corresponding process in the 172-process catalog
+trm_586fda1743344	voice perception			1	none			No corresponding process in the 172-process catalog
+trm_OCCYobMYT2eky	west cardinal-direction judgment			1	none			No corresponding process in the 172-process catalog
+trm_izMVPVDOsJEkM	west-east orientation			1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b530	wisdom				none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b548	word comprehension	ctp_C6		3	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b55f	word generation	ctp_C6		1	none			No corresponding process in the 172-process catalog
+trm_557b4bb7cf05b	word maintenance	ctp_C5	1	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b56b	word order	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b583	word pronunciation	ctp_C6		2	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b58f	word recognition	ctp_C6	5	5	exact	hed_word_recognition	Word recognition	Primary match from hed_process_to_atlas.tsv
+trm_4a3fd79d0b59b	word repetition	ctp_C6	1		none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0b5a7	working memory	ctp_C4	27	24	exact	hed_working_memory	Working memory	Primary match from hed_process_to_atlas.tsv
+trm_55b6b9d7c9435	working memory maintenance	ctp_C4	1	10	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba6c	working memory retrieval	ctp_C4	7	1	none			No corresponding process in the 172-process catalog
+trm_4a3fd79d0ba77	working memory storage	ctp_C4		1	none			No corresponding process in the 172-process catalog
+trm_55b6b9a666604	working memory updating	ctp_C5	1	2	exact	hed_working_memory_updating	Working memory updating	Primary match from hed_process_to_atlas.tsv
+trm_4f46753b8be4f	worldview				none			No corresponding process in the 172-process catalog

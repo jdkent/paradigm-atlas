@@ -1,0 +1,178 @@
+<title>Paradigm Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap">
+<style>
+/* Layout: summary band, then a two-pane browser (task index | task dossier); stacks to one column on phones. */
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #18202c; --muted: #5b6575; --line: #dde2ea;
+  --accent: #2f5bd3; --accent-soft: #e6ecfb; --hit: #1f7a4d; --hit-soft: #e3f3ea; --bar: #9fb3e8;
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #11151c; --panel: #171c25; --ink: #e5e9f0; --muted: #98a2b3; --line: #2a3140;
+  --accent: #8aa8ff; --accent-soft: #1f2a45; --hit: #6fd3a0; --hit-soft: #183326; --bar: #4c62a3; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #11151c; --panel: #171c25; --ink: #e5e9f0; --muted: #98a2b3; --line: #2a3140;
+  --accent: #8aa8ff; --accent-soft: #1f2a45; --hit: #6fd3a0; --hit-soft: #183326; --bar: #4c62a3; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 20px; padding-block: 24px 48px; display: grid; gap: 20px }
+h1 { font: 650 30px/1.15 var(--display); margin: 0; text-wrap: balance }
+h2 { font: 650 22px/1.2 var(--display); margin: 0; text-wrap: balance }
+h3 { font: 600 11px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px }
+.lede { color: var(--muted); max-width: 70ch; margin: 6px 0 0 }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px }
+.stat b { display: block; font: 600 22px/1.1 var(--body); font-variant-numeric: tabular-nums }
+.stat span { color: var(--muted); font-size: 12px }
+.browser { display: grid; grid-template-columns: minmax(250px, 330px) minmax(0, 1fr); gap: 16px; align-items: start }
+.index, .dossier { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; min-width: 0 }
+.index { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 40px); display: flex; flex-direction: column }
+.controls { padding: 12px; display: grid; gap: 8px; border-bottom: 1px solid var(--line) }
+input, select { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; width: 100% }
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px }
+ul.list { list-style: none; margin: 0; padding: 4px; overflow: auto }
+ul.list button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 7px 10px; border-radius: 6px; cursor: pointer }
+ul.list button:hover { background: var(--accent-soft) }
+ul.list button[aria-current="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600 }
+ul.list small { color: var(--muted); font-variant-numeric: tabular-nums }
+.dossier { padding: 20px; display: grid; gap: 20px }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px }
+.chip { font: 500 12px/1 var(--body); padding: 5px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent) }
+.chip.ext { background: var(--hit-soft); color: var(--hit) }
+.id { font: 12px var(--mono); color: var(--muted) }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums }
+td { padding: 5px 0; border-bottom: 1px solid var(--line); vertical-align: top }
+td.n { text-align: right; color: var(--muted); width: 4.5em; padding-left: 8px }
+.ref small { display: block; color: var(--muted) }
+.curated { font: 600 10px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--hit); background: var(--hit-soft); padding: 3px 5px; border-radius: 4px; margin-left: 4px }
+.axis { color: var(--muted); font-size: 12px }
+.chart svg { width: 100%; height: auto; display: block }
+.chart text { fill: var(--muted); font: 10px var(--body) }
+.rel { display: flex; flex-wrap: wrap; gap: 6px }
+.rel button { font: inherit; font-size: 13px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; cursor: pointer }
+.rel button:hover { border-color: var(--accent); color: var(--accent) }
+.hyp { overflow-x: auto }
+.hyp table td { padding: 6px 8px 6px 0 }
+.verdict { font-weight: 600 }
+.empty { color: var(--muted) }
+@media (max-width: 760px) { .browser { grid-template-columns: 1fr } .index { position: static; max-height: 360px } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Paradigm Atlas</h1>
+    <p class="lede">Canonical experimental tasks found in about 37,000 neuroimaging papers. Each task is described by how
+      papers name it, what varies across versions, which papers it descends from, and which labs use it. Identity follows
+      the hed-task rule: a task is its procedure. Names, stimuli and populations are qualifiers.</p>
+  </header>
+  <section class="stats" id="stats"></section>
+  <section class="browser">
+    <aside class="index">
+      <div class="controls">
+        <label class="axis" for="q">Search tasks</label>
+        <input id="q" type="search" placeholder="e.g. stroop, reward, faces">
+        <label class="axis" for="fam">Family</label>
+        <select id="fam"></select>
+      </div>
+      <ul class="list" id="list"></ul>
+    </aside>
+    <article class="dossier" id="dossier"></article>
+  </section>
+  <section class="dossier hyp" aria-labelledby="hyp-h">
+    <h2 id="hyp-h">What the corpus showed</h2>
+    <table id="hyp"></table>
+  </section>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script id="hyps" type="application/json">__HYPS__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const H = JSON.parse(document.getElementById('hyps').textContent);
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = n => n.toLocaleString('en-US');
+const famName = f => (f || 'unassigned').replace(/_/g, ' ');
+
+const S = D.summary;
+const kinds = Object.fromEntries(S.entity_kinds);
+$('#stats').innerHTML = [
+  [fmt(S.mentions), 'task mentions'], [fmt(S.papers), 'papers'],
+  [fmt(S.labeled), 'given a canonical task'], [fmt(S.n_tasks), 'canonical tasks in use'],
+  [fmt(kinds.resting_state || 0), 'resting-state scans'], [fmt((kinds.not_a_task||0)+(kinds.questionnaire_or_scale||0)), 'gated out (non-task, questionnaire)']
+].map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join('');
+
+const fams = [...new Set(D.tasks.map(t => t.family))].sort();
+$('#fam').innerHTML = '<option value="">All families</option>' + fams.map(f => `<option value="${esc(f)}">${esc(famName(f))}</option>`).join('');
+
+let current = D.tasks[0].id;
+function renderList() {
+  const q = $('#q').value.trim().toLowerCase(), f = $('#fam').value;
+  const rows = D.tasks.filter(t => (!f || t.family === f) &&
+    (!q || (t.name + ' ' + t.id + ' ' + t.top_names.map(n => n[0]).join(' ')).toLowerCase().includes(q)));
+  $('#list').innerHTML = rows.length ? rows.map(t =>
+    `<li><button data-id="${esc(t.id)}" aria-current="${t.id === current}"><span>${esc(t.name)}</span><small>${fmt(t.papers)}</small></button></li>`).join('')
+    : '<li class="empty" style="padding:10px">No task matches. Try a shorter word.</li>';
+}
+function yearsChart(years) {
+  if (!years.length) return '<p class="empty">No publication years available.</p>';
+  const y0 = 1995, y1 = 2025, W = 520, Hh = 120, pad = 22, bw = (W - pad * 2) / (y1 - y0 + 1);
+  const max = Math.max(...years.map(y => y[1]));
+  const bars = years.map(([y, c]) => { const h = (c / max) * (Hh - 34);
+    return `<rect x="${pad + (y - y0) * bw + 1}" y="${Hh - 18 - h}" width="${Math.max(1, bw - 2)}" height="${h}" fill="var(--bar)"><title>${y}: ${c} papers</title></rect>`; }).join('');
+  const ticks = [1995, 2005, 2015, 2025].map(y => `<text x="${pad + (y - y0) * bw + bw / 2}" y="${Hh - 4}" text-anchor="middle">${y}</text>`).join('');
+  return `<svg viewBox="0 0 ${W} ${Hh}" role="img" aria-label="Papers per year"><line x1="${pad}" x2="${W - pad}" y1="${Hh - 18}" y2="${Hh - 18}" stroke="var(--line)"/>${bars}${ticks}<text x="${pad}" y="10">max ${max}/yr</text></svg>`;
+}
+function profBlock(p) {
+  if (!p || !p.n) return '<p class="empty">No extracted task cards for this task yet.</p>';
+  const row = (lbl, arr) => arr && arr.length ? `<tr><td>${lbl}</td><td>${arr.map(([v, n]) => `<span class="chip" title="${n} cards">${esc(String(v).replace(/_/g, ' '))} · ${Math.round(100 * n / p.n)}%</span>`).join(' ')}</td></tr>` : '';
+  const corp = p.corpus.map(([c, n]) => `${n} ${c === 'psych' ? 'behavioral-psych' : 'neuroimaging'}`).join(', ');
+  return `<table>${row('Stimuli', p.stimuli)}${row('Modality', p.modality)}${row('Response', p.response)}${row('Design', p.design)}</table><p class="axis">Based on ${p.n} extracted task cards (${corp}). Percentages are the share of cards with that value.</p>`;
+}
+function condBlock(c) {
+  if (!c || !c.axes.length) return '<p class="empty">No recurring condition structure found for this task.</p>';
+  const axes = c.axes.map(([ax, vs]) => `<tr><td>${esc(ax.replace(/_/g, ' '))}</td><td>${vs.map(([v, n]) => `<span class="chip" title="${n} conditions">${esc(v.replace(/_/g, ' '))}</span>`).join(' ')}</td></tr>`).join('');
+  const ph = c.phases.length ? `<p class="axis">Trial phases named: ${c.phases.map(p => esc(p[0])).join(', ')} · about ${c.per_mention} conditions per paper.</p>` : `<p class="axis">About ${c.per_mention} conditions per paper.</p>`;
+  const names = c.top_names.map(([n, k]) => `<tr><td>${esc(n)}</td><td class="n">${k}</td></tr>`).join('');
+  return `<div class="grid2"><div><table>${axes}</table>${ph}</div><div><table>${names}</table><p class="axis">Most common condition names as written.</p></div></div>`;
+}
+function renderTask(id) {
+  current = id; const t = D.tasks.find(x => x.id === id); if (!t) return;
+  const quals = t.qualifiers.map(([k, n]) => { const [txt, ax] = k.split('|'); return `<tr><td>${esc(txt)} <span class="axis">${esc(ax.replace(/_/g,' '))}</span></td><td class="n">${n}</td></tr>`; }).join('');
+  const names = t.top_names.map(([n, c]) => `<tr><td>${esc(n)}</td><td class="n">${c}</td></tr>`).join('');
+  const labs = t.labs.map(([n, c]) => `<tr><td>${esc(n)}</td><td class="n">${c}</td></tr>`).join('');
+  const orig = t.origins.map(o => { const link = o.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${o.pmid}/` : (o.doi ? `https://doi.org/${o.doi}` : null);
+    const title = esc(o.title || '(title not parsed)');
+    return `<tr><td class="ref">${esc(o.first_author || '?')} ${esc(o.year || '')}${o.curated ? '<span class="curated">curated origin</span>' : ''}<small>${link ? `<a href="${link}" target="_blank" rel="noopener">${title}</a>` : title}</small></td><td class="n">${o.papers} · ${Math.round(o.purity * 100)}%</td></tr>`; }).join('');
+  const rel = t.related.map(r => `<button data-id="${esc(r.task)}">${esc(r.name)} <span class="axis">${r.sim.toFixed(2)}</span></button>`).join('');
+  $('#dossier').innerHTML = `
+    <div><h2>${esc(t.name)}</h2>
+      <div class="meta"><span class="chip">${esc(famName(t.family))}</span><span class="chip">stem: ${esc(t.stem.replace(/^(hedtsk|tct)_/, '').replace(/_/g,' '))}</span>
+      <span class="chip ${t.source === 'hed-task' ? '' : 'ext'}">${t.source === 'hed-task' ? 'hed-task catalog' : 'corpus extension'}</span></div>
+      <p class="id">${esc(t.id)} · ${fmt(t.mentions)} mentions in ${fmt(t.papers)} papers</p>
+      ${t.definition ? `<p style="max-width:70ch;margin:0">${esc(t.definition)}</p>` : ''}</div>
+    <div class="chart"><h3>Papers per year</h3>${yearsChart(t.years)}</div>
+    <div><h3>Condition design across papers</h3>${condBlock(t.conditions)}</div>
+    <div><h3>How it is usually run (from extracted task cards)</h3>${profBlock(t.profile)}</div>
+    <div class="grid2">
+      <div><h3>How papers name it</h3><table>${names}</table></div>
+      <div><h3>Qualifiers seen in names</h3>${quals ? `<table>${quals}</table>` : '<p class="empty">No qualifiers: papers use the bare paradigm name.</p>'}</div>
+    </div>
+    <div class="grid2">
+      <div><h3>Most task-specific cited papers</h3>${orig ? `<table>${orig}</table><p class="axis">Count = papers citing it next to this task · purity = share of those citations that are for this task.</p>` : '<p class="empty">Too few resolved citations.</p>'}</div>
+      <div><h3>Labs using it most (senior author)</h3>${labs ? `<table>${labs}</table>` : '<p class="empty">No author data.</p>'}</div>
+    </div>
+    <div><h3>Most related tasks</h3>${rel ? `<div class="rel">${rel}</div><p class="axis">Similarity combines procedure descriptions, shared citations and shared labs.</p>` : '<p class="empty">Too few mentions to place this task.</p>'}</div>`;
+  renderList();
+}
+$('#list').addEventListener('click', e => { const b = e.target.closest('button[data-id]'); if (b) renderTask(b.dataset.id); });
+$('#dossier').addEventListener('click', e => { const b = e.target.closest('.rel button[data-id]'); if (b) { renderTask(b.dataset.id); $('#dossier').scrollIntoView({ block: 'start' }); } });
+$('#q').addEventListener('input', renderList); $('#fam').addEventListener('change', renderList);
+$('#hyp').innerHTML = H.map(h => `<tr><td class="verdict">${esc(h[0])}</td><td>${esc(h[1])}</td><td>${esc(h[2])}</td></tr>`).join('');
+renderTask(current);
+</script>

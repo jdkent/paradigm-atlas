@@ -1,0 +1,104 @@
+hedtsk_id	hed_task_name	match_type	atlas_id	atlas_name	atlas_def_chars	atlas_concept_count	atlas_entry_count	notes
+hedtsk_affective_picture_viewing	Affective Picture Viewing Task	close	tsk_4a57abb949aca	International Affective Picture System	51	1	2	Atlas entry is the IAPS stimulus database, not the viewing procedure
+hedtsk_affective_priming	Affective Priming Task	none						No affective or evaluative priming entry; Atlas has negative and semantic priming only
+hedtsk_anti_saccade	Anti-Saccade Task	exact	tsk_4a57abb949869	antisaccade/prosaccade task	173	2	3	
+hedtsk_artificial_grammar_learning	Artificial Grammar Learning Task	exact	trm_4f244a88013ae	artificial grammar learning task	246		1	Atlas entry has zero concepts
+hedtsk_attention_network	Attention Network Task	exact	trm_4da6304c9aa23	attention networks test	345	4	2	Second entry ANT task trm_551f0857e1db8 duplicates this
+hedtsk_auditory_masking	Auditory Masking Task	exact	trm_551b1b6f6a262	auditory masking task	102	1	2	
+hedtsk_autobiographical_memory	Autobiographical Memory Task	exact	trm_4f244d2a54e27	autobiographical memory task	256	2	1	
+hedtsk_balloon_analog_risk	Balloon Analog Risk Task	exact	trm_4d559bcd67c18	balloon analogue risk task	400	12	1	Best-annotated Atlas task entry: 12 concepts
+hedtsk_biological_motion_perception	Biological Motion Perception Task	exact	trm_4f245326e2eaf	biological motion task	150	1	3	Canonical entry; trm_58a5d31f5c72d is a passive-viewing variant
+hedtsk_body_ownership_illusion	Body Ownership Illusion Task	close	trm_4e5bb14d814a8	rubber hand illusion	403	2	1	Atlas covers the rubber hand illusion only, not the wider family
+hedtsk_cambridge_face_memory	Cambridge Face Memory Task	exact	tsk_4a57abb949912	Cambridge Face Memory Test	110	1	2	
+hedtsk_causal_learning	Causal Learning Task	none						No causal or contingency learning entry
+hedtsk_change_detection	Change Detection Task	exact	trm_5154906cbead5	Change Detection Task	460	4	2	
+hedtsk_contextual_cueing	Contextual Cueing Task	exact	trm_4f24492504ca0	contextual cueing task	287	2	1	
+hedtsk_continuous_performance	Continuous Performance Task	exact	trm_57c0c34e61fdf	Continuous Performance Task	4		4	Name-exact but a stub: 4-char definition, zero concepts; Penn CPT trm_4b4a537644d76 is better annotated
+hedtsk_corsi_block_tapping	Corsi Block-Tapping Task	exact	trm_4da881dace79c	Corsi Blocks	1093		3	Eponymous entry; block tapping test tsk_4a57abb9498df is the same paradigm
+hedtsk_delay_discounting	Delay Discounting Task	exact	tsk_4a57abb949e98	temporal discounting task	123	6	4	Atlas name is temporal discounting task, alias delay discounting
+hedtsk_delayed_match_to_sample	Delayed Match-to-Sample Task	exact	tsk_4a57abb9499e3	delayed match to sample task	226	7	3	
+hedtsk_dictator_game	Dictator Game Task	none						Atlas has ultimatum, trust and prisoner's dilemma but no dictator game
+hedtsk_digit_span	Digit Span Task	exact	tsk_4a57abb949a0d	digit span task	218	4	5	Forward and backward variants exist as separate Atlas entries
+hedtsk_digit_symbol_substitution	Digit Symbol Substitution Task	exact	tsk_4a57abb949e44	symbol-digit substitution	491		2	Atlas name is symbol-digit substitution
+hedtsk_directed_forgetting	Directed Forgetting Task	exact	trm_4da87f383435b	directed forgetting task	275	4	2	
+hedtsk_dot_probe	Dot-Probe Task	close	trm_50df0d8dc717b	attention bias	217		1	Atlas names the construct (attention bias) with dot-probe as an alias
+hedtsk_effort_based_decision_making	Effort-Based Decision-Making Task	none						No effort-based entry; value-based decision making is a different construct
+hedtsk_emotion_regulation	Emotion Regulation Task	exact	trm_56bbea82c12bb	Emotion Regulation Task	510		1	510-char definition but zero concepts
+hedtsk_emotional_stroop	Emotional Stroop Task	related	tsk_4a57abb949e27	Stroop task	176	4	1	Atlas has eight Stroop entries but no emotional or affective Stroop
+hedtsk_eriksen_flanker	Eriksen Flanker Task	exact	tsk_4a57abb949a4f	Eriksen flanker task	536	7	2	
+hedtsk_face_processing	Face Processing Task	none						Atlas has generic fMRI localizer entries but no face or FFA localizer
+hedtsk_facial_emotion_recognition	Facial Emotion Recognition Task	close	trm_50f734f86b11a	Emotion Recognition Task	867	2	3	Atlas Emotion Recognition Task is not Ekman-faces specific
+hedtsk_false_belief	False Belief Task	exact	trm_4f2456027809f	false belief task	625	1	3	Duplicated in the Atlas as trm_5845a809e30d5
+hedtsk_feeling_of_knowing	Feeling-of-Knowing Task	none						No feeling-of-knowing entry
+hedtsk_finger_tapping	Finger Tapping Task	exact	trm_4c898f079d05e	finger tapping task	70	3	3	
+hedtsk_free_recall	Free Recall Task	close	trm_4f2411c91ae5e	recall test	83	1	4	Atlas recall test is generic, not free recall specifically
+hedtsk_go_no_go	Go/No-Go Task	exact	tsk_4a57abb949a93	go/no-go task	389	3	3	
+hedtsk_heartbeat_detection	Heartbeat Detection Task	none						No heartbeat detection entry; Atlas interoception entries are an fMRI task and a questionnaire
+hedtsk_imitation_inhibition	Imitation-Inhibition Task	related	tsk_4a57abb949846	action observation task	72	1	1	Atlas action observation task is not the imitation-compatibility paradigm
+hedtsk_implicit_association	Implicit Association Task	exact	trm_50b6660b1b847	Implicit Association Task	596	3	1	
+hedtsk_instrumental_conditioning	Instrumental Conditioning Task	exact	trm_4f2414059baa8	instrumental learning task	60		2	operant task trm_50240f06af135 is an alias entry with more concepts
+hedtsk_intentional_binding	Intentional Binding Task	related	tsk_YShVp2KOuWrSS	Interval Estimation Task	447		1	Interval Estimation Task measures cue-to-outcome timing, not action-effect agency
+hedtsk_iowa_gambling	Iowa Gambling Task	exact	tsk_4a57abb949ae5	Iowa Gambling Task	1005	2	3	
+hedtsk_judgment_of_learning	Judgment-of-Learning Task	none						No judgment-of-learning entry; Judgment of Line Orientation shares the JOL abbreviation only
+hedtsk_lexical_decision	Lexical Decision Task	exact	tsk_4a57abb949b38	lexical decision task	459	2	1	
+hedtsk_mental_rotation	Mental Rotation Task	exact	trm_4c8990810541d	mental rotation task	113	2	1	
+hedtsk_mirror_tracing	Mirror Tracing Task	exact	trm_4f244a67d5b17	mirror tracing task	99		1	
+hedtsk_mismatch_negativity	Mismatch Negativity Task	none						No MMN entry despite its size in the ERP literature
+hedtsk_mnemonic_similarity	Mnemonic Similarity Task	exact	tsk_RXmB56vrYW66T	Mnemonic similarity task	464		1	Added to the Atlas after the 2025 harvest
+hedtsk_monetary_incentive_delay	Monetary Incentive Delay Task	exact	trm_4f23fc8c42d28	monetary incentive delay task	137		1	Zero concepts
+hedtsk_motor_sequence_learning	Motor Sequence Learning Task	close	trm_4c8a83cac75f5	sequence recall/learning	137	2	1	Atlas sequence recall/learning is broader than motor sequence learning
+hedtsk_multi_armed_bandit	Multi-Armed Bandit Task	close	trm_5696b180169bd	Volatile Bandit	179		1	Atlas has Volatile and contextual bandit variants but no canonical bandit entry
+hedtsk_multiple_object_tracking	Multiple Object Tracking Task	none						No MOT entry; visual pursuit/tracking is smooth pursuit, a different paradigm
+hedtsk_n_back	N-Back Task	exact	tsk_4a57abb949bcd	n-back task	190	8	4	Eight n-back variants exist as separate Atlas entries
+hedtsk_navon	Navon Task	exact	trm_4f241d7adf14e	global-local task	173	4	1	Atlas name is global-local task, alias Navon
+hedtsk_oddball	Oddball Task	exact	tsk_4a57abb949bf6	oddball task	290	6	3	
+hedtsk_old_new_recognition_memory	Old/New Recognition Memory Task	exact	tsk_4a57abb949d40	recognition memory test	2015	2	2	
+hedtsk_operation_span	Operation Span Task	exact	trm_4c40d10cd776e	operation span task	273	2	2	
+hedtsk_paired_associates_learning	Paired Associates Learning Task	exact	trm_4da88a2a63d97	paired associate learning	306	1	2	
+hedtsk_pavlovian_fear_conditioning	Pavlovian Fear Conditioning Task	close	trm_4c898acd1f28e	pavlovian conditioning task	450	5	1	Atlas entry is Pavlovian conditioning generally, not fear conditioning
+hedtsk_phonological_awareness	Phonological Awareness Task	related	trm_4d949c5b0e380	rhyme verification task	146	6	2	Rhyme verification is one component; no general phonological awareness entry
+hedtsk_picture_naming	Picture Naming Task	exact	tsk_4a57abb949cfb	picture naming task	74	3	5	
+hedtsk_posner_spatial_cueing	Posner Spatial Cueing Task	exact	tsk_4a57abb949d17	Posner cueing task	309	5	1	
+hedtsk_prisoners_dilemma	Prisoner's Dilemma Task	exact	tsk_KRl3zbyaJcKWM	prisoner's dilemma (PD)	1366		1	1366-char definition but zero concepts
+hedtsk_probabilistic_classification_learning	Probabilistic Classification Learning Task	exact	trm_4cacf22a22d80	Probabilistic classification task	386	9	4	Three weather-prediction variants exist separately
+hedtsk_probabilistic_selection	Probabilistic Selection Task	exact	trm_5667483dcc371	Probabilistic Selection Task	1316	1	1	
+hedtsk_prospective_memory	Prospective Memory Task	exact	trm_4f244860c702c	prospective memory task	187		1	Zero concepts
+hedtsk_psychological_refractory_period	Psychological Refractory Period Task	exact	trm_51c453f64d2a6	psychological refractory period (PRP) paradigm	235	3	1	
+hedtsk_psychomotor_vigilance	Psychomotor Vigilance Task	close	trm_50b55d8a6da00	PEBL Perceptual Vigilance Task	340	1	2	Atlas entry is the PEBL software implementation, not the generic PVT
+hedtsk_random_dot_kinematogram	Random Dot Kinematogram Task	exact	trm_4f244ad7dcde7	dot motion task	131	4	2	
+hedtsk_rapid_serial_visual_presentation	Rapid Serial Visual Presentation Task	exact	tsk_4a57abb949879	rapid serial visual presentation task	203	3	3	Attentional blink is a separate Atlas entry trm_551f06a08dcc4
+hedtsk_ravens_progressive_matrices	Raven's Progressive Matrices Task	exact	tsk_SJ4Q7gOYfy25Y	Raven’s Progressive Matrices Test	492	1	2	Missed by the 2025 harvest, which dropped entries with non-ASCII names
+hedtsk_reading_the_mind_in_the_eyes	Reading the Mind in the Eyes Task	none						No RMET entry
+hedtsk_remember_know	Remember/Know Task	exact	trm_4da63146f12d7	remember/know task	28		1	28-char definition, zero concepts
+hedtsk_remote_associates	Remote Associates Task	exact	tsk_ZMTNk4Oce5b2j	Remote Associates Test	843		1	843-char definition but zero concepts
+hedtsk_reversal_learning	Reversal Learning Task	exact	tsk_4a57abb949d4e	reversal learning task	337	2	2	
+hedtsk_rey_auditory_verbal_learning	Rey Auditory Verbal Learning Task	exact	trm_4da88ae0f2952	Rey Auditory Verbal Learning Task	591	1	3	
+hedtsk_self_paced_reading	Self-Paced Reading Task	none					1	No self-paced or moving-window reading entry
+hedtsk_self_referential_encoding	Self-Referential Encoding Task	none						No self-referential encoding entry
+hedtsk_semantic_priming	Semantic Priming Task	close	trm_553e73e29cf7d	contextual semantic priming task	1040	1	2	Atlas entry is contextual semantic priming, a narrower paradigm
+hedtsk_sentence_comprehension	Sentence Comprehension Task	none					1	Atlas syntactic task is generic; Birkbeck test is a clinical instrument
+hedtsk_serial_reaction_time	Serial Reaction Time Task	exact	trm_4f241c735e7f6	serial reaction time task	4	1	3	Definition is absent, stored as the string None
+hedtsk_simon	Simon Task	exact	tsk_4a57abb949dbb	Simon task	264	7	1	
+hedtsk_social_incentive_delay	Social Incentive Delay Task	none						Only the monetary version exists in the Atlas
+hedtsk_source_memory	Source Memory Task	exact	tsk_4a57abb949dd6	source memory test	386	4	1	
+hedtsk_sternberg_item_recognition	Sternberg Item Recognition Task	exact	trm_551f0a8b5ba2c	Sternberg Item Recognition Task	278	3	4	Four Sternberg variants exist; none is marked canonical
+hedtsk_stop_signal	Stop-Signal Task	exact	tsk_4a57abb949e1a	stop signal task	369	8	6	Eight stop-signal entries exist
+hedtsk_stroop_color_word	Stroop Color-Word Task	exact	trm_4b1968619b00b	color-word stroop task	269	2	6	Generic Stroop task tsk_4a57abb949e27 also exists
+hedtsk_sustained_attention_to_response	Sustained Attention to Response Task	exact	trm_4da86cfe8cf1b	sustained attention to response task	118	3	1	
+hedtsk_task_switching	Task Switching Task	exact	tsk_4a57abb949e8a	task-switching 	172	2	5	Set-shifting and alternating-runs exist as separate entries
+hedtsk_think_no_think	Think/No-Think Task	exact	trm_54f93101b2fd8	think/no-think task	131		1	Zero concepts
+hedtsk_tower_of_london	Tower of London Task	exact	trm_4da87e439c411	Tower of London	138	2	3	
+hedtsk_trail_making	Trail Making Task	exact	tsk_4a57abb949ec0	Trail Making Test A and B	466	3	1	
+hedtsk_trust_game	Trust Game Task	exact	tsk_uzol7erTzr9Ix	Trust game (TG)	1497		1	1497-char definition but zero concepts
+hedtsk_two_stage_decision	Two-Stage Decision Task	exact	trm_5667451917a34	2-stage decision task	778		2	Duplicated as Two-Stage Task tsk_Jdo0KE737b9N8
+hedtsk_ultimatum_game	Ultimatum Game Task	exact	trm_553e8882e3cb6	Ultimatum Game (UG)	185		1	Zero concepts
+hedtsk_useful_field_of_view	Useful Field of View Task	none						No UFOV entry
+hedtsk_verb_generation	Verb Generation Task	exact	trm_4f24183fe80c6	verb generation task	82		2	Zero concepts
+hedtsk_verbal_fluency	Verbal Fluency Task	exact	trm_4f240f1c740da	verbal fluency task	48		6	Six fluency entries exist: verbal, semantic, phonemic, category, letter, word
+hedtsk_virtual_morris_water_maze	Virtual Morris Water Maze Task	close	trm_4da890a9bd7a3	Morris water maze	174	1	1	Atlas entry is the animal Morris water maze, not the virtual human version
+hedtsk_virtual_radial_arm_maze	Virtual Radial Arm Maze Task	none					1	No radial arm maze entry; Atlas navigation entries are Morris, Porteus and zoo map
+hedtsk_visual_masking	Visual Masking Task	exact	trm_4a3fd79d09b6d	backward masking	226	3	1	Atlas name is backward masking
+hedtsk_visual_search	Visual Search Task	exact	trm_4f2447fe67fb9	visual search task	4	3	3	Definition is absent, stored as the string None
+hedtsk_wason_selection	Wason Selection Task	exact	trm_4f2449bdcb0b1	Wason card selection task	99	2	1	
+hedtsk_weapons_identification	Weapons Identification Task	none						No weapons identification or shooter bias entry
+hedtsk_wisconsin_card_sorting	Wisconsin Card Sorting Task	exact	tsk_4a57abb949f21	Wisconsin card sorting test	516	5	1	

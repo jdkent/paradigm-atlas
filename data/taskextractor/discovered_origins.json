@@ -1,0 +1,5418 @@
+[
+ {
+  "task": "hedtsk_emotion_regulation",
+  "name": "Emotion Regulation Task",
+  "top_refs": [
+   {
+    "papers": 27,
+    "purity": 0.9,
+    "first_author": "Buhle",
+    "year": "2014",
+    "title": "Cognitive reappraisal of emotion: a meta-analysis of human neuroimaging studies",
+    "pmid": "23765157",
+    "doi": "10.1093/cercor/bht154",
+    "curated": true
+   },
+   {
+    "papers": 22,
+    "purity": 0.96,
+    "first_author": "Gross",
+    "year": "2003",
+    "title": "Individual differences in two emotion regulation processes: implications for affect, relat",
+    "pmid": "12916575",
+    "doi": "10.1037/0022-3514.85.2.348",
+    "curated": false
+   },
+   {
+    "papers": 23,
+    "purity": 0.88,
+    "first_author": "Ochsner",
+    "year": "2012",
+    "title": "Functional imaging studies of emotion regulation: a synthetic review and evolving model of",
+    "pmid": "23025352",
+    "doi": "10.1111/j.1749-6632.2012.06751.x",
+    "curated": true
+   },
+   {
+    "papers": 23,
+    "purity": 0.79,
+    "first_author": "Ochsner",
+    "year": "2002",
+    "title": "Rethinking feelings: an fmri study of the cognitive regulation of emotion",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 22,
+    "purity": 0.81,
+    "first_author": "Kohn",
+    "year": "2014",
+    "title": "Neural network of cognitive emotion regulation: an ALE meta-analysis and MACM analysis",
+    "pmid": "24220041",
+    "doi": "10.1016/j.neuroimage.2013.11.001",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_monetary_incentive_delay",
+  "name": "Monetary Incentive Delay Task",
+  "top_refs": [
+   {
+    "papers": 34,
+    "purity": 0.87,
+    "first_author": "Knutson",
+    "year": "2001",
+    "title": "Anticipation of increasing monetary reward selectively recruits nucleus accumbens",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 26,
+    "purity": 0.84,
+    "first_author": "Knutson",
+    "year": "2000",
+    "title": "FMRI visualization of brain activity during a monetary incentive delay task",
+    "pmid": "10875899",
+    "doi": "10.1006/nimg.2000.0593",
+    "curated": true
+   },
+   {
+    "papers": 18,
+    "purity": 0.72,
+    "first_author": "Knutson",
+    "year": "2000",
+    "title": "FMRI visualization of brain activity during a monetary incentive delay task",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 14,
+    "purity": 0.82,
+    "first_author": "Knutson",
+    "year": "2001",
+    "title": "Dissociation of reward anticipation and outcome with event-related fMRI",
+    "pmid": "11726774",
+    "doi": "10.1097/00001756-200112040-00016",
+    "curated": true
+   },
+   {
+    "papers": 14,
+    "purity": 0.78,
+    "first_author": "Knutson",
+    "year": "2001",
+    "title": "Dissociation of reward anticipation and outcome wuth event-related fMRI",
+    "pmid": "11726774",
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_stop_signal",
+  "name": "Stop-Signal Task",
+  "top_refs": [
+   {
+    "papers": 15,
+    "purity": 0.83,
+    "first_author": "Logan",
+    "year": "1984",
+    "title": "On the ability to inhibit thought and action: a theory of an act of control",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 10,
+    "purity": 0.91,
+    "first_author": "Logan",
+    "year": "1994",
+    "title": "On the ability to inhibit thought and action: a users guide to the stop-signal paradigm",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 13,
+    "purity": 0.65,
+    "first_author": "Aron",
+    "year": "2006",
+    "title": "Cortical and subcortical contributions to stop signal response inhibition: role of the sub",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 8,
+    "purity": 1.0,
+    "first_author": "Logan",
+    "year": "1984",
+    "title": "On the ability to inhibit simple and choice reaction time responses: a model and a method",
+    "pmid": "6232345",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 7,
+    "purity": 1.0,
+    "first_author": "Li",
+    "year": "2006",
+    "title": "Imaging response inhibition in a stop-signal task: neural correlates independent of signal",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_stroop_color_word",
+  "name": "Stroop Color-Word Task",
+  "top_refs": [
+   {
+    "papers": 37,
+    "purity": 0.67,
+    "first_author": "Stroop",
+    "year": "1935",
+    "title": "Studies of interference in serial verbal reactions",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 12,
+    "purity": 0.8,
+    "first_author": "Bush",
+    "year": "1998",
+    "title": "The counting Stroop: an interference task specialized for functional neuroimaging-validati",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 12,
+    "purity": 0.71,
+    "first_author": "MacLeod",
+    "year": "1991",
+    "title": "Half a century of research on the Stroop effect: an integrative review",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 11,
+    "purity": 0.61,
+    "first_author": "Stroop",
+    "year": "1935",
+    "title": "Studies of interference in serial verbal reactions",
+    "pmid": null,
+    "doi": "10.1037/h0054651",
+    "curated": true
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Milham",
+    "year": "2001",
+    "title": "The relative involvement of anterior cingulate and prefrontal cortex in attentional contro",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_go_no_go",
+  "name": "Go/No-Go Task",
+  "top_refs": [
+   {
+    "papers": 10,
+    "purity": 0.71,
+    "first_author": "Simmonds",
+    "year": "2008",
+    "title": "Meta-analysis of Go/No-go tasks demonstrating that fMRI activation associated with respons",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 8,
+    "purity": 0.89,
+    "first_author": "Mostofsky",
+    "year": "2003",
+    "title": "fMRI evidence that the neural basis of response inhibition is task-dependent",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 13,
+    "purity": 0.54,
+    "first_author": "Liddle",
+    "year": "2001",
+    "title": "Event-related fMRI study of response inhibition",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "Garavan",
+    "year": "2006",
+    "title": "Individual differences in the functional neuroanatomy of inhibitory control",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.58,
+    "first_author": "Garavan",
+    "year": "2002",
+    "title": "Dissociable executive functions in the dynamic control of behavior: inhibition, error dete",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_mental_rotation",
+  "name": "Mental Rotation Task",
+  "top_refs": [
+   {
+    "papers": 11,
+    "purity": 0.92,
+    "first_author": "Shepard",
+    "year": "1971",
+    "title": "Mental rotation of three-dimensional objects",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 10,
+    "purity": 1.0,
+    "first_author": "Jordan",
+    "year": "2002",
+    "title": "Women and men exhibit different cortical activation patterns during mental rotation tasks",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 9,
+    "purity": 0.9,
+    "first_author": "Shepard",
+    "year": "1971",
+    "title": "Mental rotation of three-dimensional objects",
+    "pmid": "5540314",
+    "doi": "10.1126/science.171.3972.701",
+    "curated": true
+   },
+   {
+    "papers": 8,
+    "purity": 1.0,
+    "first_author": "Vingerhoets",
+    "year": "2002",
+    "title": "Motor imagery in mental rotation: an fMRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 8,
+    "purity": 0.8,
+    "first_author": "Kosslyn",
+    "year": "1998",
+    "title": "Mental rotation of objects versus hands: neural mechanisms revealed by positron emission t",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_sentence_comprehension",
+  "name": "Sentence Comprehension Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Caplan",
+    "year": "1999",
+    "title": "PET studies of syntactic processing with auditory sentence presentation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.78,
+    "first_author": "Just",
+    "year": "1996",
+    "title": "Brain activation modulated by sentence comprehension",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Bornkessel",
+    "year": "2005",
+    "title": "Who did what to whom? The neural basis of argument hierarchies during language comprehensi",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "R\u00f6der",
+    "year": "2002",
+    "title": "Brain activation modulated by the comprehension of normal and pseudo-word sentences of dif",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Fiebach",
+    "year": "2005",
+    "title": "Revisiting the role of Broca\u2019s area in sentence processing: Syntactic integration versus s",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_old_new_recognition_memory",
+  "name": "Old/New Recognition Memory Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 1.0,
+    "first_author": "Konishi",
+    "year": "2000",
+    "title": "Neural correlates of episodic retrieval success",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Leveroni",
+    "year": "2000",
+    "title": "Neural systems underlying the recognition of familiar and newly learned faces",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "Rugg",
+    "year": "1999",
+    "title": "The role of the prefrontal cortex in recognition memory and memory for source: an fMRI stu",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Von Kriegstein",
+    "year": "2004",
+    "title": "Distinct functional substrates along the right superior temporal sulcus for the processing",
+    "pmid": "15193626",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Mandler",
+    "year": "1980",
+    "title": "Recognizing: the judgment of previous occurrence",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_verbal_fluency",
+  "name": "Verbal Fluency Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 0.89,
+    "first_author": "Birn",
+    "year": "2010",
+    "title": "Neural systems supporting lexical search guided by letter and semantic category cues: a se",
+    "pmid": "19632335",
+    "doi": "10.1016/j.neuroimage.2009.07.036",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Spence",
+    "year": "2000",
+    "title": "Functional anatomy of verbal fluency in people with schizophrenia and those at genetic ris",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Kircher",
+    "year": "2008",
+    "title": "Hippocampal dysfunction during free word association in male patients with schizophrenia",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Fu",
+    "year": "2005",
+    "title": "Effects of psychotic state and task demand on prefrontal function in schizophrenia: an fMR",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Fu",
+    "year": "2002",
+    "title": "A functional magnetic resonance imaging study of overt letter verbal fluency using a clust",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_n_back",
+  "name": "N-Back Task",
+  "top_refs": [
+   {
+    "papers": 20,
+    "purity": 0.61,
+    "first_author": "Owen",
+    "year": "2005",
+    "title": "N-back working memory paradigm: a meta-analysis of normative functional neuroimaging studi",
+    "pmid": null,
+    "doi": "10.1002/hbm.20131",
+    "curated": true
+   },
+   {
+    "papers": 15,
+    "purity": 0.75,
+    "first_author": "Owen",
+    "year": "2005",
+    "title": "N-back working memory paradigm: a meta-analysis of normative functional neuroimaging studi",
+    "pmid": "15846822",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 12,
+    "purity": 0.5,
+    "first_author": "Owen",
+    "year": "2005",
+    "title": "N-back working memory paradigm: a meta-analysis of normative functional neuroimaging studi",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Glahn",
+    "year": "2005",
+    "title": "Beyond hypofrontality: a quantitative meta-analysis of functional neuroimaging studies of ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 9,
+    "purity": 0.45,
+    "first_author": "Braver",
+    "year": "1997",
+    "title": "A parametric study of prefrontal cortex involvement in human working memory",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_delay_discounting",
+  "name": "Delay Discounting Task",
+  "top_refs": [
+   {
+    "papers": 14,
+    "purity": 0.78,
+    "first_author": "McClure",
+    "year": "2004",
+    "title": "Separate neural systems value immediate and delayed monetary rewards",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 9,
+    "purity": 0.82,
+    "first_author": "Kable",
+    "year": "2007",
+    "title": "The neural correlates of subjective value during intertemporal choice",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Ainslie",
+    "year": "1975",
+    "title": "Specious reward: a behavioral theory of impulsiveness and impulse control",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "McClure",
+    "year": "2004",
+    "title": "Separate neural systems value immediate and delayed monetary rewards",
+    "pmid": "15486304",
+    "doi": "10.1126/science.1100907",
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "McClure",
+    "year": "2007",
+    "title": "Time discounting for primary rewards",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_balloon_analog_risk",
+  "name": "Balloon Analog Risk Task",
+  "top_refs": [
+   {
+    "papers": 11,
+    "purity": 0.92,
+    "first_author": "Lejuez",
+    "year": "2002",
+    "title": "Evaluation of a Behavioral Measure of Risk Taking: The Balloon Analogue Risk Task (BART)",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 9,
+    "purity": 0.9,
+    "first_author": "Rao",
+    "year": "2008",
+    "title": "Neural correlates of voluntary and involuntary risk taking in the human brain: an fMRI Stu",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 9,
+    "purity": 0.82,
+    "first_author": "Rao",
+    "year": "2008",
+    "title": "Neural correlates of voluntary and involuntary risk taking in the human brain: an fMRI Stu",
+    "pmid": null,
+    "doi": "10.1016/j.neuroimage.2008.05.046",
+    "curated": true
+   },
+   {
+    "papers": 9,
+    "purity": 0.75,
+    "first_author": "Lejuez",
+    "year": "2002",
+    "title": "Evaluation of a behavioral measure of risk taking: the Balloon Analogue Risk Task (BART)",
+    "pmid": "12075692",
+    "doi": "10.1037/1076-898X.8.2.75",
+    "curated": true
+   },
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "Schonberg",
+    "year": "2012",
+    "title": "Decreasing ventromedial prefrontal cortex activity during sequential risk-taking: an FMRI ",
+    "pmid": null,
+    "doi": "10.3389/fnins.2012.00080",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_empathy_pain_observation",
+  "name": "Empathy for Pain Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 0.89,
+    "first_author": "Jackson",
+    "year": "2006",
+    "title": "Empathy examined through the neural mechanisms involved in imagining how I feel versus how",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.78,
+    "first_author": "Lamm",
+    "year": "2011",
+    "title": "Meta-analytic evidence for common and distinct neural networks associated with directly ex",
+    "pmid": "20946964",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Jackson",
+    "year": "2005",
+    "title": "How do we perceive the pain of others? A window into the neural processes involved in empa",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Jackson",
+    "year": "2005",
+    "title": "How do we perceive the pain of others? A window into the neural processes involved in empa",
+    "pmid": "15652312",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "Lamm",
+    "year": "2007",
+    "title": "The neural substrate of human empathy: effects of perspective-taking and cognitive apprais",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_pavlovian_fear_conditioning",
+  "name": "Pavlovian Fear Conditioning Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 1.0,
+    "first_author": "LaBar",
+    "year": "1998",
+    "title": "Human amygdala activation during conditioned fear acquisition and extinction: A mixed-tria",
+    "pmid": "9620698",
+    "doi": "10.1016/S0896-6273(00)80475-4",
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 1.0,
+    "first_author": "Sehlmeyer",
+    "year": "2009",
+    "title": "Human fear conditioning and extinction in neuroimaging: a systematic review",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.78,
+    "first_author": "Milad",
+    "year": "2007",
+    "title": "Recall of fear extinction in humans activates the ventromedial prefrontal cortex and hippo",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Knight",
+    "year": "2010",
+    "title": "Learning-related diminution of unconditioned SCR and fMRI signal responses",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "LaBar",
+    "year": "1998",
+    "title": "Human amygdala activation during conditioned fear acquisition and extinction: a mixed-tria",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_task_switching",
+  "name": "Task Switching Task",
+  "top_refs": [
+   {
+    "papers": 9,
+    "purity": 0.82,
+    "first_author": "Monsell",
+    "year": "2003",
+    "title": "Task switching",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 7,
+    "purity": 0.88,
+    "first_author": "Meiran",
+    "year": "1996",
+    "title": "Reconfiguration of processing mode prior to task performance",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Rogers",
+    "year": "1995",
+    "title": "Costs of a predictable switch between simple cognitive tasks",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Crinion",
+    "year": "2006",
+    "title": "Language control in the bilingual brain",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Monsell",
+    "year": "2003",
+    "title": "Task switching",
+    "pmid": "12639695",
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_mental_arithmetic",
+  "name": "Mental Arithmetic Task",
+  "top_refs": [
+   {
+    "papers": 12,
+    "purity": 0.67,
+    "first_author": "Dehaene",
+    "year": "2003",
+    "title": "Three parietal circuits for number processing",
+    "pmid": "20957581",
+    "doi": "10.1080/02643290244000239",
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Chochon",
+    "year": "1999",
+    "title": "Differential contributions of the left and right inferior parietal lobules to number proce",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Zago",
+    "year": "2001",
+    "title": "Neural correlates of simple and complex mental calculation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 8,
+    "purity": 0.62,
+    "first_author": "Dehaene",
+    "year": "2003",
+    "title": "Three parietal circuits for number processing",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Dehaene",
+    "year": "1996",
+    "title": "Cerebral activations during number multiplication and comparison: a PET study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_serial_reaction_time",
+  "name": "Serial Reaction Time Task",
+  "top_refs": [
+   {
+    "papers": 12,
+    "purity": 0.8,
+    "first_author": "Nissen",
+    "year": "1987",
+    "title": "Attentional requirements of learning: evidence from performance measures",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 9,
+    "purity": 0.82,
+    "first_author": "Rauch",
+    "year": "1997",
+    "title": "Striatal recruitment during an implicit sequence learning task as measured by functional m",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Rauch",
+    "year": "1995",
+    "title": "A PET investigation of implicit and explicit sequence learning",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.78,
+    "first_author": "Grafton",
+    "year": "1995",
+    "title": "Functional mapping of sequence learning in normal humans",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Nissen",
+    "year": "1987",
+    "title": "Attentional requirements of learning: evidence from performance measures",
+    "pmid": null,
+    "doi": "10.1016/0010-0285(87)90002-8",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_social_exclusion",
+  "name": "Cyberball Social Exclusion",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 1.0,
+    "first_author": "Williams",
+    "year": "2000",
+    "title": "Cyberostracism: effects of being ignored over the Internet",
+    "pmid": "11079239",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 8,
+    "purity": 0.8,
+    "first_author": "Williams",
+    "year": "2000",
+    "title": "Cyberostracism: effects of being ignored over the Internet",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.78,
+    "first_author": "Williams",
+    "year": "2000",
+    "title": "Cyberostracism: effects of being ignored over the internet",
+    "pmid": "11079239",
+    "doi": "10.1037/0022-3514.79.5.748",
+    "curated": false
+   },
+   {
+    "papers": 8,
+    "purity": 0.67,
+    "first_author": "Eisenberger",
+    "year": "2003",
+    "title": "Does rejection hurt? An fMRI study of social exclusion",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Zadro",
+    "year": "2004",
+    "title": "How low can you go? Ostracism by a computer is sufficient to lower self-reported levels of",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_sensory_stimulation",
+  "name": "Passive Somatosensory/Chemosensory Stimulation",
+  "top_refs": [
+   {
+    "papers": 9,
+    "purity": 0.9,
+    "first_author": "Hui",
+    "year": "2000",
+    "title": "Acupuncture modulates the limbic system and subcortical gray structures of the human brain",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Hui",
+    "year": "2005",
+    "title": "The integrated response of the human cerebro-cerebellar and limbic systems to acupuncture ",
+    "pmid": "16046146",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Wu",
+    "year": "1999",
+    "title": "Central nervous pathway for acupuncture stimulation: localization of processing with funct",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Hui",
+    "year": "2010",
+    "title": "Acupuncture, the limbic system, and the anticorrelated networks of the brain",
+    "pmid": "20494627",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Fang",
+    "year": "2009",
+    "title": "The salient characteristics of the central effects of acupuncture needling: limbic-paralim",
+    "pmid": "18571795",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_semantic_judgment",
+  "name": "Semantic Judgment Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 0.4,
+    "first_author": "Binder",
+    "year": "1997",
+    "title": "Human brain language areas identified by functional magnetic resonance imaging",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Kim",
+    "year": "2011",
+    "title": "Semantic association investigated with functional MRI and independent component analysis",
+    "pmid": "21296027",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Szaflarski",
+    "year": "2008",
+    "title": "Comprehensive presurgical functional MRI language evaluation in adult patients with epilep",
+    "pmid": "17964221",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.44,
+    "first_author": "Demb",
+    "year": "1995",
+    "title": "Semantic encoding and retrieval in the left inferior prefrontal cortex: a functional MRI s",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Szaflarski",
+    "year": "2002",
+    "title": "Language lateralization in left-handed and ambidextrous people: fMRI data",
+    "pmid": "12136064",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_attention_network",
+  "name": "Attention Network Task",
+  "top_refs": [
+   {
+    "papers": 9,
+    "purity": 0.69,
+    "first_author": "Fan",
+    "year": "2002",
+    "title": "Testing the efficiency and independence of attentional networks",
+    "pmid": null,
+    "doi": "10.1162/089892902317361886",
+    "curated": true
+   },
+   {
+    "papers": 7,
+    "purity": 0.7,
+    "first_author": "Fan",
+    "year": "2002",
+    "title": "Testing the efficiency and independence of attentional networks",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Fan",
+    "year": "2002",
+    "title": "Testing the efficiency and independence of attentional networks",
+    "pmid": "11970796",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 7,
+    "purity": 0.47,
+    "first_author": "Fan",
+    "year": "2005",
+    "title": "The activation of attentional networks",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Fan",
+    "year": "2005",
+    "title": "The activation of attentional networks",
+    "pmid": null,
+    "doi": "10.1016/j.neuroimage.2005.02.004",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_motor_imagery",
+  "name": "Motor Imagery Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Sharma",
+    "year": "2009",
+    "title": "Motor imagery after stroke: relating outcome to motor network connectivity.",
+    "pmid": "19938103",
+    "doi": "10.1002/ana.21810",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Porro",
+    "year": "1996",
+    "title": "Primary motor and sensory cortex activation during motor performance and motor imagery: a ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Lacourse",
+    "year": "2005",
+    "title": "Brain activation during execution and motor imagery of novel and skilled sequential hand m",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Jeannerod",
+    "year": "1995",
+    "title": "Mental imagery in the motor context",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.5,
+    "first_author": "Gerardin",
+    "year": "2000",
+    "title": "Partially overlapping neural networks for real and imagined hand movements",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_creativity",
+  "name": "Divergent Thinking/Creativity Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 0.8,
+    "first_author": "Guilford",
+    "year": "1967",
+    "title": "The Nature of Human Intelligence",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Gilhooly",
+    "year": "2007",
+    "title": "Divergent thinking: Strategies and executive involvement in generating novel uses for fami",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Fink",
+    "year": "2009",
+    "title": "The creative brain: investigation of brain activity during creative problem solving by mea",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Fink",
+    "year": "2009",
+    "title": "The creative brain: investigation of brain activity during creative problem solving by mea",
+    "pmid": "18266217",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Beaty",
+    "year": "2014",
+    "title": "Creativity and the default network: A functional connectivity analysis of the creative bra",
+    "pmid": null,
+    "doi": "10.1016/j.neuropsychologia.2014.09.019",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_cue_reactivity",
+  "name": "Cue Reactivity Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Boswell",
+    "year": "2016",
+    "title": "Food cue reactivity and craving predict eating and weight gain: a meta-analytic review",
+    "pmid": "26644270",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Van Meer",
+    "year": "2015",
+    "title": "What you see is what you eat: An ALE meta-analysis of the neural correlates of food viewin",
+    "pmid": "25285373",
+    "doi": "10.1016/j.neuroimage.2014.09.069",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Jasinska",
+    "year": "2014",
+    "title": "Factors modulating neural reactivity to drug cues in addiction: A survey of human neuroima",
+    "pmid": null,
+    "doi": "10.1016/j.neubiorev.2013.10.013",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Huerta",
+    "year": "2014",
+    "title": "Neural bases of food perception: Coordinate-based meta-analyses of neuroimaging studies in",
+    "pmid": "24174404",
+    "doi": "10.1002/oby.20659",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Garavan",
+    "year": "2000",
+    "title": "Cue-induced cocaine craving: neuroanatomical specificity for drug users and drug stimuli",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_face_processing",
+  "name": "Face Processing Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Kanwisher",
+    "year": "1997",
+    "title": "The fusiform face area: a module in human extrastriate cortex specialized for face percept",
+    "pmid": null,
+    "doi": "10.1523/JNEUROSCI.17-11-04302.1997",
+    "curated": true
+   },
+   {
+    "papers": 8,
+    "purity": 0.38,
+    "first_author": "Haxby",
+    "year": "2000",
+    "title": "The distributed human neural system for face perception",
+    "pmid": "10827445",
+    "doi": "10.1016/S1364-6613(00)01482-0",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Rossion",
+    "year": "2000",
+    "title": "Hemispheric asymmetries for whole-based and part-based face processing in the human fusifo",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Grosbras",
+    "year": "2006",
+    "title": "Brain networks involved in viewing angry hands or faces",
+    "pmid": "16221928",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Monk",
+    "year": "2008",
+    "title": "Amygdala and nucleus accumbens activation to emotional facial expressions in children and ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_autobiographical_memory",
+  "name": "Autobiographical Memory Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Gilboa",
+    "year": "2004",
+    "title": "Remembering our past: functional neuroanatomy of recollection of recent and very remote pe",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.64,
+    "first_author": "Svoboda",
+    "year": "2006",
+    "title": "The functional neuroanatomy of autobiographical memory: a meta-analysis",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Conway",
+    "year": "2000",
+    "title": "The construction of autobiographical memories in the self-memory system",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Maguire",
+    "year": "2001",
+    "title": "Neuroimaging studies of autobiographical event memory",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Addis",
+    "year": "2009",
+    "title": "Constructive episodic simulation of the future and the past: distinct subsystems of a core",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_humor",
+  "name": "Humor Processing Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 1.0,
+    "first_author": "Shibata",
+    "year": "2014",
+    "title": "Integration of cognitive and affective networks in humor comprehension.",
+    "pmid": "25447374",
+    "doi": "10.1016/j.neuropsychologia.2014.10.025",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Chan",
+    "year": "2012",
+    "title": "Segregating the comprehension and elaboration processing of verbal jokes: an fMRI study.",
+    "pmid": "22472220",
+    "doi": "10.1016/j.neuroimage.2012.03.052",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Mobbs",
+    "year": "2003",
+    "title": "Humor modulates the mesolimbic reward centers.",
+    "pmid": "14659102",
+    "doi": "10.1016/S0896-6273(03)00751-7",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Chan",
+    "year": "2013",
+    "title": "Towards a neural circuit model of verbal humor processing: an fMRI study of the neural sub",
+    "pmid": null,
+    "doi": "10.1016/j.neuroimage.2012.10.019",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Moran",
+    "year": "2004",
+    "title": "Neural correlates of humor detection and appreciation.",
+    "pmid": "15006673",
+    "doi": "10.1016/j.neuroimage.2003.10.017",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_reading_the_mind_in_the_eyes",
+  "name": "Reading the Mind in the Eyes Task",
+  "top_refs": [
+   {
+    "papers": 14,
+    "purity": 0.78,
+    "first_author": "Baron-Cohen",
+    "year": "2001",
+    "title": "The \u201cReading the Mind in the Eyes\u201d test revised version: a study with normal adults, and a",
+    "pmid": "11280420",
+    "doi": "10.1111/1469-7610.00715",
+    "curated": true
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Adams",
+    "year": "2010",
+    "title": "Cross-cultural reading the mind in the eyes: an fMRI investigation",
+    "pmid": null,
+    "doi": "10.1162/jocn.2009.21187",
+    "curated": true
+   },
+   {
+    "papers": 10,
+    "purity": 0.36,
+    "first_author": "Schurz",
+    "year": "2014",
+    "title": "Fractionating theory of mind: a meta-analysis of functional brain imaging studies",
+    "pmid": null,
+    "doi": "10.1016/j.neubiorev.2014.01.009",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Baron\u2010Cohen",
+    "year": "1999",
+    "title": "Social intelligence in the normal and autistic brain: an fMRI study",
+    "pmid": "10336657",
+    "doi": "10.1046/j.1460-9568.1999.00621.x",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Baron-Cohen",
+    "year": "2001",
+    "title": "The \u201cReading the Mind in the Eyes\u201d Test revised version: a study with normal adults, and a",
+    "pmid": "11280420",
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_lexical_decision",
+  "name": "Lexical Decision Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "Binder",
+    "year": "2003",
+    "title": "Neural correlates of lexical access during visual word recognition",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Carreiras",
+    "year": "2007",
+    "title": "Brain activation for lexical decision and reading aloud: two sides of the same coin?",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Balota",
+    "year": "2004",
+    "title": "Visual word recognition of single-syllable words",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Rossell",
+    "year": "2001",
+    "title": "Brain activation during automatic and controlled processing of semantic relations: a primi",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Fiebach",
+    "year": "2002",
+    "title": "fMRI evidence for dual routes to the mental lexicon in visual word recognition",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_self_referential_encoding",
+  "name": "Self-Referential Encoding Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 1.0,
+    "first_author": "Lemogne",
+    "year": "2009",
+    "title": "In search of the depressive self: extended medial prefrontal network during self-referenti",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Yoshimura",
+    "year": "2010",
+    "title": "Rostral anterior cingulate cortex activity mediates the relationship between the depressiv",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Lemogne",
+    "year": "2012",
+    "title": "Medial prefrontal cortex and the self in major depression",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Grimm",
+    "year": "2009",
+    "title": "Increased self-focus in major depressive disorder is related to neural abnormalities in su",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Johnson",
+    "year": "2009",
+    "title": "Medial cortex activity, self-reflection and depression",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_eriksen_flanker",
+  "name": "Eriksen Flanker Task",
+  "top_refs": [
+   {
+    "papers": 21,
+    "purity": 0.81,
+    "first_author": "Eriksen",
+    "year": "1974",
+    "title": "Effects of noise letters upon the identification of a target letter in a nonsearch task",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 11,
+    "purity": 0.65,
+    "first_author": "Eriksen",
+    "year": "1974",
+    "title": "Effects of noise letters upon the identification of a target letter in a nonsearch task",
+    "pmid": null,
+    "doi": "10.3758/BF03203267",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "van Veen",
+    "year": "2001",
+    "title": "Anterior cingulate cortex, conflict monitoring, and levels of processing",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.57,
+    "first_author": "Casey",
+    "year": "2000",
+    "title": "Dissociation of response conflict, attentional selection, and expectancy with functional m",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Colcombe",
+    "year": "2004",
+    "title": "Cardiovascular fitness, cortical plasticity, and aging",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_artificial_grammar_learning",
+  "name": "Artificial Grammar Learning Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 0.88,
+    "first_author": "Reber",
+    "year": "1967",
+    "title": "Implicit learning of artificial grammars",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Levelt",
+    "year": "1989",
+    "title": "Speaking: From intention to articulation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Dronkers",
+    "year": "1996",
+    "title": "A new brain region for coordinating speech articulation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Riecker",
+    "year": "2005",
+    "title": "fMRI reveals two distinct cerebral networks subserving speech motor control",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Ackermann",
+    "year": "2004",
+    "title": "The contribution of the insula to motor aspects of speech production: A review and a hypot",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_false_belief",
+  "name": "False Belief Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 0.54,
+    "first_author": "Saxe",
+    "year": "2003",
+    "title": "People thinking about thinking people. The role of the temporo\u2013parietal junction in \u201ctheor",
+    "pmid": "12948738",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Dodell-Feder",
+    "year": "2011",
+    "title": "fMRI item analysis in a theory of mind task",
+    "pmid": "21182967",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Fletcher P",
+    "year": "1995",
+    "title": "Other minds in the brain: a functional imaging study of \u2018theory of mind\u2019 in story comprehe",
+    "pmid": "8556839",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Molenberghs",
+    "year": "2016",
+    "title": "Understanding the minds of others: a neuroimaging meta-analysis",
+    "pmid": "27073047",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Saxe",
+    "year": "2003",
+    "title": "People thinking about thinking people: the role of the temporo-parietal junction in \u201ctheor",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_source_memory",
+  "name": "Source Memory Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Mitchell",
+    "year": "2009",
+    "title": "Source monitoring 15 years later: what have we learned from fMRI about the neural mechanis",
+    "pmid": null,
+    "doi": "10.1037/a0015849",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Yu",
+    "year": "2012",
+    "title": "Dissociation of recollection-related neural activity in ventral lateral parietal cortex",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Vinogradov",
+    "year": "1997",
+    "title": "Clinical and neurocognitive aspects of source monitoring errors in schizophrenia",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Mitchell",
+    "year": "2009",
+    "title": "Source monitoring 15 years later: what have we learned from fMRI about the neural mechanis",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Mark",
+    "year": "1998",
+    "title": "Age effects on brain activity associated with episodic memory retrieval. An electrophysiol",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_episodic_encoding",
+  "name": "Episodic Encoding / Subsequent Memory Task",
+  "top_refs": [
+   {
+    "papers": 10,
+    "purity": 0.71,
+    "first_author": "Wagner",
+    "year": "1998",
+    "title": "Building memories: Remembering and forgetting of verbal experiences as predicted by brain ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 8,
+    "purity": 0.67,
+    "first_author": "Brewer",
+    "year": "1998",
+    "title": "Making memories: brain activity that predicts how well visual experience will be remembere",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Hongkeun",
+    "year": "2011",
+    "title": "Neural activity that predicts subsequent memory and forgetting: a meta-analysis of 74 fMRI",
+    "pmid": "20869446",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Wagner",
+    "year": "1998",
+    "title": "Building memories: Remembering and forgetting of verbal experiences as predicted by brain ",
+    "pmid": "9712582",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Uncapher",
+    "year": "2009",
+    "title": "Posterior parietal cortex and episodic encoding: insights from fMRI subsequent memory effe",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_moral_judgment",
+  "name": "Moral Judgment Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.67,
+    "first_author": "Moll",
+    "year": "2002",
+    "title": "The neural correlates of moral sensitivity: a functional magnetic resonance imaging invest",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Greene",
+    "year": "2001",
+    "title": "An fMRI investigation of emotional engagement in moral judgment.",
+    "pmid": "11557895",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.55,
+    "first_author": "Greene",
+    "year": "2001",
+    "title": "An fMRI investigation of emotional engagement in moral judgment",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Moll",
+    "year": "2005",
+    "title": "The neural basis of human moral cognition",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Koenigs",
+    "year": "2007",
+    "title": "Damage to the prefrontal cortex increases utilitarian moral judgements",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_sternberg_item_recognition",
+  "name": "Sternberg Item Recognition Task",
+  "top_refs": [
+   {
+    "papers": 11,
+    "purity": 0.55,
+    "first_author": "Sternberg",
+    "year": "1966",
+    "title": "High-speed scanning in human memory",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Rypma",
+    "year": "1999",
+    "title": "The roles of prefrontal brain regions in components of working memory: effects of memory l",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Jansma",
+    "year": "2001",
+    "title": "Functional anatomical correlates of controlled and automatic processing",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Sternberg",
+    "year": "1966",
+    "title": "High-speed scanning in human memory.",
+    "pmid": "5939936",
+    "doi": "10.1126/science.153.3736.652",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Manoach",
+    "year": "2003",
+    "title": "Identifying regional activity associated with temporally separated components of working m",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_msit",
+  "name": "Multi-Source Interference Task",
+  "top_refs": [
+   {
+    "papers": 13,
+    "purity": 0.93,
+    "first_author": "Bush",
+    "year": "2006",
+    "title": "The multi-source interference task: an fMRI task that reliably activates the cingulo-front",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 10,
+    "purity": 1.0,
+    "first_author": "Bush",
+    "year": "2003",
+    "title": "The multi-source interference task: validation study with fMRI in individual subjects",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 9,
+    "purity": 1.0,
+    "first_author": "Bush",
+    "year": "2003",
+    "title": "The Multi-Source Interference Task: validation study with fMRI in individual subjects",
+    "pmid": "12556909",
+    "doi": "10.1038/sj.mp.4001217",
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Bush",
+    "year": "2006",
+    "title": "The Multi-source interference task: an fMRI task that reliably activates the cingulo-front",
+    "pmid": "17406250",
+    "doi": "10.1038/nprot.2006.48",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Bush",
+    "year": "2003",
+    "title": "The Multi-Source Interference Task: validation study with fMRI in individual subjects",
+    "pmid": "12556909",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_picture_naming",
+  "name": "Picture Naming Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Indefrey",
+    "year": "2004",
+    "title": "The spatial and temporal signatures of word production components",
+    "pmid": "15037128",
+    "doi": "10.1016/j.cognition.2002.06.001",
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Bookheimer",
+    "year": "1995",
+    "title": "Regional cerebral blood flow during object naming and word reading",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Meltzer",
+    "year": "2009",
+    "title": "Strategies for longitudinal neuroimaging studies of overt language production",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Belke",
+    "year": "2013",
+    "title": "Cumulative and non-cumulative semantic interference in object naming: evidence from blocke",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Levelt",
+    "year": "1999",
+    "title": "A theory of lexical access in speech production",
+    "pmid": "11301520",
+    "doi": "10.1017/S0140525X99001776",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_heartbeat_detection",
+  "name": "Heartbeat Detection Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Simmons",
+    "year": "2013",
+    "title": "Keeping the body in mind: insula functional organization and functional connectivity integ",
+    "pmid": "22696421",
+    "doi": "10.1002/hbm.22113",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Kerr",
+    "year": "2016",
+    "title": "Altered insula activity during visceral interoception in weight-restored patients with ano",
+    "pmid": "26084229",
+    "doi": "10.1038/npp.2015.174",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Avery",
+    "year": "2014",
+    "title": "Major depressive disorder is associated with abnormal interoceptive activity and functiona",
+    "pmid": null,
+    "doi": "10.1016/j.biopsych.2013.11.027",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "DeVille",
+    "year": "2020",
+    "title": "Diminished responses to bodily threat and blunted interoception in suicide attempters",
+    "pmid": "32254020",
+    "doi": "10.7554/eLife.51593",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Schulz",
+    "year": "2016",
+    "title": "Neural correlates of heart-focused interoception: a functional magnetic resonance imaging ",
+    "pmid": "28080975",
+    "doi": "10.1098/rstb.2016.0018",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_bm_bladder_control",
+  "name": "Bladder Filling / Micturition Control Paradigm",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Zhang",
+    "year": "2005",
+    "title": "An fMRI study of the role of suprapontine brain structures in the voluntary voiding contro",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Seseke",
+    "year": "2006",
+    "title": "Voluntary pelvic floor muscle control\u2014an fMRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Blok",
+    "year": "1998",
+    "title": "Brain activation during micturition in women",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Kuhtz-Buschbeck",
+    "year": "2005",
+    "title": "Cortical representation of the urge to void: a functional magnetic resonance imaging study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Nour",
+    "year": "2000",
+    "title": "Cerebral activation during micturition in normal men",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_wisconsin_card_sorting",
+  "name": "Wisconsin Card Sorting Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Nelson",
+    "year": "1976",
+    "title": "A modified card sorting test sensitive to frontal lobe defects",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.64,
+    "first_author": "Monchi",
+    "year": "2001",
+    "title": "Wisconsin Card Sorting revisited: distinct neural circuits participating in different stag",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Nyhus",
+    "year": "2009",
+    "title": "The Wisconsin Card Sorting Test and the cognitive assessment of prefrontal executive funct",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Milner",
+    "year": "1963",
+    "title": "Effects of different brain lesions on card sorting \u2013 role of frontal lobes",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Konishi",
+    "year": "2003",
+    "title": "Transient activation of superior prefrontal cortex during inhibition of cognitive set",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_working_memory_generic",
+  "name": "Working Memory Task (unspecified)",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Funahashi",
+    "year": "1993",
+    "title": "Dorsolateral prefrontal lesions and oculomotor delayed-response performance: evidence for ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Courtney",
+    "year": "1996",
+    "title": "Object and spatial visual working memory activate separate neural systems in human cortex",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "D'Esposito",
+    "year": "2015",
+    "title": "The cognitive neuroscience of working memory",
+    "pmid": "25251486",
+    "doi": "10.1146/annurev-psych-010814-015031",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.44,
+    "first_author": "Smith",
+    "year": "1996",
+    "title": "Dissociating verbal and spatial working memory using PET",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.44,
+    "first_author": "Baddeley",
+    "year": "1992",
+    "title": "Working memory",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_oddball",
+  "name": "Oddball Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 0.88,
+    "first_author": "Kiehl",
+    "year": "2001",
+    "title": "Neural sources involved in auditory target detection and novelty processing: an event-rela",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.88,
+    "first_author": "Kiehl",
+    "year": "2001",
+    "title": "An event-related fMRI study of visual and auditory oddball tasks",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Kiehl",
+    "year": "2001",
+    "title": "An event-related functional magnetic resonance imaging study of an auditory oddball task i",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Fichtenholtz",
+    "year": "2004",
+    "title": "Emotion-attention network interactions during a visual oddball task",
+    "pmid": null,
+    "doi": "10.1016/j.cogbrainres.2004.01.006",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Wang",
+    "year": "2005",
+    "title": "Amygdala activation to sad pictures during high-field (4 tesla) functional magnetic resona",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_stress_induction",
+  "name": "Psychosocial Stress Induction",
+  "top_refs": [
+   {
+    "papers": 11,
+    "purity": 0.92,
+    "first_author": "Dedovic",
+    "year": "2005",
+    "title": "The Montreal Imaging Stress Task: using functional imaging to investigate the effects of p",
+    "pmid": "16151536",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Pruessner",
+    "year": "2008",
+    "title": "Deactivation of the Limbic System During Acute Psychosocial Stress: Evidence from Positron",
+    "pmid": "17686466",
+    "doi": "10.1016/j.biopsych.2007.04.041",
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.64,
+    "first_author": "Dedovic",
+    "year": "2005",
+    "title": "The Montreal Imaging Stress Task: using functional imaging to investigate the effects of p",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Wheelock",
+    "year": "2016",
+    "title": "Prefrontal Cortex Activity Is Associated with Biobehavioral Components of the Stress Respo",
+    "pmid": null,
+    "doi": "10.3389/fnhum.2016.00583",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Kirschbaum",
+    "year": "1993",
+    "title": "The \u2018Trier Social Stress Test\u2019\u2014a tool for investigating psychobiological stress responses ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_iowa_gambling",
+  "name": "Iowa Gambling Task",
+  "top_refs": [
+   {
+    "papers": 8,
+    "purity": 0.8,
+    "first_author": "Bechara",
+    "year": "1994",
+    "title": "Insensitivity to future consequences following damage to human prefrontal cortex",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 6,
+    "purity": 1.0,
+    "first_author": "Bechara",
+    "year": "1994",
+    "title": "Insensitivity to future consequences following damage to the human prefrontal cortex",
+    "pmid": "8039375",
+    "doi": "10.1016/0010-0277(94)90018-3",
+    "curated": true
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Bechara",
+    "year": "1994",
+    "title": "Insensitivity to future consequences following damage to human prefrontal cortex",
+    "pmid": "8039375",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Busemeyer",
+    "year": "2002",
+    "title": "A contribution of cognitive decision models to clinical assessment: decomposing performanc",
+    "pmid": "12214432",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Lin",
+    "year": "2008",
+    "title": "Brain maps of Iowa gambling task",
+    "pmid": "18655719",
+    "doi": "10.1186/1471-2202-9-72",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_pain_stimulation",
+  "name": "Pain Stimulation",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Derbyshire",
+    "year": "1997",
+    "title": "Pain processing during three levels of noxious stimulation produces differential patterns ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Apkarian",
+    "year": "2005",
+    "title": "Human brain mechanisms of pain perception and regulation in health and disease",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Rainville",
+    "year": "1997",
+    "title": "Pain affect encoded in human anterior cingulate but not somatosensory cortex",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Valet",
+    "year": "2004",
+    "title": "Distraction modulates connectivity of the cingulo-frontal cortex and the midbrain during p",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Casey",
+    "year": "1996",
+    "title": "Comparison of human cerebral activation pattern during cutaneous warmth, heat pain, and de",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_reading",
+  "name": "Reading Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Olulade",
+    "year": "2013",
+    "title": "Developmental differences for word processing in the ventral stream",
+    "pmid": "22564748",
+    "doi": "10.1016/j.bandl.2012.04.003",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.57,
+    "first_author": "Taylor",
+    "year": "2013",
+    "title": "Can cognitive models explain brain activation during word and pseudoword reading? A meta-a",
+    "pmid": "23046391",
+    "doi": "10.1037/a0030266",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Coltheart",
+    "year": "2001",
+    "title": "DRC: A dual route cascade model of visual word processing and reading aloud",
+    "pmid": "11212628",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Turkeltaub",
+    "year": "2003",
+    "title": "Development of neural mechanisms for reading",
+    "pmid": null,
+    "doi": "10.1038/nn1065",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Henderson",
+    "year": "2015",
+    "title": "Neural correlates of fixation duration during real-world scene viewing: Evidence from fixa",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_mental_imagery",
+  "name": "Mental Imagery Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Kosslyn",
+    "year": "2003",
+    "title": "When is early visual cortex activated during visual mental imagery?",
+    "pmid": null,
+    "doi": "10.1037/0033-2909.129.5.723",
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Mellet",
+    "year": "1998",
+    "title": "Reopening the mental imagery debate: lessons from functional anatomy",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Ishai",
+    "year": "2000",
+    "title": "Distributed neural systems for the generation of visual images",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Le Bihan",
+    "year": "1993",
+    "title": "Activation of human primary visual cortex during visual recall: A magnetic resonance imagi",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Roland",
+    "year": "1994",
+    "title": "Visual imagery and visual representation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_verb_generation",
+  "name": "Verb Generation Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Karunanayaka",
+    "year": "2010",
+    "title": "A group independent component analysis of covert verb generation in children: a functional",
+    "pmid": "20056150",
+    "doi": "10.1016/j.neuroimage.2009.12.108",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Holland",
+    "year": "2001",
+    "title": "Normal fMRI brain activation patterns in children performing a verb generation task",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Schmithorst",
+    "year": "2004",
+    "title": "Event-related fMRI technique for auditory processing with hemodynamics unrelated to acoust",
+    "pmid": "14755667",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Ramsey",
+    "year": "2001",
+    "title": "Combined analysis of language tasks in fMRI improves assessment of hemispheric dominance f",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Karunanayaka",
+    "year": "2010",
+    "title": "A group independent component analysis of covert verb generation in children: A functional",
+    "pmid": "20056150",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_emotional_stroop",
+  "name": "Emotional Stroop Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Blair",
+    "year": "2007",
+    "title": "Modulation of emotion by cognition and cognition by emotion",
+    "pmid": "17239620",
+    "doi": "10.1016/j.neuroimage.2006.11.048",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Blair",
+    "year": "2007",
+    "title": "Modulation of emotion by cognition and cognition by emotion",
+    "pmid": "17239620",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Hwang",
+    "year": "2016",
+    "title": "Dual neurocircuitry dysfunctions in disruptive behavior disorders: Emotional responding an",
+    "pmid": "26875722",
+    "doi": "10.1017/S0033291716000118",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.45,
+    "first_author": "Williams",
+    "year": "1996",
+    "title": "The emotional stroop task and psychopathology",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Blair",
+    "year": "2012",
+    "title": "Reduced dorsal anterior cingulate cortical activity during emotional regulation and top\u2010do",
+    "pmid": "22592057",
+    "doi": "10.1016/j.biopsych.2012.04.013",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_phonological_judgment",
+  "name": "Phonological/Rhyme Judgment Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.67,
+    "first_author": "Pugh",
+    "year": "1996",
+    "title": "Cerebral organization of component processes in reading",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Paulesu",
+    "year": "1996",
+    "title": "Is developmental dyslexia a disconnection syndrome? Evidence from PET scanning",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Kareken",
+    "year": "2000",
+    "title": "Word rhyming as a probe of hemispheric language dominance with functional magnetic resonan",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.71,
+    "first_author": "Bitan",
+    "year": "2005",
+    "title": "Shifts of effective connectivity within a language network during rhyming and spelling",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Xu",
+    "year": "2001",
+    "title": "Conjoint and extended neural networks for the computation of speech codes: the neural basi",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_saccade",
+  "name": "Saccade Task (pro/visually guided)",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Petit",
+    "year": "1999",
+    "title": "Functional anatomy of pursuit eye movements in humans as revealed by fMRI",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Darby",
+    "year": "1996",
+    "title": "Cortical activation in the human brain during lateral saccades using EPISTAR functional ma",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Rosano",
+    "year": "2002",
+    "title": "Pursuit and saccadic eye movement subregions in human frontal eye field",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Luna",
+    "year": "1998",
+    "title": "Dorsal cortical regions subserving visually guided saccades in humans: an fMRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Berman",
+    "year": "1999",
+    "title": "Cortical networks subserving pursuit and saccadic eye movements in humans: an fMRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_biological_motion_perception",
+  "name": "Biological Motion Perception Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Johansson",
+    "year": "1973",
+    "title": "Visual perception of biological motion and a model for its analysis",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Johansson",
+    "year": "1973",
+    "title": "Visual perception of biological motion and a model for its analysis",
+    "pmid": null,
+    "doi": "10.3758/BF03212378",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Koldewyn",
+    "year": "2011",
+    "title": "Neural correlates of coherent and biological motion perception in autism",
+    "pmid": "21884323",
+    "doi": "10.1111/j.1467-7687.2011.01058.x",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Kaiser",
+    "year": "2010",
+    "title": "Neural signatures of autism",
+    "pmid": "21078973",
+    "doi": "10.1073/pnas.1010412107",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Klin",
+    "year": "2009",
+    "title": "Two-year-olds with autism orient to non-social contingencies rather than biological motion",
+    "pmid": "19329996",
+    "doi": "10.1038/nature07868",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_emotional_face_matching",
+  "name": "Emotional Face Matching Task",
+  "top_refs": [
+   {
+    "papers": 11,
+    "purity": 0.58,
+    "first_author": "Hariri",
+    "year": "2002",
+    "title": "The amygdala response to emotional stimuli: a comparison of faces and scenes",
+    "pmid": "12482086",
+    "doi": "10.1006/nimg.2002.1179",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Hariri",
+    "year": "2002",
+    "title": "The amygdala response to emotional stimuli: a comparison of faces and scenes",
+    "pmid": "12482086",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 6,
+    "purity": 0.35,
+    "first_author": "Hariri",
+    "year": "2002",
+    "title": "Serotonin transporter genetic variation and the response of the human amygdala",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Hariri",
+    "year": "2002",
+    "title": "Dextroamphetamine modulates the response of the human amygdala",
+    "pmid": "12464460",
+    "doi": "10.1016/S0893-133X(02)00373-1",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.31,
+    "first_author": "Hariri",
+    "year": "2002",
+    "title": "The amygdala response to emotional stimuli: a comparison of faces and scenes",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_deductive_reasoning",
+  "name": "Deductive / Relational Reasoning Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Heckers",
+    "year": "2004",
+    "title": "Hippocampal activation during transitive inference in humans",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Knauff",
+    "year": "2003",
+    "title": "Reasoning, models, and images: behavioral measures and cortical activity",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Bunge",
+    "year": "2005",
+    "title": "Analogical reasoning and prefrontal cortex: evidence for separable retrieval and integrati",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.57,
+    "first_author": "Goel",
+    "year": "2001",
+    "title": "Functional neuroanatomy of three-term relational reasoning",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Fangmeier",
+    "year": "2006",
+    "title": "fMRI evidence for a three-stage model of deductive reasoning",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_simon",
+  "name": "Simon Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.6,
+    "first_author": "Liu",
+    "year": "2004",
+    "title": "Common and distinct neural substrates of attentional control in an integrated Simon and sp",
+    "pmid": "15219581",
+    "doi": "10.1016/j.neuroimage.2004.02.033",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Wittfoth",
+    "year": "2006",
+    "title": "Comparison of two Simon tasks: neuronal correlates of conflict resolution based on coheren",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Simon",
+    "year": "1969",
+    "title": "Reactions toward the source of stimulation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Simon",
+    "year": "1969",
+    "title": "Processing auditory information: interference from an irrelevant cue",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.36,
+    "first_author": "Rubia",
+    "year": "2006",
+    "title": "Progressive increase of frontostriatal brain activation from childhood to adulthood during",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_gaze_joint_attention",
+  "name": "Gaze Perception / Joint Attention Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Nummenmaa",
+    "year": "2009",
+    "title": "Neural mechanisms of social attention",
+    "pmid": "19223221",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Kawashima",
+    "year": "1999",
+    "title": "The human amygdala plays an important role in gaze monitoring\u2014a PET study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Saito",
+    "year": "2010",
+    "title": "\u201cStay tuned\u201d: inter-individual neural synchronization during mutual gaze and joint attenti",
+    "pmid": "21119770",
+    "doi": "10.3389/fnint.2010.00127",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Pelphrey",
+    "year": "2004",
+    "title": "When strangers pass: processing of mutual and averted gaze in the superior temporal sulcus",
+    "pmid": "15327630",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Calder",
+    "year": "2002",
+    "title": "Reading the mind from eye gaze",
+    "pmid": "11931917",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_continuous_performance",
+  "name": "Continuous Performance Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Rosvold",
+    "year": "1956",
+    "title": "A continuous performance test of brain damage",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Yoon",
+    "year": "2008",
+    "title": "Association of dorsolateral prefrontal cortex dysfunction with disrupted coordinated brain",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Cornblatt",
+    "year": "2001",
+    "title": "Impaired attention as an endophenotype for molecular genetic studies of schizophrenia",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Barch",
+    "year": "2001",
+    "title": "Selective deficits in prefrontal cortex function in medication-naive patients with schizop",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Conners",
+    "year": "2003",
+    "title": "Continuous performance test performance in a normative epidemiological sample",
+    "pmid": "14561062",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_tower_of_london",
+  "name": "Tower of London Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 0.78,
+    "first_author": "Shallice",
+    "year": "1982",
+    "title": "Specific impairments of planning",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Newman",
+    "year": "2003",
+    "title": "Frontal and parietal participation in problem solving in the Tower of London: fMRI and com",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Newman",
+    "year": "2009",
+    "title": "An fMRI study of the Tower of London: A look at problem structure differences",
+    "pmid": "19540214",
+    "doi": "10.1016/j.brainres.2009.06.031",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Lazeron",
+    "year": "2000",
+    "title": "Visualizing brain activation during planning: the Tower of London test adapted for functio",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Baker",
+    "year": "1996",
+    "title": "Neural systems engaged by planning: a PET study of the Tower of London task",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_card_guessing",
+  "name": "Card-Guessing (Gambling) Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Gehring",
+    "year": "2002",
+    "title": "The medial frontal cortex and the rapid processing of monetary gains and losses",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.62,
+    "first_author": "Delgado",
+    "year": "2000",
+    "title": "Tracking the hemodynamic responses to reward and punishment in the striatum",
+    "pmid": "11110834",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Braams",
+    "year": "2013",
+    "title": "Reward-related neural responses are dependent on the beneficiary",
+    "pmid": "23720575",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Forbes",
+    "year": "2009",
+    "title": "Altered striatal activation predicting real-world positive affect in adolescent major depr",
+    "pmid": "19047324",
+    "doi": "10.1176/appi.ajp.2008.07081336",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Delgado",
+    "year": "2000",
+    "title": "Tracking the hemodynamic responses to reward and punishment in the striatum",
+    "pmid": "11110834",
+    "doi": "10.1152/jn.2000.84.6.3072",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_line_bisection",
+  "name": "Line Bisection / Landmark Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Fink",
+    "year": "2001",
+    "title": "The neural basis of vertical and horizontal line bisection judgments",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Weiss",
+    "year": "2000",
+    "title": "Neural consequences of acting in near versus far space",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Fink",
+    "year": "2000",
+    "title": "Line bisection judgements implicate right parietal cortex and cerebellum as assessed by fM",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Fink",
+    "year": "2000",
+    "title": "Line bisection judgments implicate right parietal cortex and cerebellum as assessed by fMR",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Fink",
+    "year": "2001",
+    "title": "The neural basis of vertical and horizontal line bisection judgements: an fmri study of no",
+    "pmid": null,
+    "doi": "10.1006/nimg.2001.0819",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_facial_emotion_recognition",
+  "name": "Facial Emotion Recognition Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Pitcher",
+    "year": "2008",
+    "title": "Transcranial magnetic stimulation disrupts the perception and embodiment of facial express",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Gur",
+    "year": "2002",
+    "title": "A method for obtaining 3-dimensional facial expressions and its standardization for use in",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.24,
+    "first_author": "Ekman",
+    "year": "1976",
+    "title": "Pictures of Facial Affect",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 0.29,
+    "first_author": "Fusar-Poli",
+    "year": "2009",
+    "title": "Functional atlas of emotional faces processing: a voxel-based meta-analysis of 105 functio",
+    "pmid": "19949718",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.19,
+    "first_author": "Hariri",
+    "year": "2002",
+    "title": "The amygdala response to emotional stimuli: a comparison of faces and scenes",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_motor_sequence_learning",
+  "name": "Motor Sequence Learning Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.75,
+    "first_author": "Karni",
+    "year": "1995",
+    "title": "Functional MRI evidence for adult motor cortex plasticity during motor skill learning",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Doyon",
+    "year": "2009",
+    "title": "Contributions of the basal ganglia and functionally related brain structures to motor lear",
+    "pmid": "19061920",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Sakai",
+    "year": "1998",
+    "title": "Transition of brain activation from frontal to parietal areas in visuomotor sequence learn",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Lee",
+    "year": "1995",
+    "title": "Relative phase alterations during bimanual skill acquisition",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Debaere",
+    "year": "2004",
+    "title": "Changes in brain activation during the acquisition of a new bimanual coordination task",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_story_listening",
+  "name": "Narrative Listening",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Karunanayaka",
+    "year": "2007",
+    "title": "Age-related connectivity changes in fMRI data from children listening to stories",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Schmithorst",
+    "year": "2006",
+    "title": "Cognitive modules utilized for narrative comprehension in children: a functional magnetic ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Narain",
+    "year": "2003",
+    "title": "Defining a left-lateralized response specific to intelligible speech using fMRI",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Xu",
+    "year": "2005",
+    "title": "Language in context: Emergent features of word, sentence, and narrative comprehension",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Holland",
+    "year": "2007",
+    "title": "Functional MRI of language lateralization during development in children",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_anti_saccade",
+  "name": "Anti-Saccade Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Hallett",
+    "year": "1978",
+    "title": "Primary and secondary saccades to goals defined by instructions",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "",
+    "year": "1978",
+    "title": "Primary and secondary saccades to goals defined by instructions",
+    "pmid": "726270",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Hallet",
+    "year": "1978",
+    "title": "Primary and secondary saccades to goals defined by instructions",
+    "pmid": "726270",
+    "doi": "10.1016/0042-6989(78)90218-3",
+    "curated": true
+   },
+   {
+    "papers": 4,
+    "purity": 0.57,
+    "first_author": "Sweeney",
+    "year": "1996",
+    "title": "Positron emission tomography study of voluntary saccadic eye movements and spatial working",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Geier",
+    "year": "2010",
+    "title": "Immaturities in reward processing and its influence on inhibitory control in adolescence",
+    "pmid": "19875675",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_self_referential",
+  "name": "Self-Referential Judgment Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Macrae",
+    "year": "2004",
+    "title": "Medial prefrontal activity predicts memory for self",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 7,
+    "purity": 0.54,
+    "first_author": "Kelley",
+    "year": "2002",
+    "title": "Finding the self? an event-related fmri study",
+    "pmid": "12167262",
+    "doi": "10.1162/08989290260138672",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.36,
+    "first_author": "Kelley",
+    "year": "2002",
+    "title": "Finding the self? An event-related fMRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.43,
+    "first_author": "Moran",
+    "year": "2006",
+    "title": "Neuroanatomical evidence for distinct cognitive and affective components of self",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_trail_making",
+  "name": "Trail Making Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Tombaugh",
+    "year": "2004",
+    "title": "Trail Making Test A and B: Normative data stratified by age and education",
+    "pmid": "15010086",
+    "doi": "10.1016/S0887-6177(03)00039-8",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "S\u00e1nchez-Cubillo",
+    "year": "2009",
+    "title": "Construct validity of the Trail Making Test: role of taskswitching, working memory, inhibi",
+    "pmid": "19402930",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Bowie",
+    "year": "2006",
+    "title": "Administration and interpretation of the trail making test",
+    "pmid": "17406468",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Tombaugh",
+    "year": "2004",
+    "title": "Trail Making Test A and B: normative data stratified by age and education",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.33,
+    "first_author": "Reitan",
+    "year": "1958",
+    "title": "Validity of the Trail Making Test as an indicator of organic brain damage",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_time_estimation",
+  "name": "Time Estimation/Interval Timing Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Kosillo",
+    "year": "2010",
+    "title": "The role of the human anterior insular cortex in time processing",
+    "pmid": null,
+    "doi": "10.1007/s00429-010-0267-8",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Rao",
+    "year": "2001",
+    "title": "The evolution of brain activation during temporal processing",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Harrington",
+    "year": "1998",
+    "title": "Cortical networks underlying mechanisms of time perception",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Gibbon",
+    "year": "1984",
+    "title": "Scalar timing in memory",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Coull",
+    "year": "2004",
+    "title": "Functional anatomy of the attentional modulation of time estimation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_finger_tapping",
+  "name": "Finger Tapping Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Walker",
+    "year": "2003",
+    "title": "Dissociable stages of human memory consolidation and reconsolidation",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Rao",
+    "year": "1997",
+    "title": "Distributed neural systems underlying the timing of movements",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Walker",
+    "year": "2002",
+    "title": "Practice with sleep makes perfect: sleep-dependent motor skill learning",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Penhune",
+    "year": "1998",
+    "title": "Cerebellar contributions to motor timing: a PET study of auditory and visual rhythm reprod",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Witt",
+    "year": "2008",
+    "title": "Functional neuroimaging correlates of finger-tapping task variations: an ALE meta-analysis",
+    "pmid": "18511305",
+    "doi": "10.1016/j.neuroimage.2008.04.025",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_interference_generic",
+  "name": "Conflict/Interference (unspecified)",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Bishop",
+    "year": "2007",
+    "title": "Neural processing of fearful faces: Effects of anxiety are gated by perceptual capacity li",
+    "pmid": "16956980",
+    "doi": "10.1093/cercor/bhl070",
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.36,
+    "first_author": "Etkin",
+    "year": "2006",
+    "title": "Resolving emotional conflict: a role for the rostral anterior cingulate cortex in modulati",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.43,
+    "first_author": "Etkin",
+    "year": "2006",
+    "title": "Resolving emotional conflict: a role for the rostral anterior cingulate cortex in modulati",
+    "pmid": "16982430",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.33,
+    "first_author": "Etkin",
+    "year": "2006",
+    "title": "Resolving emotional conflict: a role for the rostral anterior cingulate cortex in modulati",
+    "pmid": "16982430",
+    "doi": "10.1016/j.neuron.2006.07.029",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.1,
+    "first_author": "Ekman",
+    "year": "1976",
+    "title": "Pictures of Facial Affect",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_semantic_priming",
+  "name": "Semantic Priming Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Henson",
+    "year": "2000",
+    "title": "Neuroimaging evidence for dissociable forms of repetition priming",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Wiggs",
+    "year": "1998",
+    "title": "Properties and mechanisms of perceptual priming",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.43,
+    "first_author": "Neely",
+    "year": "1991",
+    "title": "Semantic priming effects in visual word recognition: a selective review of current finding",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Wagner",
+    "year": "2001",
+    "title": "Recovering meaning: Left prefrontal cortex guides controlled semantic retrieval",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Rossell",
+    "year": "2003",
+    "title": "The anatomy and time course of semantic priming investigated by fMRI and ERPs",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_dot_probe",
+  "name": "Dot-Probe Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Monk",
+    "year": "2008",
+    "title": "Amygdala and ventrolateral prefrontal cortex activation to masked angry faces in children ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Monk",
+    "year": "2006",
+    "title": "Ventrolateral prefrontal cortex activation and attentional bias in response to angry faces",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Telzer",
+    "year": "2008",
+    "title": "Relationship between trait anxiety, prefrontal cortex, and attention bias to angry faces i",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Price",
+    "year": "2014",
+    "title": "Looking under the hood of the dot-probe task: an fMRI study in anxious youth",
+    "pmid": "24578016",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_visual_search",
+  "name": "Visual Search Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Treisman",
+    "year": "1980",
+    "title": "A feature-integration theory of attention",
+    "pmid": "7351125",
+    "doi": "10.1016/0010-0285(80)90005-5",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Nobre",
+    "year": "2003",
+    "title": "Brain activations during visual search: contributions of search efficiency versus feature ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Treisman",
+    "year": "1980",
+    "title": "A feature-integration theory of attention",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 6,
+    "purity": 0.11,
+    "first_author": "Corbetta",
+    "year": "2002",
+    "title": "Control of goal-directed and stimulus-driven attention in the brain",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_ultimatum_game",
+  "name": "Ultimatum Game Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 0.83,
+    "first_author": "Sanfey",
+    "year": "2003",
+    "title": "The neural basis of economic decision-making in the ultimatum game.",
+    "pmid": "12805551",
+    "doi": "10.1126/science.1082976",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Knoch",
+    "year": "2006",
+    "title": "Diminishing reciprocal fairness by disrupting the right prefrontal cortex",
+    "pmid": "17023614",
+    "doi": "10.1126/science.1129156",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Guth",
+    "year": "1982",
+    "title": "An experimental analysis of ultimatum bargaining",
+    "pmid": null,
+    "doi": "10.1016/0167-2681(82)90011-7",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "G\u00fcth",
+    "year": "1982",
+    "title": "An experimental analysis of ultimatum bargaining",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_reversal_learning",
+  "name": "Reversal Learning Task",
+  "top_refs": [
+   {
+    "papers": 5,
+    "purity": 1.0,
+    "first_author": "Cools",
+    "year": "2002",
+    "title": "Defining the neural mechanisms of probabilistic reversal learning using event-related func",
+    "pmid": "12040063",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 6,
+    "purity": 0.67,
+    "first_author": "Cools",
+    "year": "2002",
+    "title": "Defining the neural mechanisms of probabilistic reversal learning using event-related func",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Kringelbach",
+    "year": "2003",
+    "title": "Neural correlates of rapid context-dependent reversal learning in a simple model of human ",
+    "pmid": "14568506",
+    "doi": "10.1016/S1053-8119(03)00393-8",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_threat_social_evaluation",
+  "name": "Social Evaluative Feedback Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Guyer",
+    "year": "2012",
+    "title": "Neural circuitry underlying affective response to peer feedback in adolescence",
+    "pmid": "21828112",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "van Schie",
+    "year": "2018",
+    "title": "When compliments do not hit but critiques do: an fMRI study into self-esteem and self-know",
+    "pmid": "29490088",
+    "doi": "10.1093/scan/nsy014",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Silk",
+    "year": "2014",
+    "title": "Increased neural response to peer rejection associated with adolescent depression and pube",
+    "pmid": "24273075",
+    "doi": "10.1093/scan/nst175",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Achterberg",
+    "year": "2016",
+    "title": "Control your anger! The neural basis of aggression regulation in response to negative soci",
+    "pmid": "26755768",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_dichotic_listening",
+  "name": "Dichotic Listening Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Thomsen",
+    "year": "2004",
+    "title": "Dichotic listening reveals functional specificity in prefrontal cortex: an MRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Hugdahl",
+    "year": "2003",
+    "title": "Dichotic listening in the study of auditory laterality",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Bryden",
+    "year": "1988",
+    "title": "An overview of the dichotic listening procedure and its relation to cerebral organization",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_audiovisual_integration",
+  "name": "Audiovisual / Multisensory Integration Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Wright",
+    "year": "2003",
+    "title": "Polysensory interactions along lateral temporal regions evoked by audiovisual speech",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Van Atteveldt",
+    "year": "2004",
+    "title": "Integration of letters and speech sounds in the human brain",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 4,
+    "purity": 0.67,
+    "first_author": "Calvert",
+    "year": "2000",
+    "title": "Evidence from functional magnetic resonance imaging of crossmodal binding in the human het",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_action_observation",
+  "name": "Action Observation Task",
+  "top_refs": [
+   {
+    "papers": 7,
+    "purity": 0.47,
+    "first_author": "Caspers",
+    "year": "2010",
+    "title": "ALE meta-analysis of action observation and imitation in the human brain.",
+    "pmid": "20056149",
+    "doi": "10.1016/j.neuroimage.2009.12.112",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Gallese",
+    "year": "1996",
+    "title": "Action recognition in the premotor cortex.",
+    "pmid": "8800951",
+    "doi": "10.1093/brain/119.2.593",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_theory_of_mind",
+  "name": "Theory of Mind Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.5,
+    "first_author": "Castelli",
+    "year": "2002",
+    "title": "Autism, Asperger syndrome and brain mechanisms for the attribution of mental states to ani",
+    "pmid": null,
+    "doi": "10.1093/brain/awf189",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Abell",
+    "year": "2000",
+    "title": "Do triangles play tricks? Attribution of mental states to animated shapes in normal and ab",
+    "pmid": null,
+    "doi": "10.1016/S0885-2014(00)00014-9",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Castelli",
+    "year": "2000",
+    "title": "Movement and mind: a functional imaging study of perception and interpretation of complex ",
+    "pmid": null,
+    "doi": "10.1006/nimg.2000.0612",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_motor_execution",
+  "name": "Simple Motor Execution Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Reddy",
+    "year": "2002",
+    "title": "Functional brain reorganization for hand movement in patients with multiple sclerosis: def",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Ball",
+    "year": "1999",
+    "title": "The role of higher-order motor areas in voluntary movement as revealed by high-resolution ",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Cunnington",
+    "year": "2002",
+    "title": "The preparation and execution of self-initiated and externally-triggered movement: a study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_prospective_memory",
+  "name": "Prospective Memory Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "McDaniel",
+    "year": "2000",
+    "title": "Strategic and automatic processes in prospective memory retrieval: a multiprocess framewor",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Burgess",
+    "year": "2003",
+    "title": "The role of the rostral frontal cortex (area 10) in prospective memory: A lateral versus m",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Burgess",
+    "year": "2001",
+    "title": "Brain regions involved in prospective memory as determined by positron emission tomography",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_multiple_object_tracking",
+  "name": "Multiple Object Tracking Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Pylyshyn",
+    "year": "1988",
+    "title": "Tracking multiple independent targets: evidence for a parallel tracking mechanism",
+    "pmid": "3153671",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.43,
+    "first_author": "Culham",
+    "year": "2001",
+    "title": "Attention response functions: characterizing brain areas using fMRI activation during para",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.43,
+    "first_author": "Culham",
+    "year": "1998",
+    "title": "Cortical fMRI activation produced by attentive tracking of moving targets",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_bm_vestibular_stimulation",
+  "name": "Vestibular Stimulation (caloric/galvanic)",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Janzen",
+    "year": "2008",
+    "title": "Neural correlates of hemispheric dominance and ipsilaterality within the vestibular system",
+    "pmid": "18644454",
+    "doi": "10.1016/j.neuroimage.2008.06.026",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Schlindwein",
+    "year": "2008",
+    "title": "Cortical representation of saccular vestibular stimulation: VEMPs in fMRI",
+    "pmid": "17919936",
+    "doi": "10.1016/j.neuroimage.2007.08.016",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Stephan",
+    "year": "2005",
+    "title": "Functional MRI of galvanic vestibular stimulation with alternating currents at different f",
+    "pmid": "15955481",
+    "doi": "10.1016/j.neuroimage.2005.02.049",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_virtual_navigation",
+  "name": "Virtual Navigation / Wayfinding",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Boccia",
+    "year": "2014",
+    "title": "Neuropsychology of environmental navigation in humans: Review and meta-analysis of fMRI st",
+    "pmid": null,
+    "doi": "10.1007/s11065-014-9247-8",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Aguirre",
+    "year": "1996",
+    "title": "The parahippocampus subserves topographical learning in man",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Ghaem",
+    "year": "1997",
+    "title": "Mental navigation along memorized routes activates the hippocampus, precuneus, and insula",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_posner_spatial_cueing",
+  "name": "Posner Spatial Cueing Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Posner",
+    "year": "1980",
+    "title": "Orienting of attention",
+    "pmid": "7367577",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Posner",
+    "year": "1980",
+    "title": "Orienting of attention",
+    "pmid": "7367577",
+    "doi": "10.1080/00335558008248231",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.18,
+    "first_author": "Hopfinger",
+    "year": "2000",
+    "title": "The neural mechanisms of top-down attentional control",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_bm_driving",
+  "name": "Simulated Driving Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Spiers",
+    "year": "2007",
+    "title": "Neural substrates of driving behaviour.",
+    "pmid": "17412611",
+    "doi": "10.1016/j.neuroimage.2007.02.032",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Uchiyama",
+    "year": "2003",
+    "title": "The neural substrates of driving at a safe distance: a functional MRI study.",
+    "pmid": "14625019",
+    "doi": "10.1016/j.neulet.2003.08.072",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Just",
+    "year": "2008",
+    "title": "A decrease in brain activation associated with driving when listening to someone speak.",
+    "pmid": "18353285",
+    "doi": "10.1016/j.brainres.2007.12.075",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_corsi_block_tapping",
+  "name": "Corsi Block-Tapping Task",
+  "top_refs": [
+   {
+    "papers": 6,
+    "purity": 0.86,
+    "first_author": "Corsi",
+    "year": "1972",
+    "title": "Human memory and the medial temporal region of the brain.",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Toepper",
+    "year": "2010",
+    "title": "Functional correlates of distractor suppression during spatial working memory encoding.",
+    "pmid": "19925856",
+    "doi": "10.1016/j.neuroscience.2009.11.019",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_speech_production",
+  "name": "Overt Speech Production Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Pujol",
+    "year": "1999",
+    "title": "Cerebral lateralization of language in normal left-handed people studied by functional MRI",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Badzakova-Trajkov",
+    "year": "2010",
+    "title": "Cerebral asymmetries: Complementary and independent processes",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.33,
+    "first_author": "Wilke",
+    "year": "2007",
+    "title": "LI-tool: a new toolbox to assess lateralization in functional MR-data",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_implicit_association",
+  "name": "Implicit Association Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Greenwald",
+    "year": "1998",
+    "title": "Measuring individual differences in implicit cognition: the implicit association test",
+    "pmid": "9654756",
+    "doi": "10.1037/0022-3514.74.6.1464",
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Greenwald",
+    "year": "1998",
+    "title": "Measuring individual differences in implicit cognition: the implicit association test",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Greenwald",
+    "year": "1998",
+    "title": "Measuring individual differences in implicit cognition: the implicit association test",
+    "pmid": "9654756",
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_sentence_completion",
+  "name": "Sentence Completion (Hayling)",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Whalley",
+    "year": "2004",
+    "title": "fMRI correlates of state and trait effects in subjects at genetically enhanced risk of sch",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Burgess",
+    "year": "1997",
+    "title": "The Hayling and Brixton Tests",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_probabilistic_classification_learning",
+  "name": "Probabilistic Classification Learning Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.8,
+    "first_author": "Knowlton",
+    "year": "1994",
+    "title": "Probabilistic classification learning in amnesia",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.5,
+    "first_author": "Knowlton",
+    "year": "1996",
+    "title": "A neostriatal habit learning system in humans",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_neurofeedback",
+  "name": "Neurofeedback Training",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Zotev",
+    "year": "2011",
+    "title": "Self-regulation of amygdala activation using real-time FMRI neurofeedback",
+    "pmid": null,
+    "doi": "10.1371/journal.pone.0024522",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Caria",
+    "year": "2007",
+    "title": "Regulation of anterior insular cortex activity using real-time fMRI",
+    "pmid": "17336094",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_sustained_attention_to_response",
+  "name": "Sustained Attention to Response Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Robertson",
+    "year": "1997",
+    "title": "\u2018Oops!\u2019: performance correlates of everyday attentional failures in traumatic brain injure",
+    "pmid": "9204482",
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Robertson",
+    "year": "1997",
+    "title": "Oops!\u2019:performance correlates of everyday attentional failures in traumatic brain injured ",
+    "pmid": "9204482",
+    "doi": "10.1016/S0028-3932(97)00015-8",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_sound_categorization",
+  "name": "Sound / Voice Categorization Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Belin",
+    "year": "2000",
+    "title": "Voice-selective areas in human auditory cortex",
+    "pmid": "10659849",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.25,
+    "first_author": "Belin",
+    "year": "2000",
+    "title": "Voice-selective areas in human auditory cortex",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_auditory_discrimination",
+  "name": "Auditory Psychophysical Discrimination (pitch, duration, loudness)",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Foster",
+    "year": "2010",
+    "title": "A role for the intraparietal sulcus in transforming musical pitch information",
+    "pmid": "19789184",
+    "doi": "10.1093/cercor/bhp199",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Foster",
+    "year": "2010",
+    "title": "A role for the intraparietal sulcus in transforming musical pitch information",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_threat_of_shock",
+  "name": "Threat-of-Shock / Threat Anticipation",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Mechias",
+    "year": "2010",
+    "title": "A meta-analysis of instructed fear studies: implications for conscious appraisal of threat",
+    "pmid": null,
+    "doi": "10.1016/j.neuroimage.2009.09.040",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Davis",
+    "year": "2010",
+    "title": "Phasic vs sustained fear in rats and humans: role of the extended amygdala in fear vs anxi",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_rapid_serial_visual_presentation",
+  "name": "Rapid Serial Visual Presentation Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Raymond",
+    "year": "1992",
+    "title": "Temporary suppression of visual processing in an RSVP task: an attentional blink?",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   },
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Chun",
+    "year": "1995",
+    "title": "A two-stage model for multiple target detection in rapid serial visual presentation",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_trust_game",
+  "name": "Trust Game Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Phan",
+    "year": "2010",
+    "title": "Reputation for reciprocity engages the brain reward center",
+    "pmid": null,
+    "doi": "10.1073/pnas.1008137107",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "King-Casas",
+    "year": "2005",
+    "title": "Getting to know you: reputation and trust in a two-person economic exchange",
+    "pmid": null,
+    "doi": "10.1126/science.1108062",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_food_choice",
+  "name": "Food Choice / Portion Selection Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Hare",
+    "year": "2011",
+    "title": "Focusing attention on the health aspects of foods changes value signals in vmPFC and impro",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.38,
+    "first_author": "Hare",
+    "year": "2009",
+    "title": "Self-control in decision-making involves modulation of the vmPFC valuation system",
+    "pmid": "19407204",
+    "doi": "10.1126/science.1168450",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_paired_associates_learning",
+  "name": "Paired Associates Learning Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Kirwan",
+    "year": "2004",
+    "title": "Medial temporal lobe activation during encoding and retrieval of novel face-name pairs",
+    "pmid": "15382260",
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Kirwan",
+    "year": "2004",
+    "title": "Medial temporal lobe activation during encoding and retrieval of novel face\u2013name pairs",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_motion_perception",
+  "name": "Visual Motion Perception Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Griffiths",
+    "year": "1999",
+    "title": "Cortical activation during perception of a rotating wide-field acoustic stimulus",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Warren",
+    "year": "2002",
+    "title": "Perception of sound-source motion by the human brain",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_body_ownership_illusion",
+  "name": "Body Ownership Illusion Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Ehrsson",
+    "year": "2004",
+    "title": "That's my hand! Activity in premotor cortex reflects feeling of ownership of a limb",
+    "pmid": "15232072",
+    "doi": "10.1126/science.1097011",
+    "curated": false
+   },
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Botvinick",
+    "year": "1998",
+    "title": "Rubber hands \u2018feel\u2019 touch that eyes see.",
+    "pmid": "9486643",
+    "doi": "10.1038/35784",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_psychomotor_vigilance",
+  "name": "Psychomotor Vigilance Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Lim",
+    "year": "2008",
+    "title": "Sleep deprivation and vigilant attention.",
+    "pmid": "18591490",
+    "doi": "10.1196/annals.1417.002",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_affective_priming",
+  "name": "Affective Priming Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 1.0,
+    "first_author": "Suslow",
+    "year": "2003",
+    "title": "Affective priming in schizophrenia with and without affective negative symptoms",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_wheel_of_fortune",
+  "name": "Wheel of Fortune Task",
+  "top_refs": [
+   {
+    "papers": 4,
+    "purity": 0.44,
+    "first_author": "Ernst",
+    "year": "2004",
+    "title": "Choice selection and reward anticipation: an fMRI study",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_operation_span",
+  "name": "Operation Span Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Kondo",
+    "year": "2004",
+    "title": "Functional roles of the cingulo-frontal network in performance on working memory",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_aesthetic_judgment",
+  "name": "Aesthetic Judgment Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Kirk",
+    "year": "2009",
+    "title": "Brain correlates of aesthetic expertise: a parametric fMRI study",
+    "pmid": "18783864",
+    "doi": "10.1016/j.bandc.2008.08.004",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_wm_updating",
+  "name": "Working Memory Updating (running span / keep-track)",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.18,
+    "first_author": "Miyake",
+    "year": "2000",
+    "title": "The unity and diversity of executive functions and their contributions to complex \u201cFrontal",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_delayed_match_to_sample",
+  "name": "Delayed Match-to-Sample Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.15,
+    "first_author": "Sternberg",
+    "year": "1966",
+    "title": "High-speed scanning in human memory",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_affective_picture_viewing",
+  "name": "Affective Picture Viewing Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.33,
+    "first_author": "Lang",
+    "year": "1997",
+    "title": "International Affective Picture System (IAPS): Technical Manual and Affective Ratings. NIM",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_reward_feedback",
+  "name": "Reward Processing Task (unspecified)",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.3,
+    "first_author": "Liu",
+    "year": "2011",
+    "title": "Common and distinct networks underlying reward valence and processing stages: a meta-analy",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_dictator_game",
+  "name": "Dictator Game Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Forsythe",
+    "year": "1994",
+    "title": "Fairness in simple bargaining experiments",
+    "pmid": null,
+    "doi": null,
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_ravens_progressive_matrices",
+  "name": "Raven's Progressive Matrices Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Jung",
+    "year": "2007",
+    "title": "The Parieto-Frontal Integration Theory (P-FIT) of intelligence: converging neuroimaging ev",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_digit_symbol_substitution",
+  "name": "Digit Symbol Substitution Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Rypma",
+    "year": "2006",
+    "title": "Neural correlates of cognitive efficiency",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_bm_dual_task",
+  "name": "Dual-Task / Divided Attention Paradigm",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Herath",
+    "year": "2001",
+    "title": "Neural correlates of dual task interference can be dissociated from those of divided atten",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_multi_armed_bandit",
+  "name": "Multi-Armed Bandit Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Daw",
+    "year": "2006",
+    "title": "Cortical substrates for exploratory decisions in humans",
+    "pmid": "16778890",
+    "doi": "10.1038/nature04766",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_risky_decision",
+  "name": "Risky Decision-Making Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Levin",
+    "year": "2007",
+    "title": "Age-related differences in adaptive decision making: sensitivity to expected value in risk",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_meditation",
+  "name": "Meditation",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Farb",
+    "year": "2007",
+    "title": "Attending to the present: mindfulness meditation reveals distinct neural modes of self-ref",
+    "pmid": null,
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_mismatch_negativity",
+  "name": "Mismatch Negativity Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Giard",
+    "year": "1990",
+    "title": "Brain generators implicated in the processing of auditory stimulus deviance: a topographic",
+    "pmid": "2100348",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_visual_masking",
+  "name": "Visual Masking Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Victor",
+    "year": "2010",
+    "title": "Relationship between amygdala responses to masked faces and mood state and treatment in ma",
+    "pmid": "21041614",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_think_no_think",
+  "name": "Think/No-Think Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Benoit",
+    "year": "2012",
+    "title": "Opposing mechanisms support the voluntary forgetting of unwanted memories.",
+    "pmid": "23083745",
+    "doi": "10.1016/j.neuron.2012.07.025",
+    "curated": true
+   }
+  ]
+ },
+ {
+  "task": "tct_numerosity",
+  "name": "Numerosity / Magnitude Comparison",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.75,
+    "first_author": "Cantlon",
+    "year": "2009",
+    "title": "The neural development of an abstract concept of number.",
+    "pmid": "19016605",
+    "doi": "10.1162/jocn.2008.21159",
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "hedtsk_directed_forgetting",
+  "name": "Directed Forgetting Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 1.0,
+    "first_author": "Nowicka",
+    "year": "2011",
+    "title": "Forgetting of emotional information is hard: an fMRI study of directed forgetting",
+    "pmid": "20584747",
+    "doi": null,
+    "curated": false
+   }
+  ]
+ },
+ {
+  "task": "tct_writing",
+  "name": "Writing / Spelling Task",
+  "top_refs": [
+   {
+    "papers": 3,
+    "purity": 0.6,
+    "first_author": "Purcell",
+    "year": "2011",
+    "title": "Examining the central and peripheral processes of written word production through meta-ana",
+    "pmid": "22013427",
+    "doi": "10.3389/fpsyg.2011.00239",
+    "curated": false
+   }
+  ]
+ }
+]

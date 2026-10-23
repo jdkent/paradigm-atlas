@@ -1,0 +1,47 @@
+[
+ [
+  "Supported",
+  "Condition designs can be recovered from condition names",
+  "Normalized condition atoms reproduce each paradigm's textbook design, e.g. n-back load levels, Stroop congruency, MID gain/loss by phase."
+ ],
+ [
+  "Supported",
+  "Procedure descriptions identify the paradigm",
+  "With task names hidden, the description alone picks the right task 77% of the time (87% right family) across 108 tasks."
+ ],
+ [
+  "Supported",
+  "Papers that cite the same reference use the same paradigm",
+  "40% of cross-paper pairs sharing a cited reference share the task, versus 1.6% at random; 57% when only origin/adaptation citations count."
+ ],
+ [
+  "Supported",
+  "Labs reuse their paradigms",
+  "Papers with the same senior author share a task 19% of the time, versus 1.8% at random."
+ ],
+ [
+  "Supported",
+  "In-corpus citations link versions of the same task",
+  "When a task paper cites another corpus paper next to its task, that paper runs the same task 58% of the time (67% for origin/adaptation citations)."
+ ],
+ [
+  "Partly",
+  "Citations rediscover where a paradigm came from",
+  "The most task-specific cited paper is the curated origin for 55% of tasks (70% within the top five)."
+ ],
+ [
+  "Partly",
+  "Data-driven similarity recovers expert task families",
+  "A task's nearest neighbour is in the same hed-task family 64% of the time (7% by chance), but families do not form clean clusters."
+ ],
+ [
+  "Supported",
+  "The normalizer is accurate",
+  "On 150 freshly annotated mentions: 92% correct (task or annotator's alternative) at 77% coverage; 95% when two methods agree."
+ ],
+ [
+  "Not supported",
+  "Raw task names map onto Cognitive Atlas",
+  "Only 17% of mentions match exactly; names combine paradigm, stimulus and manipulation."
+ ]
+]

@@ -1,0 +1,173 @@
+hed_process_id	hed_process_name	hed_category_id	match_type	atlas_concept_id	atlas_concept_name	atlas_concept_class	atlas_task_count	atlas_concept_matches	notes
+hed_acoustic_processing	Acoustic processing	auditory_and_pre_attentive_deviance_processing	close	trm_4a3fd79d0971e	acoustic processing	ctp_C1	3	1	Atlas definition describes underwater and atmospheric signal propagation, not auditory cognition
+hed_action_initiation	Action initiation	motor_preparation_timing_and_execution	exact	trm_4a3fd79d0b5c0	action initiation	ctp_C7		1	
+hed_active_maintenance	Active maintenance	short_term_and_working_memory	exact	trm_4a3fd79d0ba0d	active maintenance	ctp_C4	15	1	
+hed_affective_priming	Affective priming	emotion_perception_and_regulation	related	trm_4e89aebaa311d	priming	ctp_C5		1	Atlas has no affective or evaluative priming entry
+hed_alerting	Alerting	selective_and_sustained_attention	none						Atlas has no alerting entry despite carrying the ANT
+hed_analogical_reasoning	Analogical reasoning	reasoning_and_problem_solving	exact	trm_4a3fd79d09810	analogical reasoning	ctp_C3	1	1	
+hed_antisaccade	Antisaccade	motor_preparation_timing_and_execution	none						No antisaccade concept; the Atlas registers it only as a task
+hed_approach_motivation	Approach motivation	reward_anticipation_and_motivation	none						Only the BIS/BAS trait scale, not the process
+hed_associative_learning	Associative learning	associative_learning_and_reinforcement	exact	trm_4a3fd79d098c9	association learning	ctp_C5	7	1	
+hed_attention_shifting	Attention shifting	selective_and_sustained_attention	exact	trm_4a3fd79d0b5fb	attention shifting	ctp_C2	12	1	
+hed_attentional_awareness	Attentional awareness	awareness_agency_and_metacognition	related	trm_4a3fd79d09e35	consciousness				Atlas has only the broader parent term
+hed_attentional_capture	Attentional capture	selective_and_sustained_attention	none						No attentional capture entry
+hed_auditory_perception	Auditory perception	auditory_and_pre_attentive_deviance_processing	exact	trm_4a3fd79d09ab2	auditory perception	ctp_C1	21	1	
+hed_auditory_tone_discrimination	Auditory tone discrimination	auditory_and_pre_attentive_deviance_processing	exact	trm_557b476527a27	auditory tone discrimination	ctp_C1	3	1	
+hed_autobiographical_memory	Autobiographical memory	long_term_memory	exact	trm_4a3fd79d09b10	autobiographical memory	ctp_C5	2	1	
+hed_avoidance_motivation	Avoidance motivation	reward_anticipation_and_motivation	none						Only the BIS/BAS trait scale, not the process
+hed_biological_motion_perception	Biological motion perception	face_and_object_perception	close	trm_kYtw4QBOKCbsM	biological motion			1	
+hed_body_ownership	Body ownership	awareness_agency_and_metacognition	close	trm_4e5faabfe8ce3	sense of body ownership		1	1	
+hed_categorization	Categorization	reasoning_and_problem_solving	exact	trm_4a3fd79d09c28	categorization	ctp_C3	5	1	
+hed_causal_reasoning	Causal reasoning	reasoning_and_problem_solving	related	trm_4a3fd79d0aec1	reasoning	ctp_C3	5	1	Atlas has only the broader parent term
+hed_choice_commitment	Choice commitment	value_based_decision_making_under_risk_and_uncertainty	none						No entry for decision commitment
+hed_chunking	Chunking	short_term_and_working_memory	exact	trm_4a3fd79d09cae	chunking	ctp_C4	4	1	
+hed_cognitive_reappraisal	Cognitive reappraisal	emotion_perception_and_regulation	close	trm_557b4844ca14d	emotional reappraisal			1	Atlas entry has no definition
+hed_competition	Competition	social_cognition_and_strategic_social_choice	exact	trm_4a3fd79d09daa	competition			1	
+hed_conflict_monitoring	Conflict monitoring	inhibitory_control_and_conflict_monitoring	related	trm_4a3fd79d0a94f	monitoring	ctp_C4	1	1	Atlas has only the broader parent term
+hed_consolidation	Consolidation	long_term_memory	exact	trm_4a3fd79d0b8cd	consolidation	ctp_C5		1	
+hed_cooperation	Cooperation	social_cognition_and_strategic_social_choice	none						No cooperation entry
+hed_declarative_memory	Declarative memory	long_term_memory	exact	trm_4a3fd79d0a04f	declarative memory	ctp_C5	7	1	
+hed_deductive_reasoning	Deductive reasoning	reasoning_and_problem_solving	exact	trm_4a3fd79d0a072	deductive reasoning	ctp_C3	1	1	
+hed_delay_discounting	Delay discounting	value_based_decision_making_under_risk_and_uncertainty	exact	trm_a4WdpQW5JYPH0	delay discounting		3	1	
+hed_depth_perception	Depth perception	face_and_object_perception	exact	trm_4a3fd79d0a0a1	depth perception	ctp_C1		1	
+hed_directed_forgetting	Directed forgetting	long_term_memory	close	trm_4a3fd79d0a689	intentional forgetting	ctp_C5		1	Atlas names the construct, not the paradigm effect
+hed_discourse_processing	Discourse processing	language_comprehension_and_production	exact	trm_4a3fd79d0b6f5	discourse processing	ctp_C6		1	
+hed_divided_attention	Divided attention	selective_and_sustained_attention	exact	trm_4a3fd79d0a116	divided attention	ctp_C2	5	1	
+hed_effort_allocation	Effort allocation	reward_anticipation_and_motivation	related	trm_4a3fd79d0a151	effort			1	Atlas has only the broader parent term
+hed_emotion_recognition	Emotion recognition	emotion_perception_and_regulation	exact	trm_4a3fd79d0b665	emotion recognition	ctp_C8	2	1	
+hed_emotion_regulation	Emotion regulation	emotion_perception_and_regulation	exact	trm_51a690a7492eb	emotion regulation		10	1	
+hed_encoding	Encoding	long_term_memory	exact	trm_4a3fd79d0b8e5	encoding	ctp_C5	3	1	
+hed_episodic_memory	Episodic memory	long_term_memory	exact	trm_4a3fd79d0a1f4	episodic memory	ctp_C5	6	1	
+hed_error_correction	Error correction	inhibitory_control_and_conflict_monitoring	none						No corresponding Atlas concept
+hed_error_detection	Error detection	inhibitory_control_and_conflict_monitoring	exact	trm_4a3fd79d0a20c	error detection	ctp_C4	7	1	
+hed_executive_attention	Executive attention	inhibitory_control_and_conflict_monitoring	related	trm_4a3fd79d09902	attention	ctp_C2	29		Atlas has only the broader parent term
+hed_expressive_suppression	Expressive suppression	emotion_perception_and_regulation	none						No corresponding Atlas concept
+hed_extinction	Extinction	associative_learning_and_reinforcement	exact	trm_4fe8edc62f613	extinction			1	
+hed_face_identity_recognition	Face identity recognition	face_and_object_perception	close	trm_4a3fd79d0a30c	face recognition	ctp_C5	6	1	Atlas entry does not separate identity from expression
+hed_face_perception	Face perception	face_and_object_perception	exact	trm_4a3fd79d0a300	face perception	ctp_C1	1	1	
+hed_familiarity	Familiarity	long_term_memory	exact	trm_4a3fd79d0b8fc	familiarity	ctp_C5		1	
+hed_feature_based_attention	Feature-based attention	selective_and_sustained_attention	exact	trm_5524572b66764	feature-based attention			1	
+hed_feeling_of_knowing	Feeling of knowing	awareness_agency_and_metacognition	none						No feeling-of-knowing entry
+hed_fine_motor_control	Fine motor control	motor_preparation_timing_and_execution	related	trm_4a3fd79d0a972	motor control	ctp_C7	26		Atlas does not separate fine motor control
+hed_forgetting	Forgetting	long_term_memory	exact	trm_4a3fd79d0b908	forgetting	ctp_C5	4	1	
+hed_goal_maintenance	Goal maintenance	cognitive_flexibility_and_higher_order_executive_function	exact	trm_4a3fd79d0a431	goal maintenance	ctp_C4	3	1	
+hed_goal_directed_behavior	Goal-directed behavior	associative_learning_and_reinforcement	none						No goal-directed control entry
+hed_grasping	Grasping	motor_preparation_timing_and_execution	none						No grasping entry
+hed_gustatory_perception	Gustatory perception	face_and_object_perception	exact	trm_4a3fd79d0a477	gustatory perception	ctp_C1		1	
+hed_habit	Habit	associative_learning_and_reinforcement	exact	trm_4a3fd79d0a483	habit	ctp_C5		1	
+hed_hypothesis_testing	Hypothesis testing	reasoning_and_problem_solving	none						No hypothesis testing entry
+hed_imitation	Imitation	social_cognition_and_strategic_social_choice	none						No imitation entry
+hed_implicit_memory	Implicit memory	implicit_and_statistical_learning	exact	trm_4a3fd79d0a533	implicit memory	ctp_C5	1	1	
+hed_in_group_out_group_processing	In-group/out-group processing	social_cognition_and_strategic_social_choice	none						No in-group/out-group entry
+hed_incentive_salience	Incentive salience	reward_anticipation_and_motivation	exact	trm_QehTtEcwPuRtK	incentive salience			1	
+hed_inductive_reasoning	Inductive reasoning	reasoning_and_problem_solving	exact	trm_4a3fd79d0a590	inductive reasoning	ctp_C3	1	1	Atlas also has the narrower `induction`
+hed_insight	Insight	reasoning_and_problem_solving	exact	trm_4a3fd79d0a62b	insight	ctp_C3		1	
+hed_instrumental_conditioning	Instrumental conditioning	associative_learning_and_reinforcement	exact	trm_4a3fd79d0a642	instrumental conditioning	ctp_C5	1	1	
+hed_interference_control	Interference control	inhibitory_control_and_conflict_monitoring	exact	trm_551f11bb8f6a8	interference control		5	1	Atlas also has `interference resolution`
+hed_interoceptive_awareness	Interoceptive awareness	awareness_agency_and_metacognition	exact	trm_WoLBai9ycl8yE	Interoceptive awareness		1	1	
+hed_intertemporal_choice	Intertemporal choice	value_based_decision_making_under_risk_and_uncertainty	exact	trm_558c73324a6ca	intertemporal choice		4	1	
+hed_joint_attention	Joint attention	social_cognition_and_strategic_social_choice	exact	trm_4b75ed06c917d	joint attention	ctp_C2	5	1	
+hed_judgment_of_learning	Judgment of learning	awareness_agency_and_metacognition	none						No judgment-of-learning entry
+hed_language_comprehension	Language comprehension	language_comprehension_and_production	exact	trm_4a3fd79d0a775	language comprehension	ctp_C6	13	1	
+hed_language_production	Language production	language_comprehension_and_production	exact	trm_4a3fd79d0a78d	language production	ctp_C6	6	1	
+hed_lexical_access	Lexical access	language_comprehension_and_production	exact	trm_4a3fd79d0b80f	lexical access	ctp_C6	8	1	
+hed_manipulation	Manipulation	short_term_and_working_memory	exact	trm_4a3fd79d0ba3c	manipulation	ctp_C4	1	1	
+hed_masking	Masking	awareness_agency_and_metacognition	close	trm_4a3fd79d0b492	visual masking	ctp_C1	2	1	Atlas splits masking by modality: visual, auditory, lateral
+hed_mathematical_reasoning	Mathematical reasoning	reasoning_and_problem_solving	exact	trm_4a3fd79d0a862	mathematical reasoning	ctp_C3	3	1	
+hed_means_ends_analysis	Means-ends analysis	reasoning_and_problem_solving	none						No means-ends analysis entry
+hed_mental_rotation	Mental rotation	spatial_cognition_and_navigation	exact	trm_4a3fd79d0a914	mental rotation	ctp_C1	3	1	
+hed_metacognitive_control	Metacognitive control	awareness_agency_and_metacognition	related	trm_4a3fd79d0a920	metacognition				Atlas has no monitoring/control split
+hed_metacognitive_monitoring	Metacognitive monitoring	awareness_agency_and_metacognition	related	trm_4a3fd79d0a920	metacognition			1	Atlas has no monitoring/control split
+hed_mind_wandering	Mind wandering	awareness_agency_and_metacognition	none						No mind wandering entry
+hed_model_based_learning	Model-based learning	associative_learning_and_reinforcement	none						Computational RL vocabulary post-dates the Atlas's curation
+hed_model_free_learning	Model-free learning	associative_learning_and_reinforcement	none						Computational RL vocabulary post-dates the Atlas's curation
+hed_motion_perception	Motion perception	face_and_object_perception	none						No motion perception entry; `emotion perception` is unrelated
+hed_motor_memory	Motor memory	motor_preparation_timing_and_execution	related	trm_4a3fd79d0a891	memory	ctp_C5	4	1	Atlas has no motor memory entry
+hed_motor_planning	Motor planning	motor_preparation_timing_and_execution	exact	trm_4a3fd79d0a9a1	motor planning	ctp_C7	6	1	
+hed_motor_preparation	Motor preparation	motor_preparation_timing_and_execution	none						No motor preparation entry
+hed_motor_sequence_learning	Motor sequence learning	motor_preparation_timing_and_execution	exact	trm_4a3fd79d0a9b9	motor sequence learning	ctp_C5	1	1	
+hed_motor_timing	Motor timing	motor_preparation_timing_and_execution	related	trm_vqA8b1BrA6U4V	timing			1	Atlas has only the broader parent term
+hed_naming	Naming	language_comprehension_and_production	exact	trm_4a3fd79d0a9dc	naming	ctp_C6	3	1	
+hed_object_based_attention	Object-based attention	selective_and_sustained_attention	exact	trm_552185f5cda66	object-based attention	ctp_C2		1	
+hed_olfactory_perception	Olfactory perception	face_and_object_perception	exact	trm_4a3fd79d0aac8	olfactory perception	ctp_C1	5	1	
+hed_orienting	Orienting	selective_and_sustained_attention	none						No corresponding Atlas concept
+hed_pattern_completion	Pattern completion	long_term_memory	none						No corresponding Atlas concept
+hed_pattern_recognition	Pattern recognition	face_and_object_perception	exact	trm_4a3fd79d0ab65	pattern recognition	ctp_C1	4	1	
+hed_pattern_separation	Pattern separation	long_term_memory	none						No corresponding Atlas concept
+hed_pavlovian_conditioning	Pavlovian conditioning	associative_learning_and_reinforcement	exact	trm_4a3fd79d0ab70	pavlovian conditioning	ctp_C5	1	1	
+hed_perceptual_awareness	Perceptual awareness	awareness_agency_and_metacognition	related	trm_4a3fd79d09e35	consciousness			1	Atlas has only the broader parent term
+hed_perceptual_decision_making	Perceptual decision making	perceptual_decision_making_evidence_accumulation	related	trm_4a3fd79d0a038	decision making	ctp_C3	12		Atlas has only the broader parent term
+hed_perspective_taking	Perspective taking	social_cognition_and_strategic_social_choice	close	trm_4a3fd79d0b392	theory of mind	ctp_C9	6	1	Atlas has no perspective-taking entry; `worldview` is unrelated
+hed_phonological_awareness	Phonological awareness	language_comprehension_and_production	exact	trm_5240fddc2e43e	phonological awareness		2	1	
+hed_phonological_encoding	Phonological encoding	language_comprehension_and_production	exact	trm_4a3fd79d0ac87	phonological encoding	ctp_C6	6	1	
+hed_pitch_perception	Pitch perception	auditory_and_pre_attentive_deviance_processing	exact	trm_H19qgUFFeZaLg	pitch perception			1	
+hed_planning	Planning	reasoning_and_problem_solving	exact	trm_4a3fd79d0acc1	planning	ctp_C4	4	1	
+hed_policy_learning	Policy learning	associative_learning_and_reinforcement	related	trm_4a3fd79d0a7bb	learning	ctp_C5	2		Atlas has only the broader parent term
+hed_proactive_control	Proactive control	inhibitory_control_and_conflict_monitoring	exact	trm_557b49851e991	proactive control	ctp_C4	6	1	
+hed_proactive_interference	Proactive interference	long_term_memory	exact	trm_4a3fd79d0adab	proactive interference	ctp_C5	3	1	
+hed_probability_judgment	Probability judgment	value_based_decision_making_under_risk_and_uncertainty	related	trm_4a3fd79d0a723	judgment	ctp_C3	1	1	Atlas has only the generic `judgment`
+hed_procedural_memory	Procedural memory	implicit_and_statistical_learning	exact	trm_4a3fd79d0addc	procedural memory		4	1	
+hed_proprioception	Proprioception	motor_preparation_timing_and_execution	exact	trm_4a3fd79d0ae3d	proprioception	ctp_C1	2	1	
+hed_prospective_memory	Prospective memory	long_term_memory	exact	trm_4a3fd79d0ae70	prospective memory	ctp_C5		1	
+hed_reaching	Reaching	motor_preparation_timing_and_execution	none						No corresponding Atlas concept
+hed_reactive_control	Reactive control	inhibitory_control_and_conflict_monitoring	exact	trm_0wLVVlkHaAov9	Reactive Control		1	1	
+hed_reading	Reading	language_comprehension_and_production	exact	trm_4a3fd79d0aeb6	reading	ctp_C6	8	1	
+hed_recall	Recall	long_term_memory	exact	trm_4a3fd79d0b95b	recall	ctp_C5	4	1	
+hed_reciprocity	Reciprocity	social_cognition_and_strategic_social_choice	exact	trm_seBaaqL9E7Q1v	reciprocity			1	
+hed_recognition	Recognition	long_term_memory	exact	trm_4a3fd79d0b967	recognition	ctp_C5	3	1	
+hed_recollection	Recollection	long_term_memory	none						No recollection entry despite the Atlas carrying `familiarity`
+hed_reconsolidation	Reconsolidation	long_term_memory	exact	trm_4a3fd79d0b972	reconsolidation	ctp_C5		1	
+hed_rehearsal	Rehearsal	short_term_and_working_memory	exact	trm_4a3fd79d0ba54	rehearsal	ctp_C5		1	
+hed_reinforcement_learning	Reinforcement learning	associative_learning_and_reinforcement	exact	trm_557b4993a0fdd	reinforcement learning	ctp_C5	7	1	
+hed_response_conflict	Response conflict	inhibitory_control_and_conflict_monitoring	exact	trm_557b49ad14adf	response conflict	ctp_C4	3	1	
+hed_response_execution	Response execution	motor_preparation_timing_and_execution	exact	trm_557b4a7315f1b	response execution	ctp_C7	24	1	
+hed_response_inhibition	Response inhibition	inhibitory_control_and_conflict_monitoring	exact	trm_4a3fd79d0af66	response inhibition	ctp_C4	19	1	
+hed_response_selection	Response selection	motor_preparation_timing_and_execution	exact	trm_4a3fd79d0af71	response selection	ctp_C7	28	1	
+hed_retrieval	Retrieval	long_term_memory	exact	trm_4a3fd79d0af94	retrieval	ctp_C5		1	
+hed_retroactive_interference	Retroactive interference	long_term_memory	exact	trm_4a3fd79d0afab	retroactive interference	ctp_C5	1	1	
+hed_reversal_learning	Reversal learning	associative_learning_and_reinforcement	none						No reversal learning concept; registered only as a task
+hed_reward_anticipation	Reward anticipation	reward_anticipation_and_motivation	exact	trm_557b4a81a4a17	reward anticipation		1	1	
+hed_reward_consumption	Reward consumption	reward_anticipation_and_motivation	related	trm_4b6525253c63f	reward processing	ctp_C5	2	1	Atlas has only the broader parent term
+hed_reward_prediction_error	Reward prediction error	associative_learning_and_reinforcement	close	trm_559f0a5b4cd36	monetary reward prediction error	ctp_C3	1	1	Atlas has only the monetary-domain form, not a general RPE
+hed_risk_processing	Risk processing	value_based_decision_making_under_risk_and_uncertainty	exact	trm_557b4a913f8cc	risk processing	ctp_C3	3	1	
+hed_saccade	Saccade	motor_preparation_timing_and_execution	none						No saccade entry
+hed_selective_attention	Selective attention	selective_and_sustained_attention	exact	trm_4a3fd79d0b043	selective attention	ctp_C2	6	1	
+hed_self_monitoring	Self-monitoring	awareness_agency_and_metacognition	exact	trm_4a3fd79d0b05e	self monitoring	ctp_C4	4	1	
+hed_self_other_distinction	Self-other distinction	social_cognition_and_strategic_social_choice	none						No self-other distinction entry
+hed_self_referential_processing	Self-referential processing	awareness_agency_and_metacognition	close	trm_vK5imljyKMUAL	self-reference effect			1	Atlas names the effect rather than the process
+hed_semantic_knowledge	Semantic knowledge	language_comprehension_and_production	exact	trm_4a3fd79d0b077	semantic knowledge	ctp_C6	11	1	Atlas also has `semantic information`
+hed_semantic_memory	Semantic memory	long_term_memory	exact	trm_4a3fd79d0b083	semantic memory	ctp_C6	6	1	
+hed_semantic_processing	Semantic processing	language_comprehension_and_production	exact	trm_4a3fd79d0b87a	semantic processing	ctp_C6	6	1	
+hed_sense_of_agency	Sense of agency	awareness_agency_and_metacognition	close	trm_5154b2f947fe9	agency			1	Atlas entry is broader than the action-effect sense
+hed_sentence_comprehension	Sentence comprehension	language_comprehension_and_production	exact	trm_4a3fd79d0b892	sentence comprehension	ctp_C6	4	1	
+hed_set_shifting	Set shifting	cognitive_flexibility_and_higher_order_executive_function	exact	trm_4a3fd79d0b607	set shifting	ctp_C4	8	1	
+hed_social_decision_making	Social decision making	social_cognition_and_strategic_social_choice	related	trm_4a3fd79d0a038	decision making	ctp_C3	12		Atlas has no social decision-making entry
+hed_social_perception	Social perception	social_cognition_and_strategic_social_choice	related	trm_4a3fd79d0ab7c	perception	ctp_C1		1	Atlas has no social perception entry
+hed_somatosensory_perception	Somatosensory perception	face_and_object_perception	close	trm_4a3fd79d0b160	somatosensation	ctp_C1	6	1	Atlas entry is framed anatomically
+hed_source_memory	Source memory	long_term_memory	exact	trm_4a3fd79d0b18f	source memory	ctp_C5	1	1	
+hed_spatial_attention	Spatial attention	selective_and_sustained_attention	exact	trm_4a3fd79d0b1b2	spatial attention	ctp_C2	2	1	
+hed_spatial_memory	Spatial memory	spatial_cognition_and_navigation	exact	trm_4a3fd79d0b1d5	spatial memory	ctp_C5	5	1	
+hed_spatial_working_memory	Spatial working memory	short_term_and_working_memory	exact	trm_4a3fd79d0b1e0	spatial working memory	ctp_C2	5	1	
+hed_speech_perception	Speech perception	language_comprehension_and_production	exact	trm_4a3fd79d0b1f7	speech perception	ctp_C6	1	1	
+hed_speech_production	Speech production	language_comprehension_and_production	exact	trm_4a3fd79d0b247	speech production	ctp_C6	6	1	
+hed_stereotyping	Stereotyping	social_cognition_and_strategic_social_choice	none						No corresponding Atlas concept
+hed_strategy_use	Strategy use	cognitive_flexibility_and_higher_order_executive_function	related	trm_4a3fd79d0b29c	strategy		1	1	Atlas names the object, not its use
+hed_subgoaling	Subgoaling	reasoning_and_problem_solving	none						No corresponding Atlas concept
+hed_sustained_attention	Sustained attention	selective_and_sustained_attention	exact	trm_4a3fd79d0b311	sustained attention	ctp_C2	7	1	
+hed_syntactic_parsing	Syntactic parsing	language_comprehension_and_production	exact	trm_4a3fd79d0b340	syntactic parsing	ctp_C6	4	1	
+hed_temporal_attention	Temporal attention	selective_and_sustained_attention	related	trm_4a3fd79d09902	attention	ctp_C2	29	1	Atlas has only the broader parent term
+hed_valuation	Valuation	value_based_decision_making_under_risk_and_uncertainty	close	trm_5159c94667677	reward valuation		1	1	
+hed_value_learning	Value learning	associative_learning_and_reinforcement	related	trm_4a3fd79d0a7bb	learning	ctp_C5	2	1	Atlas has only the broader parent term
+hed_value_based_decision_making	Value-based decision making	value_based_decision_making_under_risk_and_uncertainty	related	trm_4a3fd79d0a038	decision making	ctp_C3	12	1	Atlas has only the broader parent term
+hed_verbal_fluency	Verbal fluency	language_comprehension_and_production	exact	trm_4a3fd79d0b44c	verbal fluency	ctp_C6	9	1	
+hed_verbal_memory	Verbal memory	long_term_memory	exact	trm_4a3fd79d0b457	verbal memory	ctp_C5	8	1	
+hed_verbal_working_memory	Verbal working memory	short_term_and_working_memory	close	trm_4a3fd79d0ac9e	phonological working memory	ctp_C4	8	1	Atlas frames verbal WM phonologically
+hed_visual_form_recognition	Visual form recognition	face_and_object_perception	exact	trm_557b4b3a6a34d	visual form recognition	ctp_C1	11	1	
+hed_visual_object_recognition	Visual object recognition	face_and_object_perception	exact	trm_4a3fd79d0b4a9	visual object recognition	ctp_C1	5	1	
+hed_visual_perception	Visual perception	face_and_object_perception	exact	trm_4a3fd79d0b4b5	visual perception	ctp_C1	40	1	
+hed_visual_working_memory	Visual working memory	short_term_and_working_memory	exact	trm_4a3fd79d0b4d8	visual working memory	ctp_C2	6	1	
+hed_visuomotor_adaptation	Visuomotor adaptation	motor_preparation_timing_and_execution	none						Atlas `adaptation` is sensory adaptation, not visuomotor recalibration
+hed_vocal_motor_control	Vocal-motor control	motor_preparation_timing_and_execution	related	trm_4a3fd79d0a972	motor control	ctp_C7	26	1	Atlas has only the broader parent term
+hed_word_recognition	Word recognition	language_comprehension_and_production	exact	trm_4a3fd79d0b58f	word recognition	ctp_C6	5	1	
+hed_working_memory	Working memory	short_term_and_working_memory	exact	trm_4a3fd79d0b5a7	working memory	ctp_C4	27	1	
+hed_working_memory_updating	Working memory updating	short_term_and_working_memory	exact	trm_55b6b9a666604	working memory updating	ctp_C5	1	1	

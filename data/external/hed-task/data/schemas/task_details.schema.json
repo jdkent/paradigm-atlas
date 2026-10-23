@@ -1,0 +1,516 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://www.hedtags.org/hed-task/schemas/task_details.schema.json",
+  "title": "HED task catalog",
+  "description": "Schema for data/task_details.json, the catalog of experimental tasks published by hed-task. Top level is a bare array of task objects. Shape only; cross-checks (unique ids, hed_process_ids resolve, variation ids derived, families) run in src/generate_docs.py.",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/task"
+  },
+  "definitions": {
+    "task": {
+      "type": "object",
+      "required": [
+        "hedtsk_id",
+        "canonical_name",
+        "short_definition",
+        "description",
+        "inclusion_test",
+        "families",
+        "hed_process_ids"
+      ],
+      "properties": {
+        "hedtsk_id": {
+          "type": "string",
+          "pattern": "^hedtsk_[a-z][a-z0-9_]*$",
+          "description": "Task identifier with hedtsk_ prefix."
+        },
+        "canonical_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "task_kind": {
+          "type": "string",
+          "enum": [
+            "task",
+            "pseudo_task"
+          ],
+          "description": "Omitted means 'task'. A pseudo task is a block-level activity that serves the experiment around it rather than eliciting a process through a trial structure: it provides a baseline or a reset (rest), sets up a physical state (fixation), collects a self-report (questionnaire) or delivers feedback on performance (task criteria, section 'Pseudo tasks'). It may have an empty hed_process_ids (no links recorded yet, which is not a claim that no process is engaged) and must be filed under the pseudo_tasks family."
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Plain string list - note this differs from process_details.json, where aliases are objects with name+note."
+        },
+        "short_definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "inclusion_test": {
+          "$ref": "#/definitions/inclusion_test"
+        },
+        "variations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/variation"
+          }
+        },
+        "source_task_numbers": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "status": {
+          "type": "string",
+          "description": "Editorial status; current single value is 'complete' but kept open-typed for future states."
+        },
+        "families": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/family_membership"
+          },
+          "description": "The task families this task belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings. A pseudo task's primary is pseudo_tasks."
+        },
+        "hed_process_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^hed_[a-z][a-z0-9_]*$"
+          },
+          "description": "Process IDs implicated by this task; each must resolve to a process in process_details.json. Non-empty except for pseudo tasks (both cross-checks run in src/generate_docs.py)."
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/reference"
+          }
+        }
+      }
+    },
+    "inclusion_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "procedure",
+        "manipulations",
+        "measurements"
+      ],
+      "properties": {
+        "procedure": {
+          "description": "Ordered steps of what the participant does, each a sentence.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "manipulations": {
+          "description": "What the experimenter varies, one independent variable per item.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "measurements": {
+          "description": "What is recorded, one dependent variable or signal per item.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "variation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "variation_id",
+        "name",
+        "description",
+        "justification"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "variation_id": {
+          "type": "string",
+          "pattern": "^hedvar_[a-z0-9_]+__[a-z0-9_]+$",
+          "description": "hedvar_<parent task slug>__<variation slug>; derived from the parent id and the name by src/add_variation_ids.py."
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "required": [
+        "roles",
+        "ids",
+        "oa_status"
+      ],
+      "description": "Same shape as the reference object in process_details.schema.json. Identifiers live in a nested 'ids' block (see id_set definition there); 'url' and 'pub_id' stay at the top level.",
+      "properties": {
+        "roles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/reference_role"
+          },
+          "minItems": 1
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authors": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "journal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "venue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "venue_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "volume": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pages": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ids": {
+          "$ref": "#/definitions/id_set"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oa_status": {
+          "$ref": "#/definitions/oa_status"
+        },
+        "citation_string": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_on": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "id_set": {
+      "type": "object",
+      "description": "Nested block of external identifiers; mirrors process_details.schema.json#/definitions/id_set. additionalProperties:false to catch typos.",
+      "additionalProperties": false,
+      "properties": {
+        "doi": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "openalex_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pmid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pmcid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "s2_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "arxiv_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "oa_status": {
+      "type": "string",
+      "enum": [
+        "gold",
+        "hybrid",
+        "green",
+        "bronze",
+        "closed",
+        "diamond",
+        "unknown"
+      ],
+      "description": "Open-access status enum following OpenAlex's vocabulary, plus 'unknown' for refs not yet enriched. See process_details.schema.json#/definitions/oa_status for the design rationale around the bronze case."
+    },
+    "pdf_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "source"
+      ],
+      "description": "A single known PDF location; mirrors process_details.schema.json#/definitions/pdf_location. See that schema for full field documentation.",
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_oa": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "local_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "On-disk PDF and/or Markdown acquired for this publication; mirrors process_details.schema.json#/definitions/local_artifacts. See that schema for the design rationale (independent licences per artifact).",
+      "properties": {
+        "pdf": {
+          "$ref": "#/definitions/local_artifact_entry"
+        },
+        "markdown": {
+          "$ref": "#/definitions/local_artifact_entry"
+        }
+      }
+    },
+    "local_artifact_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "One acquired artifact OR a failure-record placeholder; see process_details.schema.json#/definitions/local_artifact_entry for full field documentation and the D-E2 design rationale (success/failure two-shape design locked 2026-05-27).",
+      "properties": {
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_type": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "acquired_on": {
+          "type": "string"
+        },
+        "acquired_via": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "converter": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_publishable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "last_attempt": {
+          "type": "string"
+        },
+        "attempts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tried": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "if": {
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ]
+      },
+      "then": {
+        "required": [
+          "source_type",
+          "license"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "else": {
+        "required": [
+          "last_attempt"
+        ]
+      }
+    },
+    "reference_role": {
+      "type": "string",
+      "enum": [
+        "historical",
+        "review",
+        "experiment",
+        "dataset",
+        "other",
+        "unknown"
+      ],
+      "description": "Role vocabulary fixed by CLAUDE.md (2026-04-23)."
+    },
+    "family_membership": {
+      "type": "object",
+      "description": "One family membership. Exactly one membership per record has role 'primary' (where the record is filed; the family page holds its full entry); the rest are 'secondary' cross-listings. confidence 'review' flags a judgement call for a second opinion: on the primary, 'not sure this is the right home'; on a secondary, 'not sure this belongs here at all'. rationale is required on a secondary and on any review entry (cross-checks in src/generate_docs.py).",
+      "required": [
+        "family_id",
+        "role"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "family_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Must exist in data/task_family_defs.tsv."
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "secondary"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "review"
+          ],
+          "description": "Omitted means 'high'."
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://www.hedtags.org/hed-task/schemas/process_details.schema.json",
+  "title": "HED process catalog",
+  "description": "Schema for data/process_details.json, the catalog of cognitive processes published by hed-task. Shape only; cross-checks (count headers, unique ids, category ids resolve, tasks[] agrees with task records) run in src/generate_docs.py.",
+  "type": "object",
+  "required": [
+    "description",
+    "schema_version",
+    "total_categories",
+    "total_processes",
+    "categories",
+    "processes"
+  ],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "generated_on": {
+      "type": "string"
+    },
+    "source_script": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "total_categories": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "total_processes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "total_processes_used_by_tasks": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "total_tasks": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/category"
+      }
+    },
+    "processes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/process"
+      }
+    }
+  },
+  "definitions": {
+    "category": {
+      "type": "object",
+      "required": [
+        "category_id",
+        "name",
+        "scope",
+        "process_count"
+      ],
+      "properties": {
+        "category_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Snake-case identifier, e.g. associative_learning_and_reinforcement."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "out_of_scope": {
+          "type": "string"
+        },
+        "issues": {
+          "type": "string"
+        },
+        "history": {
+          "type": "string"
+        },
+        "process_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of processes whose primary category this is."
+        }
+      }
+    },
+    "process": {
+      "type": "object",
+      "required": [
+        "process_id",
+        "process_name",
+        "categories",
+        "definition"
+      ],
+      "properties": {
+        "process_id": {
+          "type": "string",
+          "pattern": "^hed_[a-z][a-z0-9_]*$",
+          "description": "Process identifier with hed_ prefix."
+        },
+        "process_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/category_membership"
+          },
+          "description": "The categories this process belongs to: exactly one primary (where it is filed) and any number of secondary cross-listings."
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/process_alias"
+          }
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/reference"
+          }
+        },
+        "tasks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/task_summary"
+          },
+          "description": "Derived from task_details.json by sync_process_details_tasks.py - do not hand-edit."
+        },
+        "task_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "process_alias": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Alias text. Used as both an S2 sub-query string and as a phrase-gate substring filter - keep specific enough to avoid noise."
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "task_summary": {
+      "type": "object",
+      "required": [
+        "hedtsk_id",
+        "canonical_name"
+      ],
+      "properties": {
+        "hedtsk_id": {
+          "type": "string",
+          "pattern": "^hedtsk_[a-z][a-z0-9_]*$"
+        },
+        "canonical_name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "required": [
+        "roles",
+        "ids",
+        "oa_status"
+      ],
+      "description": "Bibliographic reference. Identifier fields (DOI / PMID / PMCID / OpenAlex / S2 / ArXiv) are grouped under a nested 'ids' block. The 'url' field stays at the top level - it's a location, not an identifier. 'pub_id' is the content-addressed cross-repo key (built from lastname + year + title via identity.build_pub_id); it stays at the top level too because it's not an external handle.",
+      "properties": {
+        "roles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/reference_role"
+          },
+          "minItems": 1
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authors": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "journal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "venue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "venue_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "volume": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pages": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ids": {
+          "$ref": "#/definitions/id_set"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "oa_status": {
+          "$ref": "#/definitions/oa_status"
+        },
+        "citation_string": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_on": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "id_set": {
+      "type": "object",
+      "description": "Nested block of external identifiers for a publication. Shape mirrors opencite's IDSet to keep cross-tool interop trivial. All fields optional; missing values are null. additionalProperties:false to catch typos in hand-edits.",
+      "additionalProperties": false,
+      "properties": {
+        "doi": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "openalex_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pmid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pmcid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "s2_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "arxiv_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "oa_status": {
+      "type": "string",
+      "enum": [
+        "gold",
+        "hybrid",
+        "green",
+        "bronze",
+        "closed",
+        "diamond",
+        "unknown"
+      ],
+      "description": "Open-access status enum following OpenAlex's vocabulary, plus 'unknown' for refs not yet enriched. Distinct from 'is_oa' (a boolean) because 'bronze' (free-to-read but no open licence) is not redistributable and must not collapse into the same bucket as 'gold' (CC-BY hosted by publisher)."
+    },
+    "pdf_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "source"
+      ],
+      "description": "A single known PDF location for this publication. Shape mirrors opencite's PDFLocation. License is a normalised SPDX-style string (see code/literature_search/license_policy.py); version is OpenAlex's publishedVersion/acceptedVersion/submittedVersion enum.",
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "description": "Where this URL came from. Free-form to allow new sources without schema bumps; conventional values: openalex, s2, unpaywall, pmc, biorxiv, medrxiv, arxiv, doi, elsevier_api, wiley_tdm, springer_api, manual_library."
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "publishedVersion / acceptedVersion / submittedVersion (OpenAlex vocabulary), or null if unknown."
+        },
+        "is_oa": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "SPDX-style normalised licence (cc-by, cc-by-sa, cc-by-nc, cc-by-nc-sa, cc-by-nd, cc-by-nc-nd, cc0, public-domain, proprietary, unknown). See license_policy.normalise_license. null is allowed during partial enrichment but discouraged after; prefer 'unknown'."
+        }
+      }
+    },
+    "local_artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "On-disk artifacts (PDF and/or Markdown) acquired for this publication. PDF and Markdown carry independent licences because they may come from different source URLs (e.g. publisher PDF via library + CC-BY Markdown via PMC BioC). Optional; absent until something has been acquired.",
+      "properties": {
+        "pdf": {
+          "$ref": "#/definitions/local_artifact_entry"
+        },
+        "markdown": {
+          "$ref": "#/definitions/local_artifact_entry"
+        }
+      }
+    },
+    "local_artifact_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "One on-disk artifact OR a failure-record placeholder. Two shapes share the same slot: (1) Success: 'path' is a non-empty workspace-relative string (e.g. 'HED-PDFs/Smith_2008_x_abc12345.pdf'); 'source_type' and 'license' are required. is_publishable is a cached derivation of license; downstream tooling MUST recompute rather than trust a stale stored value, so it is optional here. (2) Failure: 'path' is null and 'last_attempt' is required, accompanied by 'attempts', 'tried', and 'reason' so the auto-acquisition orchestrator can record that we tried and nothing landed. The if/then/else clause below enforces the two shapes.",
+      "properties": {
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Workspace-relative artifact path, or null on a recorded failure."
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_type": {
+          "type": "string",
+          "description": "How this artifact was obtained. Conventional values: auto_openalex, auto_unpaywall, auto_s2, auto_pmc_bioc, manual_library, manual_conversion, pmc_bioc, markitdown, mistral. Free-form to allow future sources."
+        },
+        "license": {
+          "type": "string"
+        },
+        "acquired_on": {
+          "type": "string",
+          "description": "ISO date (YYYY-MM-DD)."
+        },
+        "acquired_via": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "auto | manual | null (legacy). Indicates whether the artifact was acquired by an automated script or by a curator action."
+        },
+        "converter": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Markdown only. Identifies which converter produced the file: pmc_bioc, markitdown, mistral, manual."
+        },
+        "is_publishable": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Cached value of license_policy.is_publishable(license). Optional; downstream tooling should recompute rather than trust this."
+        },
+        "last_attempt": {
+          "type": "string",
+          "description": "Failure record only. ISO 8601 UTC timestamp of the most recent acquisition attempt."
+        },
+        "attempts": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Failure record only. Cumulative attempt count across re-runs."
+        },
+        "tried": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Failure record only. Source tags (e.g. 'openalex', 'unpaywall', 'pmc') visited on the most recent attempt."
+        },
+        "reason": {
+          "type": "string",
+          "description": "Failure record only. Human-readable summary of why nothing landed."
+        }
+      },
+      "if": {
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ]
+      },
+      "then": {
+        "required": [
+          "source_type",
+          "license"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "else": {
+        "required": [
+          "last_attempt"
+        ]
+      }
+    },
+    "reference_role": {
+      "type": "string",
+      "enum": [
+        "historical",
+        "review",
+        "experiment",
+        "dataset",
+        "other",
+        "unknown"
+      ],
+      "description": "Role vocabulary fixed by CLAUDE.md (2026-04-23)."
+    },
+    "category_membership": {
+      "type": "object",
+      "description": "One category membership. Exactly one membership per record has role 'primary' (where the record is filed; the category page holds its full entry); the rest are 'secondary' cross-listings. confidence 'review' flags a judgement call for a second opinion: on the primary, 'not sure this is the right home'; on a secondary, 'not sure this belongs here at all'. rationale is required on a secondary and on any review entry (cross-checks in src/generate_docs.py).",
+      "required": [
+        "category_id",
+        "role"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "category_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Must exist in the categories array."
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "secondary"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "high",
+            "review"
+          ],
+          "description": "Omitted means 'high'."
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

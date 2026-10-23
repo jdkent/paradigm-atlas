@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/*
+!data/explorer.json
+!data/explorer_hyps.json
+!data/taskextractor/
+data/taskextractor/*
+!data/taskextractor/condition_schemas.json
+!data/taskextractor/discovered_origins.json
+!data/taskextractor/task_sim_combined.npy
+!data/taskextractor/task_sim_tasks.json
+!data/external/

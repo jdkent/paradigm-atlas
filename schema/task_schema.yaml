@@ -1,0 +1,138 @@
+# Task description schema, draft v0.1 (2026-10-09)
+#
+# Two layers, deliberately separate (lesson L1 in JOURNAL: an extractor asked to name the paradigm composes names
+# that are in no paper, and those can be neither checked nor joined):
+#
+#   1. TaskMention: what one paper says about one task. Every string is VERBATIM from the source text unless the
+#      field says otherwise. The fine-tuned NuExtract3 extractor fills this layer.
+#   2. TaskCard: the normalized, queryable representation, derived from mentions by deterministic rules plus a
+#      classifier. Canonical ids, closed facet enums, lineage via resolved citations, and author links live here.
+#
+# Task identity follows hed-task: a task is defined by its PROCEDURE (what is presented, what the participant must
+# do, what is measured), not by the construct it is said to measure. Attributes that hed-task's DROP codes exclude
+# from identity (stimulus-set swap, population, drug, recording modality, analysis) are kept as facets on the
+# instance. They never split a canonical task.
+#
+# Vocabulary sources: hed-task facet_defs.tsv (CogPO-derived, HED-tagged), study_schema enums (DesignType,
+# StimulusModality, ResponseModality, ConditionKind), BrainMap behavioral domains, Cognitive Atlas tasks/concepts.
+
+id: https://neurostuff.org/schemas/task-description
+name: task_description
+version: 0.1.0
+
+# ---------------------------------------------------------------------------------------------------------------
+# Layer 1: extraction
+# ---------------------------------------------------------------------------------------------------------------
+TaskMention:
+  description: One task (or task-like activity) as described in one paper.
+  fields:
+    name:            {type: verbatim, desc: "The paper's own name for the task, e.g. 'emotional reactivity task'."}
+    paradigm_term:   {type: verbatim, optional: true,
+                      desc: "An established paradigm term the paper itself uses for this task, e.g. 'go/no-go',
+                             'n-back', 'monetary incentive delay'. Empty when the paper uses none. Never composed."}
+    entity_kind:     {type: enum, values: [experimental_task, resting_state, passive_stimulation, naturalistic,
+                      localizer, questionnaire_or_scale, neuropsychological_test, intervention_or_training,
+                      not_a_task]}
+    setting:         {type: enum, values: [during_imaging, outside_imaging, both, not_imaging]}
+    description:     {type: string, desc: "1-3 sentence paraphrase of what participants saw and did."}
+    instructions:    {type: verbatim, optional: true,
+                      desc: "What participants were told to do, e.g. 'indicate whether the current letter matched the
+                             one presented two trials before'."}
+    judgment:        {type: enum_multi, source: hed-task instructions facet,
+                      values: [attend, count, detect, discriminate, encode, fixate, generate, imagine, move, name, read,
+                               recall, repeat, rest, track, judge, recognize, respond, predict, plan, learn, identify,
+                               switch_attention, choose, rate, withhold, navigate, play, compare, categorize, match,
+                               inhibit, regulate, passive_view, passive_listen, other]}
+    stimuli:
+      type: list
+      item:
+        content:       {type: verbatim, desc: "What the stimulus depicts/contains, e.g. 'fearful and neutral faces'."}
+        modality:      {type: enum, values: [visual, auditory, tactile, olfactory, gustatory, interoceptive, nociceptive,
+                        thermal, vestibular, electrical, multimodal, none]}
+        stimulus_set:  {type: verbatim, optional: true, desc: "Named stimulus database: IAPS, NimStim, KDEF, Ekman..."}
+        role:          {type: enum, values: [target, non_target, distractor, cue, prime, probe, feedback, reward,
+                        penalty, go_signal, stop_signal, sample, context, other]}
+    response:
+      type: list
+      item:
+        effector:      {type: enum, values: [hand_finger, foot, vocal, eye, face, whole_body, none_covert]}
+        device_or_kind:{type: enum, values: [button_press, keyboard, joystick, mouse_or_touch, rating_scale, speech,
+                        saccade, eye_fixation, grip_force, movement, writing_drawing, physiological, no_response]}
+        n_alternatives:{type: integer, optional: true}
+        speeded:       {type: boolean, optional: true}
+    conditions:
+      type: list
+      item:
+        name:          {type: verbatim}
+        kind:          {type: enum, values: [task, control, rest, fixation, baseline]}
+    manipulated_factors:
+      type: list
+      desc: "Independent variables: what differs between conditions."
+      item:
+        factor:        {type: string, desc: "e.g. 'working-memory load', 'facial expression', 'reward magnitude'."}
+        levels:        {type: verbatim_list, desc: "e.g. ['0-back', '2-back']."}
+    design:
+      type:            {type: enum, values: [block, event_related, mixed, continuous, unknown]}
+      n_runs:          {type: integer, optional: true}
+      n_trials:        {type: verbatim, optional: true}
+      trial_duration:  {type: verbatim, optional: true}
+      stimulus_duration: {type: verbatim, optional: true}
+      isi_or_iti:      {type: verbatim, optional: true}
+      total_duration:  {type: verbatim, optional: true}
+      adaptive:        {type: boolean, optional: true}
+    feedback:          {type: enum_multi, values: [none, performance, monetary, points, social, aversive, primary_reward]}
+    measures:          {type: verbatim_list, desc: "Behavioral outcomes recorded: RT, accuracy, ratings, SSRT, choices."}
+    software:          {type: verbatim, optional: true}
+    citations:
+      type: list
+      desc: "Citation markers attached to the task description."
+      item:
+        marker:        {type: verbatim, desc: "As printed: '[12]', 'Hariri et al., 2002'."}
+        role:          {type: enum, values: [task_origin, adapted_from, prior_use, stimulus_set, implementation,
+                        analysis_method, dataset, background]}
+    modification:      {type: verbatim, optional: true,
+                        desc: "How the task departs from the cited version: 'modified to include neutral faces'."}
+    evidence:          {type: span_list, desc: "Char offsets of supporting sentences (filled by span alignment)."}
+
+# ---------------------------------------------------------------------------------------------------------------
+# Layer 2: normalized, queryable card (derived, never extracted directly)
+# ---------------------------------------------------------------------------------------------------------------
+TaskCard:
+  fields:
+    instance_id:       {desc: "<paper_id>#<task_index>"}
+    paper:             {fields: [pmid, pmcid, doi, year, journal, authors(orcid/normalized name)]}
+    canonical_task:    {desc: "hedtsk_* id when it fits the hed-task inclusion test; tctask_* id for corpus-derived
+                               paradigms; null = bespoke."}
+    canonical_variant: {desc: "hedvar_* id, when one applies."}
+    families:          {desc: "hed-task family ids (many-to-many)."}
+    match_evidence:    {enum: [paradigm_term, citation_lineage, procedure_similarity, author_reuse], multi: true,
+                        desc: "Which routes support canonical_task; >=2 agreeing routes = high confidence."}
+    facets:
+      stimulus_modality:  {multi: true}
+      stimulus_kind:      {multi: true, vocab: "hed-task stimulus_kind + extensions (food, drug cues, bodies, tools,
+                           voices, money, video, virtual_environment, ...)"}
+      stimulus_affect:    {enum: [neutral, negative, positive, mixed, not_applicable]}
+      stimulus_social:    {enum: [faces, bodies, voices, social_agents, text_about_people, none]}
+      stimulus_set:       {desc: "normalized database name"}
+      judgment:           {multi: true}
+      response_effector / response_kind / speeded / n_alternatives
+      design_type, adaptive, feedback, reward_type
+      timing:             {desc: "parsed to seconds where possible"}
+      manipulation_axes:  {desc: "normalized factor names, e.g. load, valence, congruency, reward_magnitude, delay"}
+      measures:           {desc: "normalized: rt, accuracy, d_prime, ssrt, ratings, choice, learning_rate, ..."}
+    drop_attributes:   {desc: "hed-task DROP-code attributes kept off identity: population, pharmacology, dual-task,
+                               recording modality."}
+    constructs:        {desc: "Cognitive Atlas concepts / BrainMap domain, flagged as derived."}
+    lineage:
+      origin_refs:     {desc: "Resolved PMIDs of citations with role task_origin/adapted_from."}
+      prior_use_refs:  {desc: "Resolved PMIDs with role prior_use (often the same lab)."}
+      stimulus_set_refs: {desc: "Resolved PMIDs of stimulus-database papers."}
+
+# Graph edges the cards induce (for task-relatedness queries)
+Edges:
+  - instance_of:     TaskInstance -> CanonicalTask
+  - variant_of:      CanonicalTask -> CanonicalTask (from hed-task variations)
+  - in_family:       CanonicalTask -> Family
+  - cites_for_task:  TaskInstance -> Paper (role-typed)
+  - shares_origin:   TaskInstance <-> TaskInstance (same resolved origin ref)
+  - same_lab_reuse:  TaskInstance <-> TaskInstance (overlapping authors and similar procedure)
